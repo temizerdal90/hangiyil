@@ -81,9 +81,9 @@ function findKnowledge(q){
 }
 
 function makeSmartAnswer(q, data){
+  // Sitede sonuç varsa bilgi kutusu gösterme; sadece sonuç kartları listelensin.
   if(data.length>0){
-    const r=data[0];
-    return `<div class="ai-answer-box"><p><b>${r.title}</b></p><p>${r.answer}</p><p>${r.detail}</p></div>`;
+    return "";
   }
 
   const k=findKnowledge(q);
@@ -93,7 +93,7 @@ function makeSmartAnswer(q, data){
 
   const fallback=(window.HY_DATA||[]).slice().sort((a,b)=>b.year-a.year).slice(0,3);
   const rows=fallback.map(r=>`<a href="${r.slug}"><strong>${r.title}</strong><br><small>${r.answer}</small></a>`).join("");
-  return `<div class="ai-answer-box"><p><b>${q}</b> hakkında kısa bilgi hazırlanıyor.</p><p>Bu arada aşağıdaki yakın/güncel kayıtları inceleyebilirsin:</p><div class="mini-results">${rows}</div></div>`;
+  return `<div class="ai-answer-box"><p><b>${q}</b> hakkında kısa bilgi hazırlanıyor.</p><p>Canlı Google/Gemini tarzı bilgi kutusu için API entegrasyonu sonraki aşamada eklenecek. Şimdilik aşağıdaki güncel kayıtları inceleyebilirsin:</p><div class="mini-results">${rows}</div></div>`;
 }
 
 function renderArchive(){
