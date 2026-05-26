@@ -7124,9 +7124,56 @@ window.HY_DATA = [
     "detail": "Facebook, 2004 yılında üniversite odaklı bir sosyal ağ olarak yayına girdi.",
     "slug": "ilk-facebook-paylasimi-hangi-yil-yapildi.html",
     "people": "Facebook"
+  },
+  {
+    "id": "miles-davis-hangi-yil-dogdu",
+    "title": "Miles Davis hangi yıl doğdu?",
+    "year": 1926,
+    "date": "26 Mayıs 1926",
+    "type": "Olaylar",
+    "category": "Müzik ve Kültür",
+    "answer": "Miles Davis 1926 yılında doğdu.",
+    "detail": "Miles Davis, 26 Mayıs 1926'da doğdu. Caz müziğinin en etkili trompetçilerinden ve bestecilerinden biri kabul edilir.",
+    "slug": "miles-davis-hangi-yil-dogdu.html",
+    "people": "Miles Davis"
+  },
+  {
+    "id": "dracula-romani-hangi-yil-yayimlandi",
+    "title": "Dracula romanı hangi yıl yayımlandı?",
+    "year": 1897,
+    "date": "26 Mayıs 1897",
+    "type": "Olaylar",
+    "category": "Edebiyat ve Kültür",
+    "answer": "Dracula romanı 1897 yılında yayımlandı.",
+    "detail": "Bram Stoker'ın gotik korku romanı Dracula, 1897 yılında yayımlandı. Yayım tarihi genellikle 26 Mayıs 1897 olarak anılır.",
+    "slug": "dracula-romani-hangi-yil-yayimlandi.html",
+    "people": "Bram Stoker"
+  },
+  {
+    "id": "alparslan-turkes-hangi-yil-dogdu",
+    "title": "Alparslan Türkeş hangi yıl doğdu?",
+    "year": 1917,
+    "date": "25 Kasım 1917",
+    "type": "Olaylar",
+    "category": "Kişiler",
+    "answer": "Alparslan Türkeş 1917 yılında doğdu.",
+    "detail": "Alparslan Türkeş, 25 Kasım 1917'de doğdu. Türk asker ve siyasetçi olarak Türkiye siyasi tarihinde önemli bir isimdir.",
+    "slug": "alparslan-turkes-hangi-yil-dogdu.html",
+    "people": "Alparslan Türkeş"
+  },
+  {
+    "id": "bram-stoker-hangi-yil-dogdu",
+    "title": "Bram Stoker hangi yıl doğdu?",
+    "year": 1847,
+    "date": "8 Kasım 1847",
+    "type": "Olaylar",
+    "category": "Edebiyat ve Kültür",
+    "answer": "Bram Stoker 1847 yılında doğdu.",
+    "detail": "Dracula romanının yazarı Bram Stoker, 8 Kasım 1847'de doğdu.",
+    "slug": "bram-stoker-hangi-yil-dogdu.html",
+    "people": "Bram Stoker"
   }
 ];
-
 
 window.HY_TODAY = [
   {
@@ -7202,23 +7249,18 @@ window.HY_TODAY = [
   {
     "date": "05-26",
     "label": "26 Mayıs",
-    "title": "Alparslan Türkeş doğdu",
-    "year": "1917",
-    "text": "Alparslan Türkeş, 26 Mayıs 1917'de doğdu. Türkiye siyasi tarihinde önemli isimlerden biridir."
-  },
-  {
-    "date": "05-26",
-    "label": "26 Mayıs",
     "title": "Miles Davis doğdu",
     "year": "1926",
-    "text": "Caz müziğinin en etkili isimlerinden Miles Davis, 26 Mayıs 1926'da doğdu."
+    "text": "Caz müziğinin en etkili isimlerinden Miles Davis, 26 Mayıs 1926'da doğdu.",
+    "url": "miles-davis-hangi-yil-dogdu.html"
   },
   {
     "date": "05-26",
     "label": "26 Mayıs",
     "title": "Dracula romanı yayımlandı",
     "year": "1897",
-    "text": "Bram Stoker'ın ünlü Dracula romanı 26 Mayıs 1897'de yayımlandı."
+    "text": "Bram Stoker'ın ünlü Dracula romanı 26 Mayıs 1897'de yayımlandı.",
+    "url": "dracula-romani-hangi-yil-yayimlandi.html"
   },
   {
     "date": "05-29",
@@ -7289,5 +7331,13 @@ window.HY_TODAY = [
     "title": "Mustafa Kemal Ankara'ya geldi",
     "year": "1919",
     "text": "Milli Mücadele döneminde Ankara'nın merkez haline gelmesinde önemli bir tarihtir."
+  },
+  {
+    "date": "11-25",
+    "label": "25 Kasım",
+    "title": "Alparslan Türkeş doğdu",
+    "year": "1917",
+    "text": "Alparslan Türkeş, 25 Kasım 1917'de doğdu.",
+    "url": "alparslan-turkes-hangi-yil-dogdu.html"
   }
 ];

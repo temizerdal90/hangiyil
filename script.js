@@ -187,9 +187,13 @@ function renderTodayBox(){
     }];
   }
 
-  const first=items[0];
-  labelEl.textContent = first.label || now.toLocaleDateString("tr-TR",{day:"numeric",month:"long"});
-  titleEl.textContent = (first.year ? first.year+" • " : "") + first.title;
-  textEl.textContent = first.text;
+  const label=items[0].label || now.toLocaleDateString("tr-TR",{day:"numeric",month:"long"});
+  labelEl.textContent = label;
+  titleEl.textContent = "Tarihte bugün ne oldu?";
+  textEl.innerHTML = items.slice(0,4).map(it => {
+    const title = `${it.year ? it.year+" • " : ""}${it.title}`;
+    const href = it.url ? it.url : "tarihte-bugun.html";
+    return `<span class="today-mini-event"><b>${title}</b><small>${it.text}</small></span>`;
+  }).join("");
 }
 
