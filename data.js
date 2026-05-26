@@ -1,6 +1,6 @@
 window.HY_DATA = [
   {
-    "id": "istanbulun-fethi",
+    "id": "istanbul-un-fethi-hangi-yil-oldu",
     "title": "İstanbul'un fethi hangi yıl oldu?",
     "year": 1453,
     "date": "29 Mayıs 1453",
@@ -8,11 +8,11 @@ window.HY_DATA = [
     "category": "Tarihi Olaylar",
     "answer": "İstanbul'un fethi 1453 yılında gerçekleşti.",
     "detail": "İstanbul, Osmanlı padişahı II. Mehmed döneminde fethedildi. Bu olay, dünya tarihi açısından en çok bilinen dönüm noktalarından biridir.",
-    "slug": "istanbulun-fethi-hangi-yil-oldu.html",
+    "slug": "istanbul-un-fethi-hangi-yil-oldu.html",
     "people": "II. Mehmed"
   },
   {
-    "id": "turkiye-cumhuriyeti",
+    "id": "turkiye-cumhuriyeti-hangi-yil-kuruldu",
     "title": "Türkiye Cumhuriyeti hangi yıl kuruldu?",
     "year": 1923,
     "date": "29 Ekim 1923",
@@ -24,7 +24,7 @@ window.HY_DATA = [
     "people": "Mustafa Kemal Atatürk"
   },
   {
-    "id": "cumhuriyet-ilani",
+    "id": "cumhuriyet-hangi-yil-ilan-edildi",
     "title": "Cumhuriyet hangi yıl ilan edildi?",
     "year": 1923,
     "date": "29 Ekim 1923",
@@ -36,7 +36,7 @@ window.HY_DATA = [
     "people": "Mustafa Kemal Atatürk"
   },
   {
-    "id": "tbmm-acilisi",
+    "id": "tbmm-hangi-yil-acildi",
     "title": "TBMM hangi yıl açıldı?",
     "year": 1920,
     "date": "23 Nisan 1920",
@@ -48,7 +48,7 @@ window.HY_DATA = [
     "people": "Mustafa Kemal Atatürk"
   },
   {
-    "id": "malazgirt",
+    "id": "malazgirt-savasi-hangi-yil-oldu",
     "title": "Malazgirt Savaşı hangi yıl oldu?",
     "year": 1071,
     "date": "26 Ağustos 1071",
@@ -60,7 +60,7 @@ window.HY_DATA = [
     "people": "Alp Arslan"
   },
   {
-    "id": "ankara-baskent",
+    "id": "ankara-hangi-yil-baskent-oldu",
     "title": "Ankara hangi yıl başkent oldu?",
     "year": 1923,
     "date": "13 Ekim 1923",
@@ -72,7 +72,7 @@ window.HY_DATA = [
     "people": ""
   },
   {
-    "id": "lozan",
+    "id": "lozan-antlasmasi-hangi-yil-imzalandi",
     "title": "Lozan Antlaşması hangi yıl imzalandı?",
     "year": 1923,
     "date": "24 Temmuz 1923",
@@ -84,7 +84,7 @@ window.HY_DATA = [
     "people": ""
   },
   {
-    "id": "atatürk-vefat",
+    "id": "ataturk-hangi-yil-vefat-etti",
     "title": "Atatürk hangi yıl vefat etti?",
     "year": 1938,
     "date": "10 Kasım 1938",
@@ -97,7 +97,7 @@ window.HY_DATA = [
     "cause": "Siroz"
   },
   {
-    "id": "baris-manco",
+    "id": "baris-manco-hangi-yilda-vefat-etti",
     "title": "Barış Manço hangi yılda vefat etti?",
     "year": 1999,
     "date": "1 Şubat 1999",
@@ -110,7 +110,7 @@ window.HY_DATA = [
     "cause": "Kalp krizi"
   },
   {
-    "id": "kemal-sunal",
+    "id": "kemal-sunal-hangi-yil-vefat-etti",
     "title": "Kemal Sunal hangi yıl vefat etti?",
     "year": 2000,
     "date": "3 Temmuz 2000",
@@ -123,7 +123,7 @@ window.HY_DATA = [
     "cause": "Kalp krizi"
   },
   {
-    "id": "neset-ertas",
+    "id": "neset-ertas-hangi-yil-vefat-etti",
     "title": "Neşet Ertaş hangi yıl vefat etti?",
     "year": 2012,
     "date": "25 Eylül 2012",
@@ -136,7 +136,7 @@ window.HY_DATA = [
     "cause": "Kanser tedavisi süreci sonrası"
   },
   {
-    "id": "cem-karaca",
+    "id": "cem-karaca-hangi-yil-vefat-etti",
     "title": "Cem Karaca hangi yıl vefat etti?",
     "year": 2004,
     "date": "8 Şubat 2004",
@@ -149,7 +149,7 @@ window.HY_DATA = [
     "cause": "Kalp yetmezliği / kalp krizi olarak anılır"
   },
   {
-    "id": "zeki-muren",
+    "id": "zeki-muren-hangi-yil-vefat-etti",
     "title": "Zeki Müren hangi yıl vefat etti?",
     "year": 1996,
     "date": "24 Eylül 1996",
@@ -162,7 +162,7 @@ window.HY_DATA = [
     "cause": "Kalp rahatsızlığı"
   },
   {
-    "id": "kazim-koyuncu",
+    "id": "kazim-koyuncu-hangi-yil-vefat-etti",
     "title": "Kazım Koyuncu hangi yıl vefat etti?",
     "year": 2005,
     "date": "25 Haziran 2005",
@@ -175,7 +175,7 @@ window.HY_DATA = [
     "cause": "Kanser"
   },
   {
-    "id": "tarik-akan",
+    "id": "tarik-akan-hangi-yil-vefat-etti",
     "title": "Tarık Akan hangi yıl vefat etti?",
     "year": 2016,
     "date": "16 Eylül 2016",
@@ -188,7 +188,7 @@ window.HY_DATA = [
     "cause": "Akciğer kanseri"
   },
   {
-    "id": "cuneyt-arkin",
+    "id": "cuneyt-arkin-hangi-yil-vefat-etti",
     "title": "Cüneyt Arkın hangi yıl vefat etti?",
     "year": 2022,
     "date": "28 Haziran 2022",
@@ -201,7 +201,7 @@ window.HY_DATA = [
     "cause": "Kalp durması olarak bildirilmiştir"
   },
   {
-    "id": "ilk-iphone",
+    "id": "ilk-iphone-hangi-yil-cikti",
     "title": "İlk iPhone hangi yıl çıktı?",
     "year": 2007,
     "date": "9 Ocak 2007",
@@ -213,7 +213,7 @@ window.HY_DATA = [
     "people": "Steve Jobs"
   },
   {
-    "id": "ilk-insan-ay",
+    "id": "ilk-insan-ay-a-hangi-yil-cikti",
     "title": "İlk insan Ay'a hangi yıl çıktı?",
     "year": 1969,
     "date": "20 Temmuz 1969",
@@ -221,11 +221,11 @@ window.HY_DATA = [
     "category": "Uzay",
     "answer": "İlk insan Ay'a 1969 yılında çıktı.",
     "detail": "Apollo 11 göreviyle insanlar ilk kez Ay yüzeyinde yürüdü. Neil Armstrong ve Buzz Aldrin Ay'a inen ilk insanlardır.",
-    "slug": "ilk-insan-aya-hangi-yil-cikti.html",
+    "slug": "ilk-insan-ay-a-hangi-yil-cikti.html",
     "people": "Neil Armstrong, Buzz Aldrin"
   },
   {
-    "id": "covid-baslangic",
+    "id": "covid-19-pandemisi-hangi-yil-basladi",
     "title": "Covid-19 pandemisi hangi yıl başladı?",
     "year": 2019,
     "date": "2019 sonu",
@@ -237,7 +237,7 @@ window.HY_DATA = [
     "people": ""
   },
   {
-    "id": "google-kurulus",
+    "id": "google-hangi-yil-kuruldu",
     "title": "Google hangi yıl kuruldu?",
     "year": 1998,
     "date": "4 Eylül 1998",
@@ -249,7 +249,7 @@ window.HY_DATA = [
     "people": "Larry Page, Sergey Brin"
   },
   {
-    "id": "youtube-kurulus",
+    "id": "youtube-hangi-yil-kuruldu",
     "title": "YouTube hangi yıl kuruldu?",
     "year": 2005,
     "date": "2005",
@@ -261,7 +261,7 @@ window.HY_DATA = [
     "people": ""
   },
   {
-    "id": "facebook-kurulus",
+    "id": "facebook-hangi-yil-kuruldu",
     "title": "Facebook hangi yıl kuruldu?",
     "year": 2004,
     "date": "2004",
@@ -273,7 +273,7 @@ window.HY_DATA = [
     "people": "Mark Zuckerberg"
   },
   {
-    "id": "twitter-kurulus",
+    "id": "twitter-hangi-yil-kuruldu",
     "title": "Twitter hangi yıl kuruldu?",
     "year": 2006,
     "date": "2006",
@@ -285,7 +285,7 @@ window.HY_DATA = [
     "people": ""
   },
   {
-    "id": "instagram-kurulus",
+    "id": "instagram-hangi-yil-kuruldu",
     "title": "Instagram hangi yıl kuruldu?",
     "year": 2010,
     "date": "2010",
@@ -297,7 +297,7 @@ window.HY_DATA = [
     "people": ""
   },
   {
-    "id": "whatsapp-kurulus",
+    "id": "whatsapp-hangi-yil-kuruldu",
     "title": "WhatsApp hangi yıl kuruldu?",
     "year": 2009,
     "date": "2009",
@@ -309,7 +309,7 @@ window.HY_DATA = [
     "people": ""
   },
   {
-    "id": "tiktok-global",
+    "id": "tiktok-hangi-yil-cikti",
     "title": "TikTok hangi yıl çıktı?",
     "year": 2016,
     "date": "2016",
@@ -321,7 +321,7 @@ window.HY_DATA = [
     "people": ""
   },
   {
-    "id": "ilk-web",
+    "id": "ilk-web-sitesi-hangi-yil-yayinlandi",
     "title": "İlk web sitesi hangi yıl yayınlandı?",
     "year": 1991,
     "date": "1991",
@@ -369,7 +369,7 @@ window.HY_DATA = [
     "people": ""
   },
   {
-    "id": "i-kinci-dunya-savasi-hangi-yil-basladi",
+    "id": "ikinci-dunya-savasi-hangi-yil-basladi",
     "title": "İkinci Dünya Savaşı hangi yıl başladı?",
     "year": 1939,
     "date": "1939",
@@ -377,11 +377,11 @@ window.HY_DATA = [
     "category": "Tarihi Olaylar",
     "answer": "İkinci Dünya Savaşı 1939 yılında başladı.",
     "detail": "Savaş, 1939'da Avrupa'da başladı ve kısa sürede genişledi.",
-    "slug": "i-kinci-dunya-savasi-hangi-yil-basladi.html",
+    "slug": "ikinci-dunya-savasi-hangi-yil-basladi.html",
     "people": ""
   },
   {
-    "id": "i-kinci-dunya-savasi-hangi-yil-bitti",
+    "id": "ikinci-dunya-savasi-hangi-yil-bitti",
     "title": "İkinci Dünya Savaşı hangi yıl bitti?",
     "year": 1945,
     "date": "1945",
@@ -389,7 +389,7 @@ window.HY_DATA = [
     "category": "Tarihi Olaylar",
     "answer": "İkinci Dünya Savaşı 1945 yılında sona erdi.",
     "detail": "Savaş 1945'te sona erdi ve savaş sonrası dünya düzeni değişti.",
-    "slug": "i-kinci-dunya-savasi-hangi-yil-bitti.html",
+    "slug": "ikinci-dunya-savasi-hangi-yil-bitti.html",
     "people": ""
   },
   {
@@ -549,7 +549,7 @@ window.HY_DATA = [
     "people": "Kanuni Sultan Süleyman"
   },
   {
-    "id": "i-kinci-viyana-kusatmasi-hangi-yil-oldu",
+    "id": "ikinci-viyana-kusatmasi-hangi-yil-oldu",
     "title": "İkinci Viyana Kuşatması hangi yıl oldu?",
     "year": 1683,
     "date": "1683",
@@ -557,7 +557,7 @@ window.HY_DATA = [
     "category": "Tarihi Olaylar",
     "answer": "İkinci Viyana Kuşatması 1683 yılında oldu.",
     "detail": "Osmanlı tarihinin Avrupa seferleri içinde en çok bilinen olaylarından biridir.",
-    "slug": "i-kinci-viyana-kusatmasi-hangi-yil-oldu.html",
+    "slug": "ikinci-viyana-kusatmasi-hangi-yil-oldu.html",
     "people": ""
   },
   {
@@ -609,7 +609,7 @@ window.HY_DATA = [
     "people": ""
   },
   {
-    "id": "i-kinci-mesrutiyet-hangi-yil-ilan-edildi",
+    "id": "ikinci-mesrutiyet-hangi-yil-ilan-edildi",
     "title": "İkinci Meşrutiyet hangi yıl ilan edildi?",
     "year": 1908,
     "date": "1908",
@@ -617,7 +617,7 @@ window.HY_DATA = [
     "category": "Tarihi Olaylar",
     "answer": "İkinci Meşrutiyet 1908 yılında ilan edildi.",
     "detail": "Osmanlı siyasi tarihinde önemli bir yönetim değişikliği dönemidir.",
-    "slug": "i-kinci-mesrutiyet-hangi-yil-ilan-edildi.html",
+    "slug": "ikinci-mesrutiyet-hangi-yil-ilan-edildi.html",
     "people": ""
   },
   {
@@ -729,7 +729,7 @@ window.HY_DATA = [
     "people": ""
   },
   {
-    "id": "kibris-baris-harek-ti-hangi-yil-yapildi",
+    "id": "kibris-baris-harekati-hangi-yil-yapildi",
     "title": "Kıbrıs Barış Harekâtı hangi yıl yapıldı?",
     "year": 1974,
     "date": "1974",
@@ -737,7 +737,7 @@ window.HY_DATA = [
     "category": "Tarihi Olaylar",
     "answer": "Kıbrıs Barış Harekâtı 1974 yılında yapıldı.",
     "detail": "Türkiye'nin Kıbrıs'a askeri müdahalesi 1974 yılında gerçekleşti.",
-    "slug": "kibris-baris-harek-ti-hangi-yil-yapildi.html",
+    "slug": "kibris-baris-harekati-hangi-yil-yapildi.html",
     "people": ""
   },
   {
@@ -825,7 +825,7 @@ window.HY_DATA = [
     "people": "Thomas Edison"
   },
   {
-    "id": "i-lk-otomobil-hangi-yil-yapildi",
+    "id": "ilk-otomobil-hangi-yil-yapildi",
     "title": "İlk otomobil hangi yıl yapıldı?",
     "year": 1886,
     "date": "1886",
@@ -833,11 +833,11 @@ window.HY_DATA = [
     "category": "Teknoloji",
     "answer": "Modern otomobilin başlangıcı için yaygın kabul edilen yıl 1886'dır.",
     "detail": "Karl Benz'in Benz Patent-Motorwagen aracı modern otomobilin ilk örneklerinden kabul edilir.",
-    "slug": "i-lk-otomobil-hangi-yil-yapildi.html",
+    "slug": "ilk-otomobil-hangi-yil-yapildi.html",
     "people": "Karl Benz"
   },
   {
-    "id": "i-lk-motorlu-ucus-hangi-yil-yapildi",
+    "id": "ilk-motorlu-ucus-hangi-yil-yapildi",
     "title": "İlk motorlu uçuş hangi yıl yapıldı?",
     "year": 1903,
     "date": "1903",
@@ -845,11 +845,11 @@ window.HY_DATA = [
     "category": "Teknoloji",
     "answer": "İlk kontrollü motorlu uçuş 1903 yılında yapıldı.",
     "detail": "Wright Kardeşler'in 1903 uçuşu havacılık tarihinin önemli başlangıcıdır.",
-    "slug": "i-lk-motorlu-ucus-hangi-yil-yapildi.html",
+    "slug": "ilk-motorlu-ucus-hangi-yil-yapildi.html",
     "people": "Wright Kardeşler"
   },
   {
-    "id": "i-lk-televizyon-yayini-hangi-yil-yapildi",
+    "id": "ilk-televizyon-yayini-hangi-yil-yapildi",
     "title": "İlk televizyon yayını hangi yıl yapıldı?",
     "year": 1927,
     "date": "1927",
@@ -857,7 +857,7 @@ window.HY_DATA = [
     "category": "Teknoloji",
     "answer": "Televizyon tarihindeki ilk önemli gösterimler 1920'lerin ikinci yarısında gerçekleşti.",
     "detail": "Televizyonun gelişimi tek bir tarihe indirgenmese de 1927 yılı önemli dönüm noktalarından biridir.",
-    "slug": "i-lk-televizyon-yayini-hangi-yil-yapildi.html",
+    "slug": "ilk-televizyon-yayini-hangi-yil-yapildi.html",
     "people": ""
   },
   {
@@ -873,7 +873,7 @@ window.HY_DATA = [
     "people": ""
   },
   {
-    "id": "i-nternetin-temeli-hangi-yil-atildi",
+    "id": "internetin-temeli-hangi-yil-atildi",
     "title": "İnternetin temeli hangi yıl atıldı?",
     "year": 1969,
     "date": "1969",
@@ -881,11 +881,11 @@ window.HY_DATA = [
     "category": "Teknoloji",
     "answer": "İnternetin temeli sayılan ARPANET 1969 yılında başladı.",
     "detail": "ARPANET, bugünkü internetin öncüllerinden biri olarak kabul edilir.",
-    "slug": "i-nternetin-temeli-hangi-yil-atildi.html",
+    "slug": "internetin-temeli-hangi-yil-atildi.html",
     "people": ""
   },
   {
-    "id": "i-lk-e-posta-hangi-yil-gonderildi",
+    "id": "ilk-e-posta-hangi-yil-gonderildi",
     "title": "İlk e-posta hangi yıl gönderildi?",
     "year": 1971,
     "date": "1971",
@@ -893,7 +893,7 @@ window.HY_DATA = [
     "category": "Teknoloji",
     "answer": "İlk e-posta 1971 yılında gönderildi.",
     "detail": "Ray Tomlinson'ın gönderdiği e-posta internet iletişim tarihinde önemli bir başlangıçtır.",
-    "slug": "i-lk-e-posta-hangi-yil-gonderildi.html",
+    "slug": "ilk-e-posta-hangi-yil-gonderildi.html",
     "people": "Ray Tomlinson"
   },
   {
@@ -1158,7 +1158,7 @@ window.HY_DATA = [
     "cause": "Kanser"
   },
   {
-    "id": "i-lhan-i-rem-hangi-yil-vefat-etti",
+    "id": "ilhan-irem-hangi-yil-vefat-etti",
     "title": "İlhan İrem hangi yıl vefat etti?",
     "year": 2022,
     "date": "28 Temmuz 2022",
@@ -1166,7 +1166,7 @@ window.HY_DATA = [
     "category": "Kişiler ve Vefat Tarihleri",
     "answer": "İlhan İrem 2022 yılında vefat etti.",
     "detail": "İlhan İrem, 28 Temmuz 2022'de hayatını kaybetti. Türk müziğinin kendine özgü isimlerinden biridir.",
-    "slug": "i-lhan-i-rem-hangi-yil-vefat-etti.html",
+    "slug": "ilhan-irem-hangi-yil-vefat-etti.html",
     "people": "İlhan İrem",
     "cause": "Böbrek rahatsızlığı süreci olarak bildirilmiştir"
   },
@@ -1300,7 +1300,7 @@ window.HY_DATA = [
     "cause": "Pankreas kanseri"
   },
   {
-    "id": "bizans-i-mparatorlugu-hangi-yil-kuruldu",
+    "id": "bizans-imparatorlugu-hangi-yil-kuruldu",
     "title": "Bizans İmparatorluğu hangi yıl kuruldu?",
     "year": 330,
     "date": "330",
@@ -1308,7 +1308,7 @@ window.HY_DATA = [
     "category": "Tarihi Olaylar",
     "answer": "Bizans İmparatorluğu'nun başlangıcı için yaygın kabul edilen tarih 330'dur.",
     "detail": "Konstantinopolis'in Roma İmparatorluğu'nun yeni başkenti yapılması Bizans tarihinin başlangıcıyla ilişkilendirilir.",
-    "slug": "bizans-i-mparatorlugu-hangi-yil-kuruldu.html",
+    "slug": "bizans-imparatorlugu-hangi-yil-kuruldu.html",
     "people": "Konstantin"
   },
   {
@@ -1372,7 +1372,7 @@ window.HY_DATA = [
     "people": ""
   },
   {
-    "id": "bizans-i-mparatorlugu-hangi-yil-sona-erdi",
+    "id": "bizans-imparatorlugu-hangi-yil-sona-erdi",
     "title": "Bizans İmparatorluğu hangi yıl sona erdi?",
     "year": 1453,
     "date": "1453",
@@ -1380,7 +1380,7 @@ window.HY_DATA = [
     "category": "Tarihi Olaylar",
     "answer": "Bizans İmparatorluğu 1453 yılında sona erdi.",
     "detail": "İstanbul'un fethiyle Bizans İmparatorluğu tarih sahnesinden çekildi.",
-    "slug": "bizans-i-mparatorlugu-hangi-yil-sona-erdi.html",
+    "slug": "bizans-imparatorlugu-hangi-yil-sona-erdi.html",
     "people": "II. Mehmed"
   },
   {
@@ -1420,7 +1420,7 @@ window.HY_DATA = [
     "people": "Barbaros Hayreddin Paşa"
   },
   {
-    "id": "i-nebahti-deniz-savasi-hangi-yil-oldu",
+    "id": "inebahti-deniz-savasi-hangi-yil-oldu",
     "title": "İnebahtı Deniz Savaşı hangi yıl oldu?",
     "year": 1571,
     "date": "1571",
@@ -1428,7 +1428,7 @@ window.HY_DATA = [
     "category": "Tarihi Olaylar",
     "answer": "İnebahtı Deniz Savaşı 1571 yılında oldu.",
     "detail": "Osmanlı denizcilik tarihindeki önemli savaşlardan biridir.",
-    "slug": "i-nebahti-deniz-savasi-hangi-yil-oldu.html",
+    "slug": "inebahti-deniz-savasi-hangi-yil-oldu.html",
     "people": ""
   },
   {
@@ -1468,7 +1468,7 @@ window.HY_DATA = [
     "people": ""
   },
   {
-    "id": "patrona-halil-i-syani-hangi-yil-oldu",
+    "id": "patrona-halil-isyani-hangi-yil-oldu",
     "title": "Patrona Halil İsyanı hangi yıl oldu?",
     "year": 1730,
     "date": "1730",
@@ -1476,11 +1476,11 @@ window.HY_DATA = [
     "category": "Tarihi Olaylar",
     "answer": "Patrona Halil İsyanı 1730 yılında oldu.",
     "detail": "Lale Devri'nin sona ermesiyle ilişkilendirilen önemli Osmanlı olayıdır.",
-    "slug": "patrona-halil-i-syani-hangi-yil-oldu.html",
+    "slug": "patrona-halil-isyani-hangi-yil-oldu.html",
     "people": ""
   },
   {
-    "id": "sirp-i-syani-hangi-yil-basladi",
+    "id": "sirp-isyani-hangi-yil-basladi",
     "title": "Sırp İsyanı hangi yıl başladı?",
     "year": 1804,
     "date": "1804",
@@ -1488,11 +1488,11 @@ window.HY_DATA = [
     "category": "Tarihi Olaylar",
     "answer": "Birinci Sırp İsyanı 1804 yılında başladı.",
     "detail": "Osmanlı Balkan tarihi açısından önemli milliyetçi hareketlerden biridir.",
-    "slug": "sirp-i-syani-hangi-yil-basladi.html",
+    "slug": "sirp-isyani-hangi-yil-basladi.html",
     "people": ""
   },
   {
-    "id": "yunan-i-syani-hangi-yil-basladi",
+    "id": "yunan-isyani-hangi-yil-basladi",
     "title": "Yunan İsyanı hangi yıl başladı?",
     "year": 1821,
     "date": "1821",
@@ -1500,7 +1500,7 @@ window.HY_DATA = [
     "category": "Tarihi Olaylar",
     "answer": "Yunan İsyanı 1821 yılında başladı.",
     "detail": "Osmanlı Devleti'nden bağımsızlık sürecinde önemli bir olaydır.",
-    "slug": "yunan-i-syani-hangi-yil-basladi.html",
+    "slug": "yunan-isyani-hangi-yil-basladi.html",
     "people": ""
   },
   {
@@ -1624,7 +1624,7 @@ window.HY_DATA = [
     "people": ""
   },
   {
-    "id": "i-zmir-i-ktisat-kongresi-hangi-yil-toplandi",
+    "id": "izmir-iktisat-kongresi-hangi-yil-toplandi",
     "title": "İzmir İktisat Kongresi hangi yıl toplandı?",
     "year": 1923,
     "date": "1923",
@@ -1632,7 +1632,7 @@ window.HY_DATA = [
     "category": "Tarihi Olaylar",
     "answer": "İzmir İktisat Kongresi 1923 yılında toplandı.",
     "detail": "Yeni Türkiye'nin ekonomik yol haritası açısından önemli bir kongredir.",
-    "slug": "i-zmir-i-ktisat-kongresi-hangi-yil-toplandi.html",
+    "slug": "izmir-iktisat-kongresi-hangi-yil-toplandi.html",
     "people": ""
   },
   {
@@ -2017,7 +2017,7 @@ window.HY_DATA = [
     "people": "Johannes Gutenberg"
   },
   {
-    "id": "i-lk-teleskop-gozlemleri-hangi-yil-yapildi",
+    "id": "ilk-teleskop-gozlemleri-hangi-yil-yapildi",
     "title": "İlk teleskop gözlemleri hangi yıl yapıldı?",
     "year": 1609,
     "date": "1609",
@@ -2025,11 +2025,11 @@ window.HY_DATA = [
     "category": "Teknoloji",
     "answer": "Galileo'nun teleskop gözlemleri 1609 yılında başladı.",
     "detail": "Teleskop astronomi tarihinde yeni bir dönemi başlattı.",
-    "slug": "i-lk-teleskop-gozlemleri-hangi-yil-yapildi.html",
+    "slug": "ilk-teleskop-gozlemleri-hangi-yil-yapildi.html",
     "people": "Galileo Galilei"
   },
   {
-    "id": "i-lk-cicek-asisi-hangi-yil-yapildi",
+    "id": "ilk-cicek-asisi-hangi-yil-yapildi",
     "title": "İlk çiçek aşısı hangi yıl yapıldı?",
     "year": 1796,
     "date": "1796",
@@ -2037,11 +2037,11 @@ window.HY_DATA = [
     "category": "Teknoloji",
     "answer": "İlk çiçek aşısı 1796 yılında yapıldı.",
     "detail": "Edward Jenner'ın çalışması modern aşılama tarihinin başlangıçlarından kabul edilir.",
-    "slug": "i-lk-cicek-asisi-hangi-yil-yapildi.html",
+    "slug": "ilk-cicek-asisi-hangi-yil-yapildi.html",
     "people": "Edward Jenner"
   },
   {
-    "id": "i-lk-pil-hangi-yil-icat-edildi",
+    "id": "ilk-pil-hangi-yil-icat-edildi",
     "title": "İlk pil hangi yıl icat edildi?",
     "year": 1800,
     "date": "1800",
@@ -2049,11 +2049,11 @@ window.HY_DATA = [
     "category": "Teknoloji",
     "answer": "İlk elektrik pili 1800 yılında icat edildi.",
     "detail": "Alessandro Volta'nın pili elektrik tarihinin önemli buluşudur.",
-    "slug": "i-lk-pil-hangi-yil-icat-edildi.html",
+    "slug": "ilk-pil-hangi-yil-icat-edildi.html",
     "people": "Alessandro Volta"
   },
   {
-    "id": "i-lk-fotograf-hangi-yil-cekildi",
+    "id": "ilk-fotograf-hangi-yil-cekildi",
     "title": "İlk fotoğraf hangi yıl çekildi?",
     "year": 1822,
     "date": "1822",
@@ -2061,7 +2061,7 @@ window.HY_DATA = [
     "category": "Teknoloji",
     "answer": "Bilinen ilk kalıcı fotoğraf 1820'lerin ortasında çekildi.",
     "detail": "Fotoğraf tarihi tek bir yıla indirgenmese de 1826/1827 sık kullanılan tarihlerdir.",
-    "slug": "i-lk-fotograf-hangi-yil-cekildi.html",
+    "slug": "ilk-fotograf-hangi-yil-cekildi.html",
     "people": "Nicéphore Niépce"
   },
   {
@@ -2137,7 +2137,7 @@ window.HY_DATA = [
     "people": "Alexander Fleming"
   },
   {
-    "id": "i-lk-yapay-uydu-hangi-yil-firlatildi",
+    "id": "ilk-yapay-uydu-hangi-yil-firlatildi",
     "title": "İlk yapay uydu hangi yıl fırlatıldı?",
     "year": 1957,
     "date": "1957",
@@ -2145,11 +2145,11 @@ window.HY_DATA = [
     "category": "Teknoloji",
     "answer": "İlk yapay uydu 1957 yılında fırlatıldı.",
     "detail": "Sputnik 1, uzay çağının başlangıcı olarak kabul edilir.",
-    "slug": "i-lk-yapay-uydu-hangi-yil-firlatildi.html",
+    "slug": "ilk-yapay-uydu-hangi-yil-firlatildi.html",
     "people": ""
   },
   {
-    "id": "i-lk-insan-uzaya-hangi-yil-cikti",
+    "id": "ilk-insan-uzaya-hangi-yil-cikti",
     "title": "İlk insan uzaya hangi yıl çıktı?",
     "year": 1961,
     "date": "1961",
@@ -2157,11 +2157,11 @@ window.HY_DATA = [
     "category": "Teknoloji",
     "answer": "İlk insan uzaya 1961 yılında çıktı.",
     "detail": "Yuri Gagarin 1961'de uzaya çıkan ilk insan oldu.",
-    "slug": "i-lk-insan-uzaya-hangi-yil-cikti.html",
+    "slug": "ilk-insan-uzaya-hangi-yil-cikti.html",
     "people": "Yuri Gagarin"
   },
   {
-    "id": "i-lk-video-oyun-konsolu-hangi-yil-cikti",
+    "id": "ilk-video-oyun-konsolu-hangi-yil-cikti",
     "title": "İlk video oyun konsolu hangi yıl çıktı?",
     "year": 1972,
     "date": "1972",
@@ -2169,11 +2169,11 @@ window.HY_DATA = [
     "category": "Teknoloji",
     "answer": "İlk ticari ev tipi oyun konsollarından biri 1972 yılında çıktı.",
     "detail": "Magnavox Odyssey, ev tipi oyun konsolu tarihinin erken örneklerindendir.",
-    "slug": "i-lk-video-oyun-konsolu-hangi-yil-cikti.html",
+    "slug": "ilk-video-oyun-konsolu-hangi-yil-cikti.html",
     "people": ""
   },
   {
-    "id": "i-lk-cep-telefonu-gorusmesi-hangi-yil-yapildi",
+    "id": "ilk-cep-telefonu-gorusmesi-hangi-yil-yapildi",
     "title": "İlk cep telefonu görüşmesi hangi yıl yapıldı?",
     "year": 1973,
     "date": "1973",
@@ -2181,11 +2181,11 @@ window.HY_DATA = [
     "category": "Teknoloji",
     "answer": "İlk elde taşınabilir cep telefonu görüşmesi 1973 yılında yapıldı.",
     "detail": "Motorola mühendisi Martin Cooper'ın yaptığı görüşme mobil iletişim tarihinde önemlidir.",
-    "slug": "i-lk-cep-telefonu-gorusmesi-hangi-yil-yapildi.html",
+    "slug": "ilk-cep-telefonu-gorusmesi-hangi-yil-yapildi.html",
     "people": "Martin Cooper"
   },
   {
-    "id": "i-nternet-tcp-ip-gecisi-hangi-yil-oldu",
+    "id": "internet-tcp-ip-gecisi-hangi-yil-oldu",
     "title": "İnternet TCP/IP geçişi hangi yıl oldu?",
     "year": 1983,
     "date": "1983",
@@ -2193,7 +2193,7 @@ window.HY_DATA = [
     "category": "Teknoloji",
     "answer": "ARPANET'in TCP/IP'ye geçişi 1983 yılında gerçekleşti.",
     "detail": "Bu tarih internetin teknik gelişiminde önemli bir dönüm noktasıdır.",
-    "slug": "i-nternet-tcp-ip-gecisi-hangi-yil-oldu.html",
+    "slug": "internet-tcp-ip-gecisi-hangi-yil-oldu.html",
     "people": ""
   },
   {
@@ -2245,7 +2245,7 @@ window.HY_DATA = [
     "people": ""
   },
   {
-    "id": "erdal-i-nonu-hangi-yil-vefat-etti",
+    "id": "erdal-inonu-hangi-yil-vefat-etti",
     "title": "Erdal İnönü hangi yıl vefat etti?",
     "year": 2007,
     "date": "31 Ekim 2007",
@@ -2253,12 +2253,12 @@ window.HY_DATA = [
     "category": "Kişiler ve Vefat Tarihleri",
     "answer": "Erdal İnönü 2007 yılında vefat etti.",
     "detail": "Erdal İnönü, 31 Ekim 2007'de hayatını kaybetti. Fizikçi, akademisyen ve siyasetçi kimliğiyle tanınır. Türkiye siyasi tarihinde Sosyal Demokrat Halkçı Parti ve koalisyon hükümetleri dönemindeki rolüyle bilinir.",
-    "slug": "erdal-i-nonu-hangi-yil-vefat-etti.html",
+    "slug": "erdal-inonu-hangi-yil-vefat-etti.html",
     "people": "Erdal İnönü",
     "cause": "Lösemi tedavisi süreci sonrası"
   },
   {
-    "id": "erdal-i-nonu-hangi-yil-dogdu",
+    "id": "erdal-inonu-hangi-yil-dogdu",
     "title": "Erdal İnönü hangi yıl doğdu?",
     "year": 1926,
     "date": "6 Haziran 1926",
@@ -2266,11 +2266,11 @@ window.HY_DATA = [
     "category": "Kişiler",
     "answer": "Erdal İnönü 1926 yılında doğdu.",
     "detail": "Erdal İnönü, 6 Haziran 1926'da Ankara'da doğdu. İsmet İnönü'nün oğludur; fizik alanındaki akademik kariyeri ve siyasetteki çalışmalarıyla tanınır.",
-    "slug": "erdal-i-nonu-hangi-yil-dogdu.html",
+    "slug": "erdal-inonu-hangi-yil-dogdu.html",
     "people": "Erdal İnönü"
   },
   {
-    "id": "i-smet-i-nonu-hangi-yil-vefat-etti",
+    "id": "ismet-inonu-hangi-yil-vefat-etti",
     "title": "İsmet İnönü hangi yıl vefat etti?",
     "year": 1973,
     "date": "25 Aralık 1973",
@@ -2278,11 +2278,11 @@ window.HY_DATA = [
     "category": "Kişiler ve Vefat Tarihleri",
     "answer": "İsmet İnönü 1973 yılında vefat etti.",
     "detail": "İsmet İnönü, 25 Aralık 1973'te hayatını kaybetti. Türkiye Cumhuriyeti'nin ikinci Cumhurbaşkanı ve Kurtuluş Savaşı'nın önemli komutanlarındandır.",
-    "slug": "i-smet-i-nonu-hangi-yil-vefat-etti.html",
+    "slug": "ismet-inonu-hangi-yil-vefat-etti.html",
     "people": "İsmet İnönü"
   },
   {
-    "id": "i-smet-i-nonu-hangi-yil-cumhurbaskani-oldu",
+    "id": "ismet-inonu-hangi-yil-cumhurbaskani-oldu",
     "title": "İsmet İnönü hangi yıl cumhurbaşkanı oldu?",
     "year": 1938,
     "date": "1938",
@@ -2290,7 +2290,7 @@ window.HY_DATA = [
     "category": "Türkiye",
     "answer": "İsmet İnönü 1938 yılında Cumhurbaşkanı oldu.",
     "detail": "Mustafa Kemal Atatürk'ün vefatından sonra İsmet İnönü 1938 yılında Türkiye Cumhuriyeti'nin ikinci Cumhurbaşkanı seçildi.",
-    "slug": "i-smet-i-nonu-hangi-yil-cumhurbaskani-oldu.html",
+    "slug": "ismet-inonu-hangi-yil-cumhurbaskani-oldu.html",
     "people": "İsmet İnönü"
   },
   {
@@ -2519,7 +2519,7 @@ window.HY_DATA = [
     "people": "Haldun Dormen"
   },
   {
-    "id": "aliya-i-zzetbegovic-hangi-yil-vefat-etti",
+    "id": "aliya-izzetbegovic-hangi-yil-vefat-etti",
     "title": "Aliya İzzetbegoviç hangi yıl vefat etti?",
     "year": 2003,
     "date": "19 Ekim 2003",
@@ -2527,7 +2527,7 @@ window.HY_DATA = [
     "category": "Kişiler ve Vefat Tarihleri",
     "answer": "Aliya İzzetbegoviç 2003 yılında vefat etti.",
     "detail": "Aliya İzzetbegoviç, 19 Ekim 2003'te hayatını kaybetti. Bosna Hersek'in bağımsızlık sürecindeki en önemli liderlerden biridir.",
-    "slug": "aliya-i-zzetbegovic-hangi-yil-vefat-etti.html",
+    "slug": "aliya-izzetbegovic-hangi-yil-vefat-etti.html",
     "people": "Aliya İzzetbegoviç",
     "cause": "Kalp rahatsızlığı süreci"
   },
@@ -2607,7 +2607,7 @@ window.HY_DATA = [
     "people": "Steve Jobs"
   },
   {
-    "id": "i-lk-dunya-kupasi-hangi-yil-duzenlendi",
+    "id": "ilk-dunya-kupasi-hangi-yil-duzenlendi",
     "title": "İlk Dünya Kupası hangi yıl düzenlendi?",
     "year": 1930,
     "date": "1930",
@@ -2615,7 +2615,7 @@ window.HY_DATA = [
     "category": "Dünya Kupası",
     "answer": "İlk FIFA Dünya Kupası 1930 yılında düzenlendi.",
     "detail": "İlk Dünya Kupası Uruguay'da düzenlendi ve turnuvayı Uruguay kazandı.",
-    "slug": "i-lk-dunya-kupasi-hangi-yil-duzenlendi.html",
+    "slug": "ilk-dunya-kupasi-hangi-yil-duzenlendi.html",
     "people": "Uruguay"
   },
   {
@@ -2907,7 +2907,7 @@ window.HY_DATA = [
     "people": "Pandemi / Salgın"
   },
   {
-    "id": "i-spanyol-gribi-hangi-yil-basladi",
+    "id": "ispanyol-gribi-hangi-yil-basladi",
     "title": "İspanyol gribi hangi yıl başladı?",
     "year": 1918,
     "date": "1918",
@@ -2915,7 +2915,7 @@ window.HY_DATA = [
     "category": "Hastalıklar ve Pandemiler",
     "answer": "İspanyol gribi 1918 yılında başladı.",
     "detail": "1918 grip pandemisi dünya genelinde milyonlarca insanı etkileyen büyük salgınlardan biridir.",
-    "slug": "i-spanyol-gribi-hangi-yil-basladi.html",
+    "slug": "ispanyol-gribi-hangi-yil-basladi.html",
     "people": "Pandemi / Salgın"
   },
   {
@@ -3051,7 +3051,7 @@ window.HY_DATA = [
     "people": "Bilim"
   },
   {
-    "id": "i-lk-tup-bebek-hangi-yil-dogdu",
+    "id": "ilk-tup-bebek-hangi-yil-dogdu",
     "title": "İlk tüp bebek hangi yıl doğdu?",
     "year": 1978,
     "date": "1978",
@@ -3059,7 +3059,7 @@ window.HY_DATA = [
     "category": "Hastalıklar ve Pandemiler",
     "answer": "İlk tüp bebek 1978 yılında doğdu.",
     "detail": "Louise Brown'ın doğumu tüp bebek yönteminin tıp tarihinde önemli bir başlangıcıdır.",
-    "slug": "i-lk-tup-bebek-hangi-yil-dogdu.html",
+    "slug": "ilk-tup-bebek-hangi-yil-dogdu.html",
     "people": "Tıp"
   },
   {
@@ -3099,7 +3099,7 @@ window.HY_DATA = [
     "people": "Yapay Zeka"
   },
   {
-    "id": "i-lk-mikroislemci-hangi-yil-cikti",
+    "id": "ilk-mikroislemci-hangi-yil-cikti",
     "title": "İlk mikroişlemci hangi yıl çıktı?",
     "year": 1971,
     "date": "1971",
@@ -3107,7 +3107,7 @@ window.HY_DATA = [
     "category": "Bilgisayar ve Teknoloji",
     "answer": "İlk ticari mikroişlemcilerden Intel 4004, 1971 yılında çıktı.",
     "detail": "Mikroişlemci bilgisayar teknolojisinin gelişiminde büyük rol oynadı.",
-    "slug": "i-lk-mikroislemci-hangi-yil-cikti.html",
+    "slug": "ilk-mikroislemci-hangi-yil-cikti.html",
     "people": "Intel 4004"
   },
   {
@@ -3135,7 +3135,7 @@ window.HY_DATA = [
     "people": "Apple"
   },
   {
-    "id": "i-lk-ibm-pc-hangi-yil-cikti",
+    "id": "ilk-ibm-pc-hangi-yil-cikti",
     "title": "İlk IBM PC hangi yıl çıktı?",
     "year": 1981,
     "date": "1981",
@@ -3143,7 +3143,7 @@ window.HY_DATA = [
     "category": "Bilgisayar ve Teknoloji",
     "answer": "IBM PC 1981 yılında çıktı.",
     "detail": "IBM PC kişisel bilgisayar pazarının yaygınlaşmasında etkili oldu.",
-    "slug": "i-lk-ibm-pc-hangi-yil-cikti.html",
+    "slug": "ilk-ibm-pc-hangi-yil-cikti.html",
     "people": "IBM PC"
   },
   {
@@ -3195,7 +3195,7 @@ window.HY_DATA = [
     "people": "Windows XP"
   },
   {
-    "id": "i-lk-iphone-hangi-yil-cikti",
+    "id": "ilk-iphone-hangi-yil-cikti",
     "title": "İlk iPhone hangi yıl çıktı?",
     "year": 2007,
     "date": "2007",
@@ -3203,7 +3203,7 @@ window.HY_DATA = [
     "category": "Bilgisayar ve Teknoloji",
     "answer": "İlk iPhone 2007 yılında tanıtıldı.",
     "detail": "Akıllı telefon kullanımının yaygınlaşmasında önemli bir dönüm noktasıdır.",
-    "slug": "i-lk-iphone-hangi-yil-cikti.html",
+    "slug": "ilk-iphone-hangi-yil-cikti.html",
     "people": "iPhone"
   },
   {
@@ -3265,5 +3265,616 @@ window.HY_DATA = [
     "detail": "Microsoft'un modern Windows sürümlerinden biri olarak 2021'de yayınlandı.",
     "slug": "windows-11-hangi-yil-cikti.html",
     "people": "Windows 11"
+  },
+  {
+    "id": "playstation-5-hangi-yil-cikti",
+    "title": "PlayStation 5 hangi yıl çıktı?",
+    "year": 2020,
+    "date": "2020",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "PlayStation 5, 2020 yılında çıktı.",
+    "detail": "Sony'nin yeni nesil oyun konsolu PlayStation 5, 2020 yılında piyasaya sürüldü.",
+    "slug": "playstation-5-hangi-yil-cikti.html",
+    "people": "PlayStation 5"
+  },
+  {
+    "id": "xbox-series-x-hangi-yil-cikti",
+    "title": "Xbox Series X hangi yıl çıktı?",
+    "year": 2020,
+    "date": "2020",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Xbox Series X, 2020 yılında çıktı.",
+    "detail": "Microsoft'un yeni nesil oyun konsolu Xbox Series X, 2020 yılında piyasaya çıktı.",
+    "slug": "xbox-series-x-hangi-yil-cikti.html",
+    "people": "Xbox Series X"
+  },
+  {
+    "id": "apple-m1-cip-hangi-yil-cikti",
+    "title": "Apple M1 çip hangi yıl çıktı?",
+    "year": 2020,
+    "date": "2020",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Apple M1 çip 2020 yılında tanıtıldı.",
+    "detail": "Apple'ın kendi işlemci mimarisine geçişinde M1 çip önemli bir dönüm noktasıdır.",
+    "slug": "apple-m1-cip-hangi-yil-cikti.html",
+    "people": "Apple M1"
+  },
+  {
+    "id": "github-copilot-hangi-yil-cikti",
+    "title": "GitHub Copilot hangi yıl çıktı?",
+    "year": 2021,
+    "date": "2021",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "GitHub Copilot 2021 yılında teknik önizleme olarak duyuruldu.",
+    "detail": "Kod yazmaya yardımcı yapay zekâ araçlarının yaygınlaşmasında önemli adımlardan biridir.",
+    "slug": "github-copilot-hangi-yil-cikti.html",
+    "people": "GitHub Copilot"
+  },
+  {
+    "id": "nft-populerligi-hangi-yil-artti",
+    "title": "NFT popülerliği hangi yıl arttı?",
+    "year": 2021,
+    "date": "2021",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "NFT'ler özellikle 2021 yılında geniş kitlelerin gündemine girdi.",
+    "detail": "NFT kavramı daha önce ortaya çıkmış olsa da küresel popülerlik 2021'de belirgin şekilde arttı.",
+    "slug": "nft-populerligi-hangi-yil-artti.html",
+    "people": "NFT"
+  },
+  {
+    "id": "dall-e-2-hangi-yil-cikti",
+    "title": "DALL-E 2 hangi yıl çıktı?",
+    "year": 2022,
+    "date": "2022",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "DALL-E 2, 2022 yılında tanıtıldı.",
+    "detail": "Metinden görsel üretme araçlarının bilinirliğini artıran yapay zekâ modellerinden biridir.",
+    "slug": "dall-e-2-hangi-yil-cikti.html",
+    "people": "DALL-E 2"
+  },
+  {
+    "id": "stable-diffusion-hangi-yil-cikti",
+    "title": "Stable Diffusion hangi yıl çıktı?",
+    "year": 2022,
+    "date": "2022",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Stable Diffusion 2022 yılında çıktı.",
+    "detail": "Açık kaynak görsel üretim modellerinin yaygınlaşmasında önemli rol oynadı.",
+    "slug": "stable-diffusion-hangi-yil-cikti.html",
+    "people": "Stable Diffusion"
+  },
+  {
+    "id": "rtx-4090-hangi-yil-cikti",
+    "title": "RTX 4090 hangi yıl çıktı?",
+    "year": 2022,
+    "date": "2022",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "NVIDIA GeForce RTX 4090, 2022 yılında çıktı.",
+    "detail": "RTX 4090, oyuncular ve içerik üreticileri için yüksek performanslı ekran kartlarından biridir.",
+    "slug": "rtx-4090-hangi-yil-cikti.html",
+    "people": "RTX 4090"
+  },
+  {
+    "id": "gpt-4-hangi-yil-cikti",
+    "title": "GPT-4 hangi yıl çıktı?",
+    "year": 2023,
+    "date": "2023",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "GPT-4, 2023 yılında duyuruldu.",
+    "detail": "GPT-4, gelişmiş dil modeli yetenekleriyle yapay zekâ gündeminde önemli yer tuttu.",
+    "slug": "gpt-4-hangi-yil-cikti.html",
+    "people": "GPT-4"
+  },
+  {
+    "id": "google-bard-hangi-yil-cikti",
+    "title": "Google Bard hangi yıl çıktı?",
+    "year": 2023,
+    "date": "2023",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Google Bard 2023 yılında kullanıma sunuldu.",
+    "detail": "Google'ın yapay zekâ sohbet aracı Bard, daha sonra Gemini markasına dönüştü.",
+    "slug": "google-bard-hangi-yil-cikti.html",
+    "people": "Google Bard"
+  },
+  {
+    "id": "gemini-hangi-yil-cikti",
+    "title": "Gemini hangi yıl çıktı?",
+    "year": 2023,
+    "date": "2023",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Google Gemini 2023 yılında duyuruldu.",
+    "detail": "Gemini, Google'ın yapay zekâ modelleri ve ürünleri için kullandığı markalardan biridir.",
+    "slug": "gemini-hangi-yil-cikti.html",
+    "people": "Gemini"
+  },
+  {
+    "id": "midjourney-v5-hangi-yil-cikti",
+    "title": "Midjourney V5 hangi yıl çıktı?",
+    "year": 2023,
+    "date": "2023",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Midjourney V5, 2023 yılında çıktı.",
+    "detail": "Yapay zekâ görsel üretimi alanında kalite artışıyla dikkat çeken sürümlerden biridir.",
+    "slug": "midjourney-v5-hangi-yil-cikti.html",
+    "people": "Midjourney"
+  },
+  {
+    "id": "threads-hangi-yil-cikti",
+    "title": "Threads hangi yıl çıktı?",
+    "year": 2023,
+    "date": "2023",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Threads uygulaması 2023 yılında çıktı.",
+    "detail": "Meta'nın X/Twitter benzeri sosyal medya uygulaması Threads 2023'te kullanıma sunuldu.",
+    "slug": "threads-hangi-yil-cikti.html",
+    "people": "Threads"
+  },
+  {
+    "id": "apple-vision-pro-hangi-yil-tanitildi",
+    "title": "Apple Vision Pro hangi yıl tanıtıldı?",
+    "year": 2023,
+    "date": "2023",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Apple Vision Pro 2023 yılında tanıtıldı.",
+    "detail": "Apple'ın karma gerçeklik başlığı Vision Pro, 2023'te duyuruldu.",
+    "slug": "apple-vision-pro-hangi-yil-tanitildi.html",
+    "people": "Apple Vision Pro"
+  },
+  {
+    "id": "sora-yapay-zeka-hangi-yil-duyuruldu",
+    "title": "Sora yapay zeka hangi yıl duyuruldu?",
+    "year": 2024,
+    "date": "2024",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "OpenAI Sora 2024 yılında duyuruldu.",
+    "detail": "Sora, metinden video üretme alanında dikkat çeken yapay zekâ modellerinden biridir.",
+    "slug": "sora-yapay-zeka-hangi-yil-duyuruldu.html",
+    "people": "Sora"
+  },
+  {
+    "id": "gpt-4o-hangi-yil-cikti",
+    "title": "GPT-4o hangi yıl çıktı?",
+    "year": 2024,
+    "date": "2024",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "GPT-4o 2024 yılında duyuruldu.",
+    "detail": "GPT-4o, metin, ses ve görsel yetenekleriyle öne çıkan çok modlu bir modeldir.",
+    "slug": "gpt-4o-hangi-yil-cikti.html",
+    "people": "GPT-4o"
+  },
+  {
+    "id": "claude-3-hangi-yil-cikti",
+    "title": "Claude 3 hangi yıl çıktı?",
+    "year": 2024,
+    "date": "2024",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Claude 3 ailesi 2024 yılında duyuruldu.",
+    "detail": "Anthropic'in Claude 3 model ailesi, yapay zekâ sohbet araçları arasında öne çıktı.",
+    "slug": "claude-3-hangi-yil-cikti.html",
+    "people": "Claude 3"
+  },
+  {
+    "id": "llama-3-hangi-yil-cikti",
+    "title": "Llama 3 hangi yıl çıktı?",
+    "year": 2024,
+    "date": "2024",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Llama 3, 2024 yılında duyuruldu.",
+    "detail": "Meta'nın Llama 3 model ailesi açık model ekosisteminde önemli yer tuttu.",
+    "slug": "llama-3-hangi-yil-cikti.html",
+    "people": "Llama 3"
+  },
+  {
+    "id": "apple-intelligence-hangi-yil-duyuruldu",
+    "title": "Apple Intelligence hangi yıl duyuruldu?",
+    "year": 2024,
+    "date": "2024",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Apple Intelligence 2024 yılında duyuruldu.",
+    "detail": "Apple'ın yapay zekâ özellikleri için kullandığı Apple Intelligence markası 2024'te tanıtıldı.",
+    "slug": "apple-intelligence-hangi-yil-duyuruldu.html",
+    "people": "Apple Intelligence"
+  },
+  {
+    "id": "iphone-16-hangi-yil-cikti",
+    "title": "iPhone 16 hangi yıl çıktı?",
+    "year": 2024,
+    "date": "2024",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "iPhone 16 serisi 2024 yılında çıktı.",
+    "detail": "Apple'ın iPhone 16 serisi 2024 yılında tanıtıldı.",
+    "slug": "iphone-16-hangi-yil-cikti.html",
+    "people": "iPhone 16"
+  },
+  {
+    "id": "windows-10-destegi-hangi-yil-bitiyor",
+    "title": "Windows 10 desteği hangi yıl bitiyor?",
+    "year": 2025,
+    "date": "2025",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Windows 10 desteğinin 2025 yılında sona ermesi planlanmıştır.",
+    "detail": "Microsoft'un Windows 10 için genel destek bitiş tarihi 2025 olarak duyurulmuştur.",
+    "slug": "windows-10-destegi-hangi-yil-bitiyor.html",
+    "people": "Windows 10"
+  },
+  {
+    "id": "ayasofya-hangi-yil-yeniden-cami-oldu",
+    "title": "Ayasofya hangi yıl yeniden cami oldu?",
+    "year": 2020,
+    "date": "2020",
+    "type": "Olaylar",
+    "category": "Son Yıllar",
+    "answer": "Ayasofya 2020 yılında yeniden cami olarak ibadete açıldı.",
+    "detail": "Ayasofya'nın statüsü 2020 yılında değişti ve cami olarak ibadete açıldı.",
+    "slug": "ayasofya-hangi-yil-yeniden-cami-oldu.html",
+    "people": "Ayasofya"
+  },
+  {
+    "id": "beyrut-patlamasi-hangi-yil-oldu",
+    "title": "Beyrut patlaması hangi yıl oldu?",
+    "year": 2020,
+    "date": "2020",
+    "type": "Olaylar",
+    "category": "Son Yıllar",
+    "answer": "Beyrut patlaması 2020 yılında oldu.",
+    "detail": "Lübnan'ın başkenti Beyrut'ta büyük patlama 4 Ağustos 2020'de gerçekleşti.",
+    "slug": "beyrut-patlamasi-hangi-yil-oldu.html",
+    "people": "Beyrut"
+  },
+  {
+    "id": "ever-given-suveys-kanali-kazasi-hangi-yil-oldu",
+    "title": "Ever Given Süveyş Kanalı kazası hangi yıl oldu?",
+    "year": 2021,
+    "date": "2021",
+    "type": "Olaylar",
+    "category": "Son Yıllar",
+    "answer": "Ever Given gemi kazası 2021 yılında oldu.",
+    "detail": "Süveyş Kanalı'nda karaya oturan Ever Given gemisi dünya ticaretini etkileyen olaylardan biri oldu.",
+    "slug": "ever-given-suveys-kanali-kazasi-hangi-yil-oldu.html",
+    "people": "Ever Given"
+  },
+  {
+    "id": "taliban-afganistan-da-hangi-yil-yonetimi-ele-gecirdi",
+    "title": "Taliban Afganistan'da hangi yıl yönetimi ele geçirdi?",
+    "year": 2021,
+    "date": "2021",
+    "type": "Olaylar",
+    "category": "Son Yıllar",
+    "answer": "Taliban, Afganistan'da 2021 yılında yönetimi ele geçirdi.",
+    "detail": "ABD'nin çekilme süreci sonrası Taliban 2021'de Afganistan'da yönetimi yeniden ele aldı.",
+    "slug": "taliban-afganistan-da-hangi-yil-yonetimi-ele-gecirdi.html",
+    "people": "Taliban"
+  },
+  {
+    "id": "rusya-ukrayna-savasi-hangi-yil-basladi",
+    "title": "Rusya Ukrayna savaşı hangi yıl başladı?",
+    "year": 2022,
+    "date": "2022",
+    "type": "Olaylar",
+    "category": "Son Yıllar",
+    "answer": "Rusya-Ukrayna savaşı 2022 yılında geniş çaplı işgalle başladı.",
+    "detail": "Rusya'nın Ukrayna'ya yönelik geniş çaplı askeri harekâtı 24 Şubat 2022'de başladı.",
+    "slug": "rusya-ukrayna-savasi-hangi-yil-basladi.html",
+    "people": "Rusya, Ukrayna"
+  },
+  {
+    "id": "kralice-elizabeth-hangi-yil-vefat-etti",
+    "title": "Kraliçe Elizabeth hangi yıl vefat etti?",
+    "year": 2022,
+    "date": "2022",
+    "type": "Olaylar",
+    "category": "Son Yıllar",
+    "answer": "II. Elizabeth 2022 yılında vefat etti.",
+    "detail": "Birleşik Krallık Kraliçesi II. Elizabeth, 8 Eylül 2022'de hayatını kaybetti.",
+    "slug": "kralice-elizabeth-hangi-yil-vefat-etti.html",
+    "people": "II. Elizabeth"
+  },
+  {
+    "id": "katar-dunya-kupasi-hangi-yil-duzenlendi",
+    "title": "Katar Dünya Kupası hangi yıl düzenlendi?",
+    "year": 2022,
+    "date": "2022",
+    "type": "Olaylar",
+    "category": "Son Yıllar",
+    "answer": "Katar Dünya Kupası 2022 yılında düzenlendi.",
+    "detail": "2022 FIFA Dünya Kupası Katar'da düzenlendi ve Arjantin şampiyon oldu.",
+    "slug": "katar-dunya-kupasi-hangi-yil-duzenlendi.html",
+    "people": "Katar"
+  },
+  {
+    "id": "kahramanmaras-depremi-hangi-yil-oldu",
+    "title": "Kahramanmaraş depremi hangi yıl oldu?",
+    "year": 2023,
+    "date": "2023",
+    "type": "Olaylar",
+    "category": "Son Yıllar",
+    "answer": "Kahramanmaraş merkezli depremler 2023 yılında oldu.",
+    "detail": "6 Şubat 2023'te meydana gelen depremler Türkiye ve Suriye'de büyük yıkıma yol açtı.",
+    "slug": "kahramanmaras-depremi-hangi-yil-oldu.html",
+    "people": "Kahramanmaraş"
+  },
+  {
+    "id": "titan-denizalti-kazasi-hangi-yil-oldu",
+    "title": "Titan denizaltı kazası hangi yıl oldu?",
+    "year": 2023,
+    "date": "2023",
+    "type": "Olaylar",
+    "category": "Son Yıllar",
+    "answer": "Titan denizaltı kazası 2023 yılında oldu.",
+    "detail": "Titanik enkazına yapılan dalış sırasında Titan denizaltısının kazası dünya gündeminde yer aldı.",
+    "slug": "titan-denizalti-kazasi-hangi-yil-oldu.html",
+    "people": "Titan"
+  },
+  {
+    "id": "hamas-israil-savasi-hangi-yil-basladi",
+    "title": "Hamas İsrail savaşı hangi yıl başladı?",
+    "year": 2023,
+    "date": "2023",
+    "type": "Olaylar",
+    "category": "Son Yıllar",
+    "answer": "Hamas-İsrail çatışmalarının son büyük dönemi 2023 yılında başladı.",
+    "detail": "7 Ekim 2023 saldırıları sonrasında Gazze merkezli savaş dünya gündemine oturdu.",
+    "slug": "hamas-israil-savasi-hangi-yil-basladi.html",
+    "people": "Hamas, İsrail"
+  },
+  {
+    "id": "paris-olimpiyatlari-hangi-yil-duzenlendi",
+    "title": "Paris Olimpiyatları hangi yıl düzenlendi?",
+    "year": 2024,
+    "date": "2024",
+    "type": "Olaylar",
+    "category": "Son Yıllar",
+    "answer": "Paris Olimpiyatları 2024 yılında düzenlendi.",
+    "detail": "2024 Yaz Olimpiyatları Fransa'nın başkenti Paris'te gerçekleştirildi.",
+    "slug": "paris-olimpiyatlari-hangi-yil-duzenlendi.html",
+    "people": "Paris 2024"
+  },
+  {
+    "id": "turkiye-avrupa-sampiyonasi-nda-hangi-yil-ceyrek-finale-cikti",
+    "title": "Türkiye Avrupa Şampiyonası'nda hangi yıl çeyrek finale çıktı?",
+    "year": 2024,
+    "date": "2024",
+    "type": "Olaylar",
+    "category": "Son Yıllar",
+    "answer": "Türkiye, EURO 2024'te çeyrek finale çıktı.",
+    "detail": "A Milli Futbol Takımı, EURO 2024'te çeyrek final oynadı.",
+    "slug": "turkiye-avrupa-sampiyonasi-nda-hangi-yil-ceyrek-finale-cikti.html",
+    "people": "Türkiye Milli Takımı"
+  },
+  {
+    "id": "euro-2024-hangi-yil-duzenlendi",
+    "title": "EURO 2024 hangi yıl düzenlendi?",
+    "year": 2024,
+    "date": "2024",
+    "type": "Olaylar",
+    "category": "Son Yıllar",
+    "answer": "EURO 2024, 2024 yılında düzenlendi.",
+    "detail": "Avrupa Futbol Şampiyonası 2024 yılında Almanya'da düzenlendi.",
+    "slug": "euro-2024-hangi-yil-duzenlendi.html",
+    "people": "EURO 2024"
+  },
+  {
+    "id": "donald-trump-hangi-yil-yeniden-baskan-secildi",
+    "title": "Donald Trump hangi yıl yeniden başkan seçildi?",
+    "year": 2024,
+    "date": "2024",
+    "type": "Olaylar",
+    "category": "Son Yıllar",
+    "answer": "Donald Trump 2024 yılında yeniden ABD başkanı seçildi.",
+    "detail": "2024 ABD başkanlık seçimlerinde Donald Trump yeniden başkan seçildi.",
+    "slug": "donald-trump-hangi-yil-yeniden-baskan-secildi.html",
+    "people": "Donald Trump"
+  },
+  {
+    "id": "diego-maradona-hangi-yil-vefat-etti",
+    "title": "Diego Maradona hangi yıl vefat etti?",
+    "year": 2020,
+    "date": "25 Kasım 2020",
+    "type": "Vefatlar",
+    "category": "Kişiler ve Vefat Tarihleri",
+    "answer": "Diego Maradona 2020 yılında vefat etti.",
+    "detail": "Arjantinli futbol efsanesi Diego Maradona, 25 Kasım 2020'de hayatını kaybetti.",
+    "slug": "diego-maradona-hangi-yil-vefat-etti.html",
+    "people": "Diego Maradona",
+    "cause": "Kalp krizi olarak bildirilmiştir"
+  },
+  {
+    "id": "sean-connery-hangi-yil-vefat-etti",
+    "title": "Sean Connery hangi yıl vefat etti?",
+    "year": 2020,
+    "date": "31 Ekim 2020",
+    "type": "Vefatlar",
+    "category": "Kişiler ve Vefat Tarihleri",
+    "answer": "Sean Connery 2020 yılında vefat etti.",
+    "detail": "İskoç oyuncu Sean Connery, 31 Ekim 2020'de hayatını kaybetti.",
+    "slug": "sean-connery-hangi-yil-vefat-etti.html",
+    "people": "Sean Connery",
+    "cause": "Yaşa bağlı sağlık sorunları"
+  },
+  {
+    "id": "chadwick-boseman-hangi-yil-vefat-etti",
+    "title": "Chadwick Boseman hangi yıl vefat etti?",
+    "year": 2020,
+    "date": "28 Ağustos 2020",
+    "type": "Vefatlar",
+    "category": "Kişiler ve Vefat Tarihleri",
+    "answer": "Chadwick Boseman 2020 yılında vefat etti.",
+    "detail": "Black Panther filmiyle tanınan Chadwick Boseman, 28 Ağustos 2020'de hayatını kaybetti.",
+    "slug": "chadwick-boseman-hangi-yil-vefat-etti.html",
+    "people": "Chadwick Boseman",
+    "cause": "Kolon kanseri"
+  },
+  {
+    "id": "prince-philip-hangi-yil-vefat-etti",
+    "title": "Prince Philip hangi yıl vefat etti?",
+    "year": 2021,
+    "date": "9 Nisan 2021",
+    "type": "Vefatlar",
+    "category": "Kişiler ve Vefat Tarihleri",
+    "answer": "Prens Philip 2021 yılında vefat etti.",
+    "detail": "Edinburgh Dükü Prens Philip, 9 Nisan 2021'de hayatını kaybetti.",
+    "slug": "prince-philip-hangi-yil-vefat-etti.html",
+    "people": "Prince Philip"
+  },
+  {
+    "id": "pele-hangi-yil-vefat-etti",
+    "title": "Pelé hangi yıl vefat etti?",
+    "year": 2022,
+    "date": "29 Aralık 2022",
+    "type": "Vefatlar",
+    "category": "Kişiler ve Vefat Tarihleri",
+    "answer": "Pelé 2022 yılında vefat etti.",
+    "detail": "Brezilyalı futbol efsanesi Pelé, 29 Aralık 2022'de hayatını kaybetti.",
+    "slug": "pele-hangi-yil-vefat-etti.html",
+    "people": "Pelé",
+    "cause": "Kolon kanseri süreci sonrası"
+  },
+  {
+    "id": "ii-elizabeth-hangi-yil-vefat-etti",
+    "title": "II. Elizabeth hangi yıl vefat etti?",
+    "year": 2022,
+    "date": "8 Eylül 2022",
+    "type": "Vefatlar",
+    "category": "Kişiler ve Vefat Tarihleri",
+    "answer": "II. Elizabeth 2022 yılında vefat etti.",
+    "detail": "Birleşik Krallık Kraliçesi II. Elizabeth, 8 Eylül 2022'de hayatını kaybetti.",
+    "slug": "ii-elizabeth-hangi-yil-vefat-etti.html",
+    "people": "II. Elizabeth",
+    "cause": "Yaşa bağlı sağlık sorunları"
+  },
+  {
+    "id": "tina-turner-hangi-yil-vefat-etti",
+    "title": "Tina Turner hangi yıl vefat etti?",
+    "year": 2023,
+    "date": "24 Mayıs 2023",
+    "type": "Vefatlar",
+    "category": "Kişiler ve Vefat Tarihleri",
+    "answer": "Tina Turner 2023 yılında vefat etti.",
+    "detail": "Dünya müziğinin önemli isimlerinden Tina Turner, 24 Mayıs 2023'te hayatını kaybetti.",
+    "slug": "tina-turner-hangi-yil-vefat-etti.html",
+    "people": "Tina Turner",
+    "cause": "Uzun süren sağlık sorunları"
+  },
+  {
+    "id": "matthew-perry-hangi-yil-vefat-etti",
+    "title": "Matthew Perry hangi yıl vefat etti?",
+    "year": 2023,
+    "date": "28 Ekim 2023",
+    "type": "Vefatlar",
+    "category": "Kişiler ve Vefat Tarihleri",
+    "answer": "Matthew Perry 2023 yılında vefat etti.",
+    "detail": "Friends dizisiyle tanınan Matthew Perry, 28 Ekim 2023'te hayatını kaybetti.",
+    "slug": "matthew-perry-hangi-yil-vefat-etti.html",
+    "people": "Matthew Perry",
+    "cause": "Akut ketamin etkileri olarak bildirilmiştir"
+  },
+  {
+    "id": "metin-uca-hangi-yil-vefat-etti",
+    "title": "Metin Uca hangi yıl vefat etti?",
+    "year": 2023,
+    "date": "17 Kasım 2023",
+    "type": "Vefatlar",
+    "category": "Kişiler ve Vefat Tarihleri",
+    "answer": "Metin Uca 2023 yılında vefat etti.",
+    "detail": "Sunucu ve yazar Metin Uca, 17 Kasım 2023'te hayatını kaybetti.",
+    "slug": "metin-uca-hangi-yil-vefat-etti.html",
+    "people": "Metin Uca",
+    "cause": "Trafik kazası sonrası sağlık süreci"
+  },
+  {
+    "id": "ozkan-ugur-hangi-yil-vefat-etti",
+    "title": "Özkan Uğur hangi yıl vefat etti?",
+    "year": 2023,
+    "date": "8 Temmuz 2023",
+    "type": "Vefatlar",
+    "category": "Kişiler ve Vefat Tarihleri",
+    "answer": "Özkan Uğur 2023 yılında vefat etti.",
+    "detail": "MFÖ grubunun sevilen üyesi Özkan Uğur, 8 Temmuz 2023'te hayatını kaybetti.",
+    "slug": "ozkan-ugur-hangi-yil-vefat-etti.html",
+    "people": "Özkan Uğur",
+    "cause": "Lenf kanseri süreci"
+  },
+  {
+    "id": "aydemir-akbas-hangi-yil-vefat-etti",
+    "title": "Aydemir Akbaş hangi yıl vefat etti?",
+    "year": 2024,
+    "date": "2024",
+    "type": "Vefatlar",
+    "category": "Kişiler ve Vefat Tarihleri",
+    "answer": "Aydemir Akbaş 2024 yılında vefat etti.",
+    "detail": "Oyuncu Aydemir Akbaş, 2024 yılında hayatını kaybetti.",
+    "slug": "aydemir-akbas-hangi-yil-vefat-etti.html",
+    "people": "Aydemir Akbaş",
+    "cause": "Kanser tedavisi süreci olarak bildirilmiştir"
+  },
+  {
+    "id": "ayten-gokcer-hangi-yil-vefat-etti",
+    "title": "Ayten Gökçer hangi yıl vefat etti?",
+    "year": 2024,
+    "date": "2024",
+    "type": "Vefatlar",
+    "category": "Kişiler ve Vefat Tarihleri",
+    "answer": "Ayten Gökçer 2024 yılında vefat etti.",
+    "detail": "Tiyatro ve sinema sanatçısı Ayten Gökçer, 2024 yılında hayatını kaybetti.",
+    "slug": "ayten-gokcer-hangi-yil-vefat-etti.html",
+    "people": "Ayten Gökçer"
+  },
+  {
+    "id": "o-j-simpson-hangi-yil-vefat-etti",
+    "title": "O. J. Simpson hangi yıl vefat etti?",
+    "year": 2024,
+    "date": "2024",
+    "type": "Vefatlar",
+    "category": "Kişiler ve Vefat Tarihleri",
+    "answer": "O. J. Simpson 2024 yılında vefat etti.",
+    "detail": "Eski Amerikan futbolu oyuncusu O. J. Simpson, 2024 yılında hayatını kaybetti.",
+    "slug": "o-j-simpson-hangi-yil-vefat-etti.html",
+    "people": "O. J. Simpson",
+    "cause": "Kanser"
+  },
+  {
+    "id": "ibrahim-tatlises-ne-zaman-dogdu",
+    "title": "İbrahim Tatlıses ne zaman doğdu?",
+    "year": 1952,
+    "date": "1 Ocak 1952",
+    "type": "Olaylar",
+    "category": "Kişiler",
+    "answer": "İbrahim Tatlıses 1952 yılında doğdu.",
+    "detail": "Sanatçı İbrahim Tatlıses, 1 Ocak 1952'de doğdu.",
+    "slug": "ibrahim-tatlises-ne-zaman-dogdu.html",
+    "people": "İbrahim Tatlıses"
+  },
+  {
+    "id": "ajda-pekkan-ne-zaman-dogdu",
+    "title": "Ajda Pekkan ne zaman doğdu?",
+    "year": 1946,
+    "date": "12 Şubat 1946",
+    "type": "Olaylar",
+    "category": "Kişiler",
+    "answer": "Ajda Pekkan 1946 yılında doğdu.",
+    "detail": "Sanatçı Ajda Pekkan, 12 Şubat 1946'da doğdu.",
+    "slug": "ajda-pekkan-ne-zaman-dogdu.html",
+    "people": "Ajda Pekkan"
   }
 ];
