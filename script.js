@@ -169,28 +169,36 @@ document.addEventListener("DOMContentLoaded",()=>{
 
 
 function renderTodayBox(){
-  const labelEl=document.getElementById("todayLabel");
-  const titleEl=document.getElementById("todayTitle");
-  const textEl=document.getElementById("todayText");
-  if(!labelEl || !titleEl || !textEl || !window.HY_TODAY) return;
+  const labelEl = document.getElementById("todayLabel");
+  const titleEl = document.getElementById("todayTitle");
+  const textEl = document.getElementById("todayText");
 
-  const now=new Date();
-  const key=String(now.getMonth()+1).padStart(2,"0")+"-"+String(now.getDate()).padStart(2,"0");
-  let items=window.HY_TODAY.filter(x=>x.date===key);
+  if(!labelEl || !titleEl || !textEl){
+    return;
+  }
 
-  if(items.length===0){
-    items=[{
-      label: now.toLocaleDateString("tr-TR",{day:"numeric",month:"long"}),
-      title:"Bugünün arşivi hazırlanıyor",
-      year:"",
-      text:"Bu tarih için kayıt eklendikçe burada otomatik görünür."
+  const now = new Date();
+  const key = String(now.getMonth()+1).padStart(2,"0") + "-" + String(now.getDate()).padStart(2,"0");
+  const fallbackLabel = now.toLocaleDateString("tr-TR",{day:"numeric",month:"long"});
+
+  let items = [];
+  if(window.HY_TODAY && Array.isArray(window.HY_TODAY)){
+    items = window.HY_TODAY.filter(x => x.date === key);
+  }
+
+  if(items.length === 0){
+    items = [{
+      label: fallbackLabel,
+      title: "Bugünün arşivi hazırlanıyor",
+      year: "",
+      text: "Bu tarih için kayıt eklendikçe burada otomatik görünür."
     }];
   }
 
-  labelEl.textContent = items[0].label || now.toLocaleDateString("tr-TR",{day:"numeric",month:"long"});
+  labelEl.textContent = items[0].label || fallbackLabel;
   titleEl.textContent = "Tarihte bugün ne oldu?";
   textEl.innerHTML = items.slice(0,4).map(it => {
-    const title = `${it.year ? it.year+" • " : ""}${it.title}`;
+    const title = (it.year ? it.year + " • " : "") + it.title;
     return `<span class="today-mini-event"><b>${title}</b><small>${it.text}</small></span>`;
   }).join("");
 }
