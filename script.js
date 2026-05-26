@@ -28,16 +28,17 @@ function scoreRecord(r, q){
   let score=0;
 
   if(title===q) score+=1000;
-  if(title.includes(q)) score+=500;
-  if(people && people.includes(q)) score+=350;
+  if(people===q) score+=900;
+  if(title.includes(q)) score+=520;
+  if(people && people.includes(q)) score+=420;
   if(answer.includes(q)) score+=180;
-  if(detail.includes(q)) score+=80;
+  if(detail.includes(q)) score+=90;
   if(cat.includes(q)) score+=30;
   if(year.includes(q)) score+=60;
 
   words.forEach(w=>{
-    if(title.includes(w)) score+=90;
-    if(people.includes(w)) score+=80;
+    if(title.includes(w)) score+=95;
+    if(people.includes(w)) score+=90;
     if(answer.includes(w)) score+=35;
     if(detail.includes(w)) score+=15;
   });
@@ -69,7 +70,6 @@ function makeSmartAnswer(q, data){
     const r=data[0];
     return `
       <div class="ai-answer-box">
-        <strong>Hızlı cevap</strong>
         <p><b>${r.title}</b></p>
         <p>${r.answer}</p>
         <p>${r.detail}</p>
@@ -80,9 +80,8 @@ function makeSmartAnswer(q, data){
   const rows=fallback.map(r=>`<a href="${r.slug}"><strong>${r.title}</strong><br><small>${r.answer}</small></a>`).join("");
   return `
     <div class="ai-answer-box">
-      <strong>Bu konu arşivde henüz net bulunamadı</strong>
-      <p><b>${safeQ}</b> için site arşivinde birebir sonuç yok. Bu başlık yeni içerik olarak eklenebilir.</p>
-      <p>Şimdilik aşağıdaki yakın/güncel kayıtları inceleyebilirsin:</p>
+      <p><b>${safeQ}</b> için arşivde birebir sonuç bulunamadı.</p>
+      <p>Bu başlık yeni içerik olarak eklenebilir. Şimdilik aşağıdaki yakın/güncel kayıtları inceleyebilirsin:</p>
       <div class="mini-results">${rows}</div>
     </div>`;
 }

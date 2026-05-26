@@ -39,3 +39,18 @@
 .ai-answer-box p{margin:7px 0;color:#e5e7eb}
 .ai-answer-box .mini-results{display:grid;gap:8px;margin-top:12px}
 .ai-answer-box .mini-results a{display:block;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:10px;color:#fff}
+
+/* Step 12 mobile search refinement */
+.ai-answer-box{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:18px;padding:16px;color:#fff;line-height:1.55}
+.ai-answer-box p{margin:7px 0;color:#e5e7eb}
+.ai-answer-box .mini-results{display:grid;gap:8px;margin-top:12px}
+.ai-answer-box .mini-results a{display:block;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:10px;color:#fff}
+@media(max-width:980px){
+  #bigSearchInput{font-size:16px!important;padding:14px 15px!important}
+  .big-search-results{font-size:14px!important}
+  .big-search-results a{padding:10px!important;gap:6px!important}
+  .big-search-results p{font-size:13px!important;line-height:1.35!important}
+  .big-search-results b,.big-search-results span{font-size:13px!important}
+  .ai-answer-box{font-size:14px!important;padding:12px!important;line-height:1.42!important}
+  .ai-answer-box p{font-size:14px!important;line-height:1.42!important}
+}
