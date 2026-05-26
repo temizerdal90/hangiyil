@@ -81,3 +81,15 @@
 .today-item p{margin:0;color:#526071;line-height:1.55}
 .today-link{display:inline-block;margin-top:14px;color:#2563eb;font-weight:1000}
 @media(max-width:980px){.today-top{display:block}.today-top b{display:block;margin-top:8px}.today-card{padding:18px}}
+
+/* Step 18: Tarihte Bugün mini kategori kartı */
+.today-mini-card{border:2px solid #bfdbfe;background:linear-gradient(180deg,#ffffff,#eff6ff)}
+.today-mini-card #todayBox h3{margin:10px 0 8px;font-size:22px;color:#111827}
+.today-mini-card #todayBox p{margin:0;color:#526071;line-height:1.62}
+.today-mini-card .year-pill{margin-bottom:8px}
+.today-mini-card .type-pill{margin-left:0;margin-bottom:8px}
+@media(max-width:980px){
+  .today-mini-card{order:-10}
+  .today-mini-card #todayBox h3{font-size:19px}
+  .today-mini-card #todayBox p{font-size:14px}
+}
