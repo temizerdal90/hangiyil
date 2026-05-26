@@ -34,3 +34,8 @@
 .no-result-box .mini-results{display:grid;gap:8px;margin-top:12px}
 .no-result-box .mini-results a{display:block;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:10px;color:#fff}
 .no-result-box small{color:#dbeafe}
+
+.ai-answer-box{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:18px;padding:16px;color:#fff;line-height:1.6}
+.ai-answer-box p{margin:7px 0;color:#e5e7eb}
+.ai-answer-box .mini-results{display:grid;gap:8px;margin-top:12px}
+.ai-answer-box .mini-results a{display:block;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:10px;color:#fff}

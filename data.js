@@ -3876,5 +3876,53 @@ window.HY_DATA = [
     "detail": "Sanatçı Ajda Pekkan, 12 Şubat 1946'da doğdu.",
     "slug": "ajda-pekkan-ne-zaman-dogdu.html",
     "people": "Ajda Pekkan"
+  },
+  {
+    "id": "ismet-inonu-hangi-yil-dogdu",
+    "title": "İsmet İnönü hangi yıl doğdu?",
+    "year": 1884,
+    "date": "24 Eylül 1884",
+    "type": "Olaylar",
+    "category": "Kişiler",
+    "answer": "İsmet İnönü 1884 yılında doğdu.",
+    "detail": "İsmet İnönü, 24 Eylül 1884'te doğdu. Kurtuluş Savaşı'ndaki görevleri ve Türkiye Cumhuriyeti'nin ikinci Cumhurbaşkanı olmasıyla tanınır.",
+    "slug": "ismet-inonu-hangi-yil-dogdu.html",
+    "people": "İsmet İnönü"
+  },
+  {
+    "id": "ismet-inonu-hangi-yil-basbakan-oldu",
+    "title": "İsmet İnönü hangi yıl başbakan oldu?",
+    "year": 1923,
+    "date": "1923",
+    "type": "Olaylar",
+    "category": "Türkiye",
+    "answer": "İsmet İnönü 1923 yılında başbakan oldu.",
+    "detail": "İsmet İnönü, Cumhuriyet'in ilanından sonra Türkiye'nin ilk başbakanı olarak görev yaptı.",
+    "slug": "ismet-inonu-hangi-yil-basbakan-oldu.html",
+    "people": "İsmet İnönü"
+  },
+  {
+    "id": "ikinci-inonu-savasi-hangi-yil-oldu",
+    "title": "İkinci İnönü Savaşı hangi yıl oldu?",
+    "year": 1921,
+    "date": "1921",
+    "type": "Olaylar",
+    "category": "Tarihi Olaylar",
+    "answer": "İkinci İnönü Savaşı 1921 yılında oldu.",
+    "detail": "İkinci İnönü Savaşı, Kurtuluş Savaşı döneminde 1921 yılında gerçekleşti. İsmet Paşa'nın komutanlığıyla ilişkilendirilen önemli muharebelerden biridir.",
+    "slug": "ikinci-inonu-savasi-hangi-yil-oldu.html",
+    "people": "İsmet İnönü"
+  },
+  {
+    "id": "birinci-inonu-savasi-hangi-yil-oldu",
+    "title": "Birinci İnönü Savaşı hangi yıl oldu?",
+    "year": 1921,
+    "date": "1921",
+    "type": "Olaylar",
+    "category": "Tarihi Olaylar",
+    "answer": "Birinci İnönü Savaşı 1921 yılında oldu.",
+    "detail": "Birinci İnönü Savaşı, Kurtuluş Savaşı'nın erken döneminde 1921 yılında gerçekleşti.",
+    "slug": "birinci-inonu-savasi-hangi-yil-oldu.html",
+    "people": "İsmet İnönü"
   }
 ];
