@@ -93,3 +93,15 @@
   .today-mini-card #todayBox h3{font-size:19px}
   .today-mini-card #todayBox p{font-size:14px}
 }
+
+/* Step 19: Tarihte Bugün dolu kategori kartı */
+.today-mini-card{border:2px solid #bfdbfe!important;background:linear-gradient(180deg,#ffffff,#eff6ff)!important}
+.today-mini-card h3{margin:12px 0 8px!important;font-size:24px!important;color:#111827!important}
+.today-mini-card p{margin:0!important;color:#526071!important;line-height:1.62!important}
+.today-mini-card .year-pill{margin-bottom:8px!important}
+.today-mini-card .type-pill{margin-left:0!important;margin-bottom:8px!important}
+@media(max-width:980px){
+  .today-mini-card{order:-10}
+  .today-mini-card h3{font-size:19px!important}
+  .today-mini-card p{font-size:14px!important}
+}

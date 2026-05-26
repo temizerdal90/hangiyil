@@ -134,7 +134,8 @@ function syncSearch(source){
   if(source==="big" && side && big) side.value=big.value;
   if(source==="side" && side && big) big.value=side.value;
   renderArchive();
-  renderTodayBox();}
+  renderTodayBox();
+}
 
 function fillYears(){
   const sel=document.getElementById("yearFilter"); if(!sel || !window.HY_DATA) return;
@@ -168,27 +169,27 @@ document.addEventListener("DOMContentLoaded",()=>{
 
 
 function renderTodayBox(){
-  const box=document.getElementById("todayBox");
-  if(!box || !window.HY_TODAY) return;
+  const labelEl=document.getElementById("todayLabel");
+  const titleEl=document.getElementById("todayTitle");
+  const textEl=document.getElementById("todayText");
+  if(!labelEl || !titleEl || !textEl || !window.HY_TODAY) return;
 
   const now=new Date();
   const key=String(now.getMonth()+1).padStart(2,"0")+"-"+String(now.getDate()).padStart(2,"0");
   let items=window.HY_TODAY.filter(x=>x.date===key);
 
   if(items.length===0){
-    items=[
-      {label: now.toLocaleDateString("tr-TR",{day:"numeric",month:"long"}), title:"Bugünün arşivi hazırlanıyor", year:"", text:"Bu tarih için kayıt eklendikçe burada otomatik görünür."}
-    ];
+    items=[{
+      label: now.toLocaleDateString("tr-TR",{day:"numeric",month:"long"}),
+      title:"Bugünün arşivi hazırlanıyor",
+      year:"",
+      text:"Bu tarih için kayıt eklendikçe burada otomatik görünür."
+    }];
   }
 
-  const label=items[0].label || now.toLocaleDateString("tr-TR",{day:"numeric",month:"long"});
   const first=items[0];
-
-  box.innerHTML = `
-    <span class="year-pill">Tarihte Bugün</span>
-    <span class="type-pill">${label}</span>
-    <h3>${first.year ? first.year+" • " : ""}${first.title}</h3>
-    <p>${first.text}</p>
-  `;
+  labelEl.textContent = first.label || now.toLocaleDateString("tr-TR",{day:"numeric",month:"long"});
+  titleEl.textContent = (first.year ? first.year+" • " : "") + first.title;
+  textEl.textContent = first.text;
 }
 
