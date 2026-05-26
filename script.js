@@ -134,6 +134,7 @@ function syncSearch(source){
   if(source==="big" && side && big) side.value=big.value;
   if(source==="side" && side && big) big.value=side.value;
   renderArchive();
+  renderTodayBox();
 }
 
 function fillYears(){
@@ -165,3 +166,37 @@ document.addEventListener("DOMContentLoaded",()=>{
     const el=document.getElementById(id); if(el) el.addEventListener("input",renderArchive);
   });
 });
+
+
+function renderTodayBox(){
+  const box=document.getElementById("todayBox");
+  if(!box || !window.HY_TODAY) return;
+
+  const now=new Date();
+  const key=String(now.getMonth()+1).padStart(2,"0")+"-"+String(now.getDate()).padStart(2,"0");
+  let items=window.HY_TODAY.filter(x=>x.date===key);
+
+  if(items.length===0){
+    const monthDay=String(now.getMonth()+1).padStart(2,"0")+"-"+String(now.getDate()).padStart(2,"0");
+    items=[
+      {label: now.toLocaleDateString("tr-TR",{day:"numeric",month:"long"}), title:"Bugünün arşivi hazırlanıyor", year:"", text:"Bu tarih için özel içerik arşive eklendikçe burada otomatik gösterilecek."}
+    ];
+  }
+
+  const label=items[0].label || now.toLocaleDateString("tr-TR",{day:"numeric",month:"long"});
+  box.innerHTML = `
+    <div class="today-card">
+      <div class="today-top"><span>Tarihte Bugün</span><b>${label}</b></div>
+      <div class="today-items">
+        ${items.slice(0,3).map(it=>`
+          <div class="today-item">
+            <strong>${it.year ? it.year+" • " : ""}${it.title}</strong>
+            <p>${it.text}</p>
+          </div>
+        `).join("")}
+      </div>
+      <a class="today-link" href="tarihte-bugun.html">Tarihte bugün arşivini aç</a>
+    </div>
+  `;
+}
+
