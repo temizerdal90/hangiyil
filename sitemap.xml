@@ -1228,31 +1228,31 @@
     <loc>https://hangiyil.com/hangi-donemde-oldu.html</loc>
     <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://hangiyil.com/hangi-tarih.html</loc>
     <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://hangiyil.com/hangi-yil-cikti.html</loc>
     <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://hangiyil.com/hangi-yil-kuruldu.html</loc>
     <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://hangiyil.com/hangi-yil-vefat-etti.html</loc>
     <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://hangiyil.com/harf-devrimi-hangi-yil-yapildi.html</loc>
@@ -2074,7 +2074,7 @@
     <loc>https://hangiyil.com/kisiler.html</loc>
     <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://hangiyil.com/kizamik-asisi-hangi-yil-cikti.html</loc>
@@ -3232,7 +3232,7 @@
     <loc>https://hangiyil.com/teknoloji.html</loc>
     <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://hangiyil.com/telefon-hangi-yil-icat-edildi.html</loc>
@@ -3323,6 +3323,12 @@
     <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hangiyil.com/tum-kayitlar.html</loc>
+    <lastmod>2026-05-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
   </url>
   <url>
     <loc>https://hangiyil.com/turgut-ozal-hangi-yil-vefat-etti.html</loc>
