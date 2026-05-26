@@ -148,3 +148,18 @@
   .today-mini-event b{font-size:14px}
   .today-mini-event small{font-size:12px}
 }
+
+/* Step 25: Tarihte Bugün çalışan garanti kart */
+.today-mini-card{border:2px solid #bfdbfe!important;background:linear-gradient(180deg,#ffffff,#eff6ff)!important;min-height:auto!important}
+.today-mini-card h3{margin:12px 0 8px!important;font-size:24px!important;color:#111827!important}
+.today-mini-card #todayText{display:grid!important;gap:8px!important;margin-top:8px!important}
+.today-mini-event{display:block;background:#f8fafc;border:1px solid #e5eaf2;border-radius:14px;padding:10px}
+.today-mini-event b{display:block;color:#111827;font-size:15px;margin-bottom:4px}
+.today-mini-event small{display:block;color:#526071;font-size:13px;line-height:1.35}
+@media(max-width:980px){
+  .today-mini-card{order:-10}
+  .today-mini-card h3{font-size:19px!important}
+  .today-mini-event{padding:9px}
+  .today-mini-event b{font-size:14px}
+  .today-mini-event small{font-size:12px}
+}

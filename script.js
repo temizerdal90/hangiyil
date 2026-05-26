@@ -168,14 +168,12 @@ document.addEventListener("DOMContentLoaded",()=>{
 });
 
 
+
 function renderTodayBox(){
   const labelEl = document.getElementById("todayLabel");
   const titleEl = document.getElementById("todayTitle");
   const textEl = document.getElementById("todayText");
-
-  if(!labelEl || !titleEl || !textEl){
-    return;
-  }
+  if(!labelEl || !titleEl || !textEl) return;
 
   const now = new Date();
   const key = String(now.getMonth()+1).padStart(2,"0") + "-" + String(now.getDate()).padStart(2,"0");
@@ -202,4 +200,3 @@ function renderTodayBox(){
     return `<span class="today-mini-event"><b>${title}</b><small>${it.text}</small></span>`;
   }).join("");
 }
-

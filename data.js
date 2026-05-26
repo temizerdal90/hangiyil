@@ -7177,74 +7177,44 @@ window.HY_DATA = [
 
 window.HY_TODAY = [
   {
-    "date": "01-01",
-    "label": "1 Ocak",
-    "title": "Yeni yıl ve harf devrimi dönemi",
-    "year": "1929",
-    "text": "Türkiye'de yeni Türk harflerinin kullanımı 1929 başından itibaren resmî yaşamda yaygınlaştı."
-  },
-  {
     "date": "01-10",
     "label": "10 Ocak",
     "title": "Londra Metrosu açıldı",
     "year": "1863",
-    "text": "Dünyanın ilk yeraltı demiryolu sistemi olarak kabul edilen Londra Metrosu hizmete girdi."
-  },
-  {
-    "date": "01-24",
-    "label": "24 Ocak",
-    "title": "Uğur Mumcu hayatını kaybetti",
-    "year": "1993",
-    "text": "Gazeteci Uğur Mumcu, Ankara'da düzenlenen bombalı saldırı sonucu yaşamını yitirdi."
-  },
-  {
-    "date": "02-14",
-    "label": "14 Şubat",
-    "title": "Telefon patenti başvurusu",
-    "year": "1876",
-    "text": "Alexander Graham Bell, telefonun gelişim tarihinde önemli görülen patent başvurusunu yaptı."
-  },
-  {
-    "date": "03-08",
-    "label": "8 Mart",
-    "title": "Dünya Kadınlar Günü",
-    "year": "1910",
-    "text": "8 Mart, kadın hakları ve emek mücadelesiyle ilişkilendirilen uluslararası özel günlerden biridir."
+    "text": "Dünyanın ilk yeraltı demiryolu sistemi olarak kabul edilen Londra Metrosu hizmete girdi.",
+    "url": "ilk-metro-hangi-yil-acildi.html"
   },
   {
     "date": "03-12",
     "label": "12 Mart",
     "title": "İstiklal Marşı kabul edildi",
     "year": "1921",
-    "text": "Mehmet Akif Ersoy'un yazdığı İstiklal Marşı, TBMM tarafından kabul edildi."
+    "text": "Mehmet Akif Ersoy'un yazdığı İstiklal Marşı, TBMM tarafından kabul edildi.",
+    "url": "istiklal-marsi-hangi-yil-kabul-edildi.html"
   },
   {
     "date": "03-18",
     "label": "18 Mart",
     "title": "Çanakkale Deniz Zaferi",
     "year": "1915",
-    "text": "18 Mart 1915, Çanakkale Deniz Zaferi'nin tarihi olarak anılır."
+    "text": "18 Mart 1915, Çanakkale Deniz Zaferi'nin tarihi olarak anılır.",
+    "url": "canakkale-zaferi-hangi-yil-kazanildi.html"
   },
   {
     "date": "04-23",
     "label": "23 Nisan",
     "title": "TBMM açıldı",
     "year": "1920",
-    "text": "Türkiye Büyük Millet Meclisi Ankara'da açıldı; Milli Mücadele'nin siyasi merkezi güçlendi."
-  },
-  {
-    "date": "05-01",
-    "label": "1 Mayıs",
-    "title": "Emek ve Dayanışma Günü",
-    "year": "1886",
-    "text": "1 Mayıs, işçi hakları mücadelesiyle ilişkilendirilen uluslararası özel günlerden biridir."
+    "text": "Türkiye Büyük Millet Meclisi Ankara'da açıldı.",
+    "url": "tarihte-bugun-23-nisanda-ne-oldu.html"
   },
   {
     "date": "05-19",
     "label": "19 Mayıs",
     "title": "Mustafa Kemal Samsun'a çıktı",
     "year": "1919",
-    "text": "19 Mayıs 1919, Türkiye'de Milli Mücadele'nin başlangıç sembolü kabul edilir."
+    "text": "19 Mayıs 1919, Milli Mücadele'nin başlangıç sembolü kabul edilir.",
+    "url": "samsuna-cikis-hangi-yil-oldu.html"
   },
   {
     "date": "05-26",
@@ -7267,70 +7237,48 @@ window.HY_TODAY = [
     "label": "29 Mayıs",
     "title": "İstanbul fethedildi",
     "year": "1453",
-    "text": "İstanbul, Osmanlı padişahı II. Mehmed döneminde fethedildi."
-  },
-  {
-    "date": "06-06",
-    "label": "6 Haziran",
-    "title": "Normandiya Çıkarması",
-    "year": "1944",
-    "text": "II. Dünya Savaşı'nın en önemli askeri operasyonlarından biri olan Normandiya Çıkarması gerçekleşti."
-  },
-  {
-    "date": "07-15",
-    "label": "15 Temmuz",
-    "title": "Darbe girişimi yaşandı",
-    "year": "2016",
-    "text": "Türkiye'de 15 Temmuz 2016 gecesi darbe girişimi yaşandı."
+    "text": "İstanbul, Osmanlı padişahı II. Mehmed döneminde fethedildi.",
+    "url": "istanbulun-fethi-hangi-yil-oldu.html"
   },
   {
     "date": "08-17",
     "label": "17 Ağustos",
     "title": "Marmara Depremi",
     "year": "1999",
-    "text": "Gölcük merkezli büyük deprem Türkiye'de ciddi can kaybı ve yıkıma yol açtı."
+    "text": "Gölcük merkezli büyük deprem Türkiye'de ciddi can kaybı ve yıkıma yol açtı.",
+    "url": "golcuk-depremi-hangi-yil-oldu.html"
   },
   {
     "date": "08-30",
     "label": "30 Ağustos",
     "title": "Başkomutanlık Meydan Muharebesi",
     "year": "1922",
-    "text": "Kurtuluş Savaşı'nın en önemli dönüm noktalarından biri olan zafer kazanıldı."
+    "text": "Kurtuluş Savaşı'nın en önemli dönüm noktalarından biri olan zafer kazanıldı.",
+    "url": "baskomutanlik-meydan-muharebesi-hangi-yil-oldu.html"
   },
   {
     "date": "09-09",
     "label": "9 Eylül",
     "title": "İzmir'in kurtuluşu",
     "year": "1922",
-    "text": "İzmir'in kurtuluşu, Kurtuluş Savaşı'nın son aşamalarından biri olarak anılır."
+    "text": "İzmir'in kurtuluşu, Kurtuluş Savaşı'nın son aşamalarından biri olarak anılır.",
+    "url": "tarihte-bugun-9-eylulde-ne-oldu.html"
   },
   {
     "date": "10-29",
     "label": "29 Ekim",
     "title": "Cumhuriyet ilan edildi",
     "year": "1923",
-    "text": "Türkiye Cumhuriyeti, 29 Ekim 1923'te ilan edildi."
+    "text": "Türkiye Cumhuriyeti, 29 Ekim 1923'te ilan edildi.",
+    "url": "cumhuriyetin-ilani-hangi-yil-oldu.html"
   },
   {
     "date": "11-10",
     "label": "10 Kasım",
     "title": "Atatürk vefat etti",
     "year": "1938",
-    "text": "Mustafa Kemal Atatürk, İstanbul Dolmabahçe Sarayı'nda hayatını kaybetti."
-  },
-  {
-    "date": "12-10",
-    "label": "10 Aralık",
-    "title": "İnsan Hakları Evrensel Beyannamesi",
-    "year": "1948",
-    "text": "Birleşmiş Milletler Genel Kurulu, İnsan Hakları Evrensel Beyannamesi'ni kabul etti."
-  },
-  {
-    "date": "12-27",
-    "label": "27 Aralık",
-    "title": "Mustafa Kemal Ankara'ya geldi",
-    "year": "1919",
-    "text": "Milli Mücadele döneminde Ankara'nın merkez haline gelmesinde önemli bir tarihtir."
+    "text": "Mustafa Kemal Atatürk, İstanbul Dolmabahçe Sarayı'nda hayatını kaybetti.",
+    "url": "ataturk-ne-zaman-vefat-etti.html"
   },
   {
     "date": "11-25",
@@ -7339,5 +7287,13 @@ window.HY_TODAY = [
     "year": "1917",
     "text": "Alparslan Türkeş, 25 Kasım 1917'de doğdu.",
     "url": "alparslan-turkes-hangi-yil-dogdu.html"
+  },
+  {
+    "date": "12-10",
+    "label": "10 Aralık",
+    "title": "İnsan Hakları Evrensel Beyannamesi",
+    "year": "1948",
+    "text": "Birleşmiş Milletler Genel Kurulu, İnsan Hakları Evrensel Beyannamesi'ni kabul etti.",
+    "url": "tarihte-bugun-10-aralikta-ne-oldu.html"
   }
 ];
