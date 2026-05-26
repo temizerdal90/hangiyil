@@ -21,12 +21,10 @@ function scoreRecord(r, q){
   const people=normalizeTR(r.people||"");
   const cat=normalizeTR(r.category||"");
   const year=String(r.year||"");
-  const hay=title+" "+answer+" "+detail+" "+people+" "+cat+" "+year;
   if(!q) return 1;
 
   const words=q.split(/\s+/).filter(Boolean);
   let score=0;
-
   if(title===q) score+=1000;
   if(people===q) score+=900;
   if(title.includes(q)) score+=520;
@@ -42,7 +40,6 @@ function scoreRecord(r, q){
     if(answer.includes(w)) score+=35;
     if(detail.includes(w)) score+=15;
   });
-
   return score;
 }
 
@@ -64,26 +61,39 @@ function filterData(){
     .map(x=>x.r);
 }
 
+function findKnowledge(q){
+  const nq=normalizeTR(q);
+  if(!nq || !window.HY_KNOWLEDGE) return null;
+  let best=null, bestScore=0;
+  window.HY_KNOWLEDGE.forEach(k=>{
+    let s=0;
+    (k.keys||[]).forEach(key=>{
+      const nk=normalizeTR(key);
+      if(nq===nk) s+=100;
+      else if(nq.includes(nk) || nk.includes(nq)) s+=60;
+      else {
+        nq.split(/\s+/).forEach(w=>{ if(w && nk.includes(w)) s+=15; });
+      }
+    });
+    if(s>bestScore){ bestScore=s; best=k; }
+  });
+  return bestScore>0 ? best : null;
+}
+
 function makeSmartAnswer(q, data){
-  const safeQ = (q || "").trim();
   if(data.length>0){
     const r=data[0];
-    return `
-      <div class="ai-answer-box">
-        <p><b>${r.title}</b></p>
-        <p>${r.answer}</p>
-        <p>${r.detail}</p>
-      </div>`;
+    return `<div class="ai-answer-box"><p><b>${r.title}</b></p><p>${r.answer}</p><p>${r.detail}</p></div>`;
+  }
+
+  const k=findKnowledge(q);
+  if(k){
+    return `<div class="ai-answer-box"><p><b>${k.title}</b></p><p>${k.text}</p><div class="mini-results"><a href="${k.url}"><strong>Bu başlıkla ilgili sayfayı aç</strong><br><small>Detaylı yıl cevabını görüntüle</small></a></div></div>`;
   }
 
   const fallback=(window.HY_DATA||[]).slice().sort((a,b)=>b.year-a.year).slice(0,3);
   const rows=fallback.map(r=>`<a href="${r.slug}"><strong>${r.title}</strong><br><small>${r.answer}</small></a>`).join("");
-  return `
-    <div class="ai-answer-box">
-      <p><b>${safeQ}</b> için arşivde birebir sonuç bulunamadı.</p>
-      <p>Bu başlık yeni içerik olarak eklenebilir. Şimdilik aşağıdaki yakın/güncel kayıtları inceleyebilirsin:</p>
-      <div class="mini-results">${rows}</div>
-    </div>`;
+  return `<div class="ai-answer-box"><p><b>${q}</b> hakkında kısa bilgi hazırlanıyor.</p><p>Bu arada aşağıdaki yakın/güncel kayıtları inceleyebilirsin:</p><div class="mini-results">${rows}</div></div>`;
 }
 
 function renderArchive(){

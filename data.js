@@ -4068,5 +4068,442 @@ window.HY_DATA = [
     "detail": "Britney Spears, 2 Aralık 1981'de doğdu. 1990'ların sonu ve 2000'lerin pop müziğinde öne çıkan isimlerdendir.",
     "slug": "britney-spears-hangi-yil-dogdu.html",
     "people": "Britney Spears"
+  },
+  {
+    "id": "kadir-inanir-hangi-yil-dogdu",
+    "title": "Kadir İnanır hangi yıl doğdu?",
+    "year": 1949,
+    "date": "15 Nisan 1949",
+    "type": "Olaylar",
+    "category": "Kişiler",
+    "answer": "Kadir İnanır 1949 yılında doğdu.",
+    "detail": "Kadir İnanır, 15 Nisan 1949'da Ordu'nun Fatsa ilçesinde doğdu. Türk sinemasının en tanınan oyuncularından biridir.",
+    "slug": "kadir-inanir-hangi-yil-dogdu.html",
+    "people": "Kadir İnanır"
+  },
+  {
+    "id": "kadir-inanir-ilk-filmi-hangi-yil-cikti",
+    "title": "Kadir İnanır ilk filmi hangi yıl çıktı?",
+    "year": 1968,
+    "date": "1968",
+    "type": "Olaylar",
+    "category": "Sinema ve Kültür",
+    "answer": "Kadir İnanır'ın sinema kariyeri 1960'ların sonunda başladı.",
+    "detail": "Kadir İnanır, Türk sinemasında özellikle 1970'lerden itibaren geniş kitlelerce tanındı. Kariyerinin başlangıcı 1960'ların sonuna uzanır.",
+    "slug": "kadir-inanir-ilk-filmi-hangi-yil-cikti.html",
+    "people": "Kadir İnanır"
+  },
+  {
+    "id": "turkan-soray-hangi-yil-dogdu",
+    "title": "Türkan Şoray hangi yıl doğdu?",
+    "year": 1945,
+    "date": "28 Haziran 1945",
+    "type": "Olaylar",
+    "category": "Kişiler",
+    "answer": "Türkan Şoray 1945 yılında doğdu.",
+    "detail": "Türkan Şoray, 28 Haziran 1945'te doğdu. Türk sinemasının Sultan lakabıyla anılan en önemli oyuncularındandır.",
+    "slug": "turkan-soray-hangi-yil-dogdu.html",
+    "people": "Türkan Şoray"
+  },
+  {
+    "id": "filiz-akin-hangi-yil-dogdu",
+    "title": "Filiz Akın hangi yıl doğdu?",
+    "year": 1943,
+    "date": "2 Ocak 1943",
+    "type": "Olaylar",
+    "category": "Kişiler",
+    "answer": "Filiz Akın 1943 yılında doğdu.",
+    "detail": "Filiz Akın, 2 Ocak 1943'te doğdu. Yeşilçam'ın önemli kadın oyuncularından biridir.",
+    "slug": "filiz-akin-hangi-yil-dogdu.html",
+    "people": "Filiz Akın"
+  },
+  {
+    "id": "hulya-kocyigit-hangi-yil-dogdu",
+    "title": "Hülya Koçyiğit hangi yıl doğdu?",
+    "year": 1947,
+    "date": "12 Aralık 1947",
+    "type": "Olaylar",
+    "category": "Kişiler",
+    "answer": "Hülya Koçyiğit 1947 yılında doğdu.",
+    "detail": "Hülya Koçyiğit, 12 Aralık 1947'de doğdu. Türk sinemasının önemli oyuncularındandır.",
+    "slug": "hulya-kocyigit-hangi-yil-dogdu.html",
+    "people": "Hülya Koçyiğit"
+  },
+  {
+    "id": "fatma-girik-hangi-yil-vefat-etti",
+    "title": "Fatma Girik hangi yıl vefat etti?",
+    "year": 2022,
+    "date": "24 Ocak 2022",
+    "type": "Vefatlar",
+    "category": "Kişiler ve Vefat Tarihleri",
+    "answer": "Fatma Girik 2022 yılında vefat etti.",
+    "detail": "Fatma Girik, 24 Ocak 2022'de hayatını kaybetti. Türk sinemasının unutulmaz oyuncularından biridir.",
+    "slug": "fatma-girik-hangi-yil-vefat-etti.html",
+    "people": "Fatma Girik",
+    "cause": "Covid-19 sonrası gelişen sağlık sorunları olarak bildirilmiştir"
+  },
+  {
+    "id": "ediz-hun-hangi-yil-dogdu",
+    "title": "Ediz Hun hangi yıl doğdu?",
+    "year": 1940,
+    "date": "22 Kasım 1940",
+    "type": "Olaylar",
+    "category": "Kişiler",
+    "answer": "Ediz Hun 1940 yılında doğdu.",
+    "detail": "Ediz Hun, 22 Kasım 1940'ta doğdu. Türk sinemasının önemli oyuncularındandır.",
+    "slug": "ediz-hun-hangi-yil-dogdu.html",
+    "people": "Ediz Hun"
+  },
+  {
+    "id": "sener-sen-hangi-yil-dogdu",
+    "title": "Şener Şen hangi yıl doğdu?",
+    "year": 1941,
+    "date": "26 Aralık 1941",
+    "type": "Olaylar",
+    "category": "Kişiler",
+    "answer": "Şener Şen 1941 yılında doğdu.",
+    "detail": "Şener Şen, 26 Aralık 1941'de doğdu. Türk sinema ve tiyatrosunun en önemli oyuncularından biridir.",
+    "slug": "sener-sen-hangi-yil-dogdu.html",
+    "people": "Şener Şen"
+  },
+  {
+    "id": "ilyas-salman-hangi-yil-dogdu",
+    "title": "İlyas Salman hangi yıl doğdu?",
+    "year": 1949,
+    "date": "14 Ocak 1949",
+    "type": "Olaylar",
+    "category": "Kişiler",
+    "answer": "İlyas Salman 1949 yılında doğdu.",
+    "detail": "İlyas Salman, 14 Ocak 1949'da doğdu. Türk sinemasında kendine özgü tarzıyla tanınır.",
+    "slug": "ilyas-salman-hangi-yil-dogdu.html",
+    "people": "İlyas Salman"
+  },
+  {
+    "id": "ahmet-kaya-hangi-yil-vefat-etti",
+    "title": "Ahmet Kaya hangi yıl vefat etti?",
+    "year": 2000,
+    "date": "16 Kasım 2000",
+    "type": "Vefatlar",
+    "category": "Kişiler ve Vefat Tarihleri",
+    "answer": "Ahmet Kaya 2000 yılında vefat etti.",
+    "detail": "Ahmet Kaya, 16 Kasım 2000'de hayatını kaybetti. Türk müziğinin geniş kitlelere ulaşan yorumcularındandır.",
+    "slug": "ahmet-kaya-hangi-yil-vefat-etti.html",
+    "people": "Ahmet Kaya",
+    "cause": "Kalp krizi"
+  },
+  {
+    "id": "sezen-aksu-hangi-yil-dogdu",
+    "title": "Sezen Aksu hangi yıl doğdu?",
+    "year": 1954,
+    "date": "13 Temmuz 1954",
+    "type": "Olaylar",
+    "category": "Müzik ve Kültür",
+    "answer": "Sezen Aksu 1954 yılında doğdu.",
+    "detail": "Sezen Aksu, 13 Temmuz 1954'te doğdu. Türk pop müziğinin en etkili isimlerinden biridir.",
+    "slug": "sezen-aksu-hangi-yil-dogdu.html",
+    "people": "Sezen Aksu"
+  },
+  {
+    "id": "tarkan-hangi-yil-dogdu",
+    "title": "Tarkan hangi yıl doğdu?",
+    "year": 1972,
+    "date": "17 Ekim 1972",
+    "type": "Olaylar",
+    "category": "Müzik ve Kültür",
+    "answer": "Tarkan 1972 yılında doğdu.",
+    "detail": "Tarkan, 17 Ekim 1972'de doğdu. Türk pop müziğinin uluslararası ölçekte tanınan isimlerinden biridir.",
+    "slug": "tarkan-hangi-yil-dogdu.html",
+    "people": "Tarkan"
+  },
+  {
+    "id": "ajda-pekkan-ilk-albumu-hangi-yil-cikti",
+    "title": "Ajda Pekkan ilk albümü hangi yıl çıktı?",
+    "year": 1968,
+    "date": "1968",
+    "type": "Olaylar",
+    "category": "Müzik ve Kültür",
+    "answer": "Ajda Pekkan'ın ilk dönem plak ve albüm çalışmaları 1960'ların sonunda başladı.",
+    "detail": "Ajda Pekkan, 1960'ların sonlarından itibaren müzik kariyerinde geniş kitlelere ulaşmaya başladı.",
+    "slug": "ajda-pekkan-ilk-albumu-hangi-yil-cikti.html",
+    "people": "Ajda Pekkan"
+  },
+  {
+    "id": "zeki-muren-hangi-yil-dogdu",
+    "title": "Zeki Müren hangi yıl doğdu?",
+    "year": 1931,
+    "date": "6 Aralık 1931",
+    "type": "Olaylar",
+    "category": "Müzik ve Kültür",
+    "answer": "Zeki Müren 1931 yılında doğdu.",
+    "detail": "Zeki Müren, 6 Aralık 1931'de doğdu. Türk sanat müziğinin en önemli isimlerinden biridir.",
+    "slug": "zeki-muren-hangi-yil-dogdu.html",
+    "people": "Zeki Müren"
+  },
+  {
+    "id": "ferdi-tayfur-hangi-yil-dogdu",
+    "title": "Ferdi Tayfur hangi yıl doğdu?",
+    "year": 1945,
+    "date": "15 Kasım 1945",
+    "type": "Olaylar",
+    "category": "Müzik ve Kültür",
+    "answer": "Ferdi Tayfur 1945 yılında doğdu.",
+    "detail": "Ferdi Tayfur, 15 Kasım 1945'te doğdu. Arabesk müzik ve sinema alanında tanınır.",
+    "slug": "ferdi-tayfur-hangi-yil-dogdu.html",
+    "people": "Ferdi Tayfur"
+  },
+  {
+    "id": "orhan-gencebay-hangi-yil-dogdu",
+    "title": "Orhan Gencebay hangi yıl doğdu?",
+    "year": 1944,
+    "date": "4 Ağustos 1944",
+    "type": "Olaylar",
+    "category": "Müzik ve Kültür",
+    "answer": "Orhan Gencebay 1944 yılında doğdu.",
+    "detail": "Orhan Gencebay, 4 Ağustos 1944'te doğdu. Arabesk ve Türk müziğinde önemli bir isimdir.",
+    "slug": "orhan-gencebay-hangi-yil-dogdu.html",
+    "people": "Orhan Gencebay"
+  },
+  {
+    "id": "belgin-doruk-hangi-yil-vefat-etti",
+    "title": "Belgin Doruk hangi yıl vefat etti?",
+    "year": 1995,
+    "date": "26 Mart 1995",
+    "type": "Vefatlar",
+    "category": "Kişiler ve Vefat Tarihleri",
+    "answer": "Belgin Doruk 1995 yılında vefat etti.",
+    "detail": "Belgin Doruk, 26 Mart 1995'te hayatını kaybetti. Yeşilçam'ın önemli oyuncularından biridir.",
+    "slug": "belgin-doruk-hangi-yil-vefat-etti.html",
+    "people": "Belgin Doruk"
+  },
+  {
+    "id": "sadri-alisik-hangi-yil-vefat-etti",
+    "title": "Sadri Alışık hangi yıl vefat etti?",
+    "year": 1995,
+    "date": "18 Mart 1995",
+    "type": "Vefatlar",
+    "category": "Kişiler ve Vefat Tarihleri",
+    "answer": "Sadri Alışık 1995 yılında vefat etti.",
+    "detail": "Sadri Alışık, 18 Mart 1995'te hayatını kaybetti. Türk sinemasının sevilen oyuncularındandır.",
+    "slug": "sadri-alisik-hangi-yil-vefat-etti.html",
+    "people": "Sadri Alışık"
+  },
+  {
+    "id": "yilmaz-guney-hangi-yil-vefat-etti",
+    "title": "Yılmaz Güney hangi yıl vefat etti?",
+    "year": 1984,
+    "date": "9 Eylül 1984",
+    "type": "Vefatlar",
+    "category": "Kişiler ve Vefat Tarihleri",
+    "answer": "Yılmaz Güney 1984 yılında vefat etti.",
+    "detail": "Yılmaz Güney, 9 Eylül 1984'te hayatını kaybetti. Türk sinemasında oyuncu, yönetmen ve senarist olarak iz bıraktı.",
+    "slug": "yilmaz-guney-hangi-yil-vefat-etti.html",
+    "people": "Yılmaz Güney",
+    "cause": "Kanser"
+  },
+  {
+    "id": "nvidia-hangi-yil-kuruldu",
+    "title": "NVIDIA hangi yıl kuruldu?",
+    "year": 1993,
+    "date": "1993",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "NVIDIA 1993 yılında kuruldu.",
+    "detail": "NVIDIA, 1993 yılında kuruldu ve ekran kartları ile yapay zekâ çipleri alanında öne çıktı.",
+    "slug": "nvidia-hangi-yil-kuruldu.html",
+    "people": "NVIDIA"
+  },
+  {
+    "id": "openai-hangi-yil-kuruldu",
+    "title": "OpenAI hangi yıl kuruldu?",
+    "year": 2015,
+    "date": "2015",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "OpenAI 2015 yılında kuruldu.",
+    "detail": "OpenAI, 2015 yılında yapay zekâ araştırmaları için kuruldu. ChatGPT ve GPT modelleriyle geniş kitlelerce tanındı.",
+    "slug": "openai-hangi-yil-kuruldu.html",
+    "people": "OpenAI"
+  },
+  {
+    "id": "tiktok-turkiye-de-hangi-yil-populer-oldu",
+    "title": "TikTok Türkiye'de hangi yıl popüler oldu?",
+    "year": 2019,
+    "date": "2019",
+    "type": "Olaylar",
+    "category": "Sosyal Medya",
+    "answer": "TikTok Türkiye'de özellikle 2019'dan itibaren daha görünür hale geldi.",
+    "detail": "TikTok'un dünya genelindeki yükselişi 2018-2020 döneminde hızlandı. Türkiye'de de kısa video alışkanlığını etkileyen platformlardan biri oldu.",
+    "slug": "tiktok-turkiye-de-hangi-yil-populer-oldu.html",
+    "people": "TikTok"
+  },
+  {
+    "id": "instagram-reels-hangi-yil-cikti",
+    "title": "Instagram Reels hangi yıl çıktı?",
+    "year": 2020,
+    "date": "2020",
+    "type": "Olaylar",
+    "category": "Sosyal Medya",
+    "answer": "Instagram Reels 2020 yılında çıktı.",
+    "detail": "Instagram Reels, kısa video formatının yaygınlaşmasına yanıt olarak 2020 yılında kullanıma sunuldu.",
+    "slug": "instagram-reels-hangi-yil-cikti.html",
+    "people": "Instagram Reels"
+  },
+  {
+    "id": "youtube-shorts-hangi-yil-cikti",
+    "title": "YouTube Shorts hangi yıl çıktı?",
+    "year": 2020,
+    "date": "2020",
+    "type": "Olaylar",
+    "category": "Sosyal Medya",
+    "answer": "YouTube Shorts 2020 yılında duyuruldu.",
+    "detail": "YouTube Shorts, kısa video formatına yönelik olarak 2020'de duyuruldu ve sonraki yıllarda yaygınlaştı.",
+    "slug": "youtube-shorts-hangi-yil-cikti.html",
+    "people": "YouTube Shorts"
+  },
+  {
+    "id": "capcut-hangi-yil-cikti",
+    "title": "CapCut hangi yıl çıktı?",
+    "year": 2020,
+    "date": "2020",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "CapCut uygulaması 2020 yılında dünya çapında yaygınlaştı.",
+    "detail": "CapCut, kısa video düzenleme aracı olarak özellikle TikTok ve Reels içerik üretiminde yaygın kullanıldı.",
+    "slug": "capcut-hangi-yil-cikti.html",
+    "people": "CapCut"
+  },
+  {
+    "id": "canva-hangi-yil-kuruldu",
+    "title": "Canva hangi yıl kuruldu?",
+    "year": 2012,
+    "date": "2012",
+    "type": "Olaylar",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Canva 2012 yılında kuruldu.",
+    "detail": "Canva, tasarım araçlarını daha erişilebilir hale getiren çevrim içi platformlardan biridir.",
+    "slug": "canva-hangi-yil-kuruldu.html",
+    "people": "Canva"
+  },
+  {
+    "id": "deprem-vergisi-hangi-yil-cikti",
+    "title": "Deprem vergisi hangi yıl çıktı?",
+    "year": 1999,
+    "date": "1999",
+    "type": "Olaylar",
+    "category": "Türkiye",
+    "answer": "Deprem vergisi olarak bilinen özel iletişim vergisi 1999 depremi sonrası gündeme geldi.",
+    "detail": "1999 Marmara Depremi sonrasında özel iletişim vergisi Türkiye'de kamuoyunda deprem vergisi olarak anıldı.",
+    "slug": "deprem-vergisi-hangi-yil-cikti.html",
+    "people": ""
+  },
+  {
+    "id": "duzce-depremi-hangi-yil-oldu",
+    "title": "Düzce depremi hangi yıl oldu?",
+    "year": 1999,
+    "date": "12 Kasım 1999",
+    "type": "Olaylar",
+    "category": "Türkiye",
+    "answer": "Düzce depremi 1999 yılında oldu.",
+    "detail": "12 Kasım 1999'da meydana gelen Düzce depremi Türkiye'nin önemli afetlerinden biridir.",
+    "slug": "duzce-depremi-hangi-yil-oldu.html",
+    "people": "Düzce"
+  },
+  {
+    "id": "van-depremi-hangi-yil-oldu",
+    "title": "Van depremi hangi yıl oldu?",
+    "year": 2011,
+    "date": "23 Ekim 2011",
+    "type": "Olaylar",
+    "category": "Türkiye",
+    "answer": "Van depremi 2011 yılında oldu.",
+    "detail": "23 Ekim 2011'de Van'da meydana gelen deprem Türkiye'de büyük yıkıma yol açtı.",
+    "slug": "van-depremi-hangi-yil-oldu.html",
+    "people": "Van"
+  },
+  {
+    "id": "golcuk-depremi-hangi-yil-oldu",
+    "title": "Gölcük depremi hangi yıl oldu?",
+    "year": 1999,
+    "date": "17 Ağustos 1999",
+    "type": "Olaylar",
+    "category": "Türkiye",
+    "answer": "Gölcük depremi 1999 yılında oldu.",
+    "detail": "17 Ağustos 1999 Marmara Depremi, Gölcük merkezli olarak Türkiye tarihinin en yıkıcı depremlerinden biri oldu.",
+    "slug": "golcuk-depremi-hangi-yil-oldu.html",
+    "people": "Gölcük"
+  }
+];
+
+window.HY_KNOWLEDGE = [
+  {
+    "keys": [
+      "kadir inanir",
+      "kadir",
+      "inanir"
+    ],
+    "title": "Kadir İnanır",
+    "text": "Kadir İnanır 1949 doğumlu Türk sinema oyuncusudur. Yeşilçam döneminin en tanınan erkek oyuncularından biridir. Ordu/Fatsa doğumludur ve özellikle dram türündeki filmleriyle bilinir.",
+    "url": "kadir-inanir-hangi-yil-dogdu.html"
+  },
+  {
+    "keys": [
+      "jennifer lopez",
+      "jennifer",
+      "lopez",
+      "jlo"
+    ],
+    "title": "Jennifer Lopez",
+    "text": "Jennifer Lopez 1969 doğumlu Amerikalı şarkıcı, oyuncu ve dansçıdır. 1997 yapımı Selena filmiyle geniş kitlelerce tanındı. 1999'da On the 6 albümüyle müzik kariyerinde büyük çıkış yaptı.",
+    "url": "jennifer-lopez-hangi-yil-dogdu.html"
+  },
+  {
+    "keys": [
+      "turkan soray",
+      "türkan şoray",
+      "soray",
+      "şoray"
+    ],
+    "title": "Türkan Şoray",
+    "text": "Türkan Şoray 1945 doğumlu Türk sinema oyuncusudur. Yeşilçam'ın en önemli kadın oyuncularından biri kabul edilir ve “Sultan” lakabıyla anılır.",
+    "url": "turkan-soray-hangi-yil-dogdu.html"
+  },
+  {
+    "keys": [
+      "sener sen",
+      "şener şen"
+    ],
+    "title": "Şener Şen",
+    "text": "Şener Şen 1941 doğumlu Türk oyuncudur. Tiyatro ve sinema alanında Türkiye'nin en saygın oyuncularından biri olarak kabul edilir.",
+    "url": "sener-sen-hangi-yil-dogdu.html"
+  },
+  {
+    "keys": [
+      "openai",
+      "chatgpt"
+    ],
+    "title": "OpenAI ve ChatGPT",
+    "text": "OpenAI 2015 yılında kuruldu. ChatGPT ise 2022 yılında kullanıma sunuldu ve yapay zekâ sohbet araçlarının geniş kitlelere ulaşmasında önemli rol oynadı.",
+    "url": "chatgpt-hangi-yil-cikti.html"
+  },
+  {
+    "keys": [
+      "capcut"
+    ],
+    "title": "CapCut",
+    "text": "CapCut, kısa video düzenleme için kullanılan popüler bir uygulamadır. Özellikle TikTok, Reels ve Shorts içeriklerinde altyazı, kurgu ve efekt işlemleri için tercih edilir.",
+    "url": "capcut-hangi-yil-cikti.html"
+  },
+  {
+    "keys": [
+      "deprem",
+      "gölcük",
+      "golcuk",
+      "düzce",
+      "duzce",
+      "van"
+    ],
+    "title": "Türkiye'deki depremler",
+    "text": "Türkiye'de en çok aranan deprem başlıkları arasında 1999 Marmara/Gölcük Depremi, 1999 Düzce Depremi, 2011 Van Depremi ve 2023 Kahramanmaraş depremleri yer alır.",
+    "url": "golcuk-depremi-hangi-yil-oldu.html"
   }
 ];
