@@ -37,6 +37,7 @@ function renderArchive(){
   renderBigSearchResults(data);
 }
 
+
 function renderBigSearchResults(data){
   const box=document.getElementById("bigSearchResults");
   if(!box) return;
@@ -49,9 +50,15 @@ function renderBigSearchResults(data){
     box.appendChild(a);
   });
   if(data.length===0){
-    box.innerHTML='<a href="arama-yok.html"><b>?</b><span>Yok</span><p><strong>Sonuç bulunamadı</strong><br>Bu konu yeni içerik olarak eklenebilir.</p></a>';
+    const fallback = (window.HY_DATA || [])
+      .slice()
+      .sort((a,b)=>b.year-a.year)
+      .slice(0,3);
+    const rows = fallback.map(r=>`<a href="${r.slug}"><strong>${r.title}</strong><br><small>${r.answer}</small></a>`).join("");
+    box.innerHTML=`<div class="no-result-box"><strong>Bu konu henüz arşivde yok.</strong><br><small>Benzer veya güncel kayıtlar:</small><div class="mini-results">${rows}</div></div>`;
   }
 }
+
 
 function syncSearch(source){
   const big=document.getElementById("bigSearchInput");
