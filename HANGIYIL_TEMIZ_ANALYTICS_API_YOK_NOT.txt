@@ -1,0 +1,13 @@
+Hangiyil temiz sürüm
+
+Google Analytics ID: G-F6V0L1T2ZT
+- Gemini /api klasörü kaldırıldı.
+- Otomatik API Tarihte Bugün çağrısı kaldırıldı.
+- Tarihte Bugün kartı HY_TODAY statik verisinden çalışır.
+- Tarih Europe/Istanbul saat dilimiyle hesaplanır.
+- 366 gün kontrol edildi.
+- Eksik gün sayısı: 0
+- Eski GTM kodu temizlendi; Google Analytics gtag tek temiz etiket olarak eklendi.
+
+Commit mesajı:
+Hangiyil Analytics eklendi API kaldirildi

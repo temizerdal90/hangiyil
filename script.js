@@ -173,11 +173,27 @@ function renderTodayBox(){
   const labelEl = document.getElementById("todayLabel");
   const titleEl = document.getElementById("todayTitle");
   const textEl = document.getElementById("todayText");
-  if(!labelEl || !titleEl || !textEl) return;
+
+  if(!labelEl || !titleEl || !textEl){
+    return;
+  }
 
   const now = new Date();
-  const key = String(now.getMonth()+1).padStart(2,"0") + "-" + String(now.getDate()).padStart(2,"0");
-  const fallbackLabel = now.toLocaleDateString("tr-TR",{day:"numeric",month:"long"});
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Istanbul",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(now);
+
+  const month = parts.find(p => p.type === "month")?.value || "01";
+  const day = parts.find(p => p.type === "day")?.value || "01";
+  const key = month + "-" + day;
+
+  const fallbackLabel = new Intl.DateTimeFormat("tr-TR", {
+    timeZone: "Europe/Istanbul",
+    day: "numeric",
+    month: "long"
+  }).format(now);
 
   let items = [];
   if(window.HY_TODAY && Array.isArray(window.HY_TODAY)){
@@ -195,18 +211,11 @@ function renderTodayBox(){
 
   labelEl.textContent = items[0].label || fallbackLabel;
   titleEl.textContent = "Tarihte bugün ne oldu?";
-  textEl.innerHTML = items.slice(0,4).map(it => {
-    const title = (it.year ? it.year + " • " : "") + it.title;
-    return `<span class="today-mini-event"><b>${title}</b><small>${it.text}</small></span>`;
+  textEl.innerHTML = items.slice(0,3).map(it => {
+    const title = (it.year ? it.year + " • " : "") + (it.title || "");
+    const text = it.text || "";
+    return `<span class="today-mini-event"><b>${title}</b><small>${text}</small></span>`;
   }).join("");
 }
 
-
-async function testTodayApiOnly(){
-  try{
-    const res = await fetch("/api/tarihte-bugun?t=" + Date.now(), {cache:"no-store"});
-    return await res.json();
-  }catch(e){
-    return {error:"API test edilemedi", message:String(e)};
-  }
-}
+document.addEventListener("DOMContentLoaded", renderTodayBox);
