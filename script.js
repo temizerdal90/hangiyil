@@ -200,3 +200,35 @@ function renderTodayBox(){
     return `<span class="today-mini-event"><b>${title}</b><small>${it.text}</small></span>`;
   }).join("");
 }
+
+
+async function renderTodayBoxLive(){
+  const labelEl = document.getElementById("todayLabel");
+  const titleEl = document.getElementById("todayTitle");
+  const textEl = document.getElementById("todayText");
+  if(!labelEl || !titleEl || !textEl) return;
+
+  try {
+    const res = await fetch("/api/tarihte-bugun", { cache: "no-store" });
+    const data = await res.json();
+
+    if(!res.ok || !data.items || !data.items.length){
+      if(typeof renderTodayBox === "function") renderTodayBox();
+      return;
+    }
+
+    labelEl.textContent = data.label || "Bugün";
+    titleEl.textContent = "Tarihte bugün ne oldu?";
+    textEl.innerHTML = data.items.slice(0,3).map(it => {
+      const title = (it.year ? it.year + " • " : "") + (it.title || "");
+      const text = it.text || "";
+      return `<span class="today-mini-event"><b>${title}</b><small>${text}</small></span>`;
+    }).join("");
+  } catch(e) {
+    if(typeof renderTodayBox === "function") renderTodayBox();
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  setTimeout(renderTodayBoxLive, 350);
+});
