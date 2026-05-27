@@ -1,0 +1,6 @@
+Step36: Alternatif SEO kelimeleri eklendi.
+- index.html title/description ve hero metni güçlendirildi.
+- hangi-yil.html yeni SEO rehber sayfası eklendi.
+- Footer'a Hangi Yıl? linki eklendi.
+- sitemap.xml ve tum-kayitlar.html güncellendi.
+Hedef aramalar: hangi yıl, hangiyıl, hangi yıldı, hangi yılda oldu, kaç yılında oldu, ne zaman oldu.
