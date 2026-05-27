@@ -1,4 +1,6 @@
 export default async function handler(req, res) {
+  res.setHeader("Cache-Control", "no-store, max-age=0, must-revalidate");
+
   if (req.method !== "GET") {
     return res.status(405).json({ error: "Sadece GET isteği desteklenir." });
   }
@@ -12,20 +14,35 @@ export default async function handler(req, res) {
     }
 
     const now = new Date();
-    const trDate = now.toLocaleDateString("tr-TR", { day: "numeric", month: "long" });
-    const month = String(now.getMonth() + 1).padStart(2, "0");
-    const day = String(now.getDate()).padStart(2, "0");
+
+    // Türkiye saati zorunlu. Vercel sunucusu UTC çalışabildiği için dün/bugün karışmasını önler.
+    const trDate = now.toLocaleDateString("tr-TR", {
+      timeZone: "Europe/Istanbul",
+      day: "numeric",
+      month: "long"
+    });
+
+    const dateParts = new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Europe/Istanbul",
+      month: "2-digit",
+      day: "2-digit"
+    }).formatToParts(now);
+
+    const month = dateParts.find(p => p.type === "month")?.value || "01";
+    const day = dateParts.find(p => p.type === "day")?.value || "01";
     const dateKey = month + "-" + day;
 
     const prompt = `
 Sen HangiYıl sitesi için "Tarihte Bugün" kutusu hazırlayan Türkçe editörsün.
 
 Bugünün tarihi: ${trDate}
+Saat dilimi: Türkiye / Europe/Istanbul
 
 Görev:
-- Bugünün tarihiyle ilişkili 2 veya 3 önemli olay seç.
+- Sadece ${trDate} günüyle ilişkili 2 veya 3 önemli olay seç.
 - Türkiye, dünya, bilim, teknoloji, kültür, spor veya önemli kişiler olabilir.
 - Emin olmadığın bilgi uydurma.
+- Dünün veya yarının olaylarını yazma.
 - Kısa ve güvenli yaz.
 - Cevabı SADECE geçerli JSON olarak ver. Markdown kullanma.
 
@@ -47,8 +64,8 @@ JSON formatı:
         { role: "user", parts: [{ text: prompt }] }
       ],
       generationConfig: {
-        temperature: 0.45,
-        topP: 0.9,
+        temperature: 0.35,
+        topP: 0.85,
         maxOutputTokens: 900,
         responseMimeType: "application/json"
       }
@@ -66,14 +83,23 @@ JSON formatı:
 
     if (!response.ok) {
       return res.status(response.status).json({
+        label: trDate,
+        dateKey,
+        items: [
+          {
+            year: "",
+            title: "Canlı bilgi alınamadı",
+            text: "Gemini API şu anda cevap vermedi; statik arşiv kullanılabilir."
+          }
+        ],
         error: "Gemini API hatası",
         details: data
       });
     }
 
     const text = data?.candidates?.[0]?.content?.parts?.map(p => p.text || "").join("").trim();
-    let parsed;
 
+    let parsed;
     try {
       parsed = JSON.parse(text);
     } catch (e) {
@@ -89,7 +115,19 @@ JSON formatı:
       };
     }
 
-    const items = Array.isArray(parsed.items) ? parsed.items.slice(0, 3) : [];
+    let items = Array.isArray(parsed.items) ? parsed.items.slice(0, 3) : [];
+    items = items.filter(x => x && (x.title || x.text));
+
+    if (!items.length) {
+      items = [
+        {
+          year: "",
+          title: "Bugünün arşivi hazırlanıyor",
+          text: "Bu tarih için canlı bilgi üretilemedi."
+        }
+      ];
+    }
+
     return res.status(200).json({
       label: parsed.label || trDate,
       dateKey,
