@@ -1,0 +1,14 @@
+Hangiyil Tarihte Bugün 365/366 Gün Kontrol Raporu
+
+Toplam HY_TODAY kayıt sayısı: 384
+Benzersiz gün sayısı: 366
+Kontrol edilen gün sayısı: 366
+Eksik gün sayısı: 0
+
+Not:
+Bu sürümde yılın her günü boş kalmayacak şekilde kapatıldı.
+Mevcut özel tarihi olay kayıtları korundu.
+Eksik günlere güvenli arşiv kaydı eklendi; bu kayıtlar daha sonra gerçek özel olaylarla zenginleştirilebilir.
+
+Eksik günler:
+Yok

@@ -1,0 +1,9 @@
+Google Tag Manager eklendi.
+
+GTM ID: GTM-KCXMVC9K
+Eklenen yerler:
+1) Tüm HTML dosyalarında <head> içine GTM script
+2) Tüm HTML dosyalarında <body> açılışından hemen sonra noscript iframe
+
+GitHub commit mesajı önerisi:
+Hangiyil GTM kodu eklendi
