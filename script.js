@@ -208,27 +208,66 @@ async function renderTodayBoxLive(){
   const textEl = document.getElementById("todayText");
   if(!labelEl || !titleEl || !textEl) return;
 
-  try {
-    const res = await fetch("/api/tarihte-bugun", { cache: "no-store" });
-    const data = await res.json();
+  const now = new Date();
+  const trParts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Istanbul",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(now);
+  const month = trParts.find(p => p.type === "month")?.value || "01";
+  const day = trParts.find(p => p.type === "day")?.value || "01";
+  const dateKey = month + "-" + day;
+  const cacheKey = "hy_today_api_" + dateKey;
 
-    if(!res.ok || !data.items || !data.items.length){
-      if(typeof renderTodayBox === "function") renderTodayBox();
-      return;
-    }
+  function applyItems(data){
+    if(!data || !data.items || !data.items.length) return false;
+
+    const badTitles = ["Canlı bilgi alınamadı", "Bugünün arşivi hazırlanıyor"];
+    const usefulItems = data.items.filter(it => it && (it.title || it.text) && !badTitles.includes(it.title));
+
+    if(!usefulItems.length) return false;
 
     labelEl.textContent = data.label || "Bugün";
     titleEl.textContent = "Tarihte bugün ne oldu?";
-    textEl.innerHTML = data.items.slice(0,3).map(it => {
+    textEl.innerHTML = usefulItems.slice(0,3).map(it => {
       const title = (it.year ? it.year + " • " : "") + (it.title || "");
       const text = it.text || "";
       return `<span class="today-mini-event"><b>${title}</b><small>${text}</small></span>`;
     }).join("");
+    return true;
+  }
+
+  // Önce aynı gün için daha önce başarılı API cevabı varsa hemen göster.
+  try {
+    const cached = localStorage.getItem(cacheKey);
+    if(cached){
+      const parsed = JSON.parse(cached);
+      applyItems(parsed);
+    }
+  } catch(e) {}
+
+  try {
+    const res = await fetch("/api/tarihte-bugun?t=" + Date.now(), {
+      cache: "no-store",
+      headers: { "Cache-Control": "no-store" }
+    });
+
+    const data = await res.json();
+
+    // API hata verirse mevcut kartı bozma. Statik kart veya cache ne varsa kalsın.
+    if(!res.ok) return;
+
+    const applied = applyItems(data);
+    if(applied){
+      try { localStorage.setItem(cacheKey, JSON.stringify(data)); } catch(e) {}
+    }
   } catch(e) {
-    if(typeof renderTodayBox === "function") renderTodayBox();
+    // Bağlantı/API hatasında mevcut kartı bozma.
+    return;
   }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  setTimeout(renderTodayBoxLive, 350);
+  setTimeout(renderTodayBoxLive, 500);
+  setTimeout(renderTodayBoxLive, 2500);
 });
