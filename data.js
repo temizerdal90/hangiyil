@@ -3195,18 +3195,6 @@ window.HY_DATA = [
     "people": "Windows XP"
   },
   {
-    "id": "ilk-iphone-hangi-yil-cikti",
-    "title": "İlk iPhone hangi yıl çıktı?",
-    "year": 2007,
-    "date": "2007",
-    "type": "Olaylar",
-    "category": "Bilgisayar ve Teknoloji",
-    "answer": "İlk iPhone 2007 yılında tanıtıldı.",
-    "detail": "Akıllı telefon kullanımının yaygınlaşmasında önemli bir dönüm noktasıdır.",
-    "slug": "ilk-iphone-hangi-yil-cikti.html",
-    "people": "iPhone"
-  },
-  {
     "id": "google-chrome-hangi-yil-cikti",
     "title": "Google Chrome hangi yıl çıktı?",
     "year": 2008,
