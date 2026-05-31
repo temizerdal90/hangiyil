@@ -352,3 +352,55 @@ body{background:var(--bg);color:var(--ink)}
   .archive-hero .home-search-panel{width:100%;margin-top:18px}
   .archive-hero .quick-suggestions{justify-content:flex-start}
 }
+
+/* Mobile readability pass */
+@media(max-width:980px){
+  body{background:#f6f2ea;color:var(--ink)}
+  .mobile{background:#fffdf8;color:var(--ink)}
+  .mobile-panel.open{background:#fffdf8;border-top:1px solid var(--line);margin-top:10px}
+  .mobile-panel a{color:var(--navy);padding:10px 0}
+  .hero.archive-hero{
+    background:linear-gradient(180deg,#fffaf1 0%,#f3e7d3 100%);
+    color:var(--ink);
+    padding:24px 16px 28px;
+  }
+  .hero.archive-hero .badge{font-size:12px;margin-bottom:10px}
+  .hero.archive-hero h1{font-size:29px;line-height:1.12;color:var(--navy);margin-bottom:10px}
+  .hero.archive-hero p{font-size:15px;line-height:1.55;color:#425066}
+  .archive-hero .year-strip{gap:7px;margin-top:12px}
+  .archive-hero .year-strip span{font-size:12px;padding:5px 9px}
+  .archive-hero .home-search-panel{
+    background:#fffdf8;
+    border-color:#d8c6aa;
+    border-radius:12px;
+    padding:15px;
+    box-shadow:0 14px 32px rgba(24,34,53,.14);
+  }
+  .search-kicker{font-size:17px;color:var(--navy);margin-bottom:10px}
+  .home-search-row input{
+    min-height:58px!important;
+    font-size:16px!important;
+    padding:16px!important;
+    color:var(--ink);
+    background:#fff;
+    border:1px solid #d8c6aa;
+  }
+  .home-search-row button{
+    min-height:54px;
+    font-size:17px;
+    background:var(--burgundy);
+    color:#fff;
+  }
+  .quick-suggestions{gap:8px;margin-top:12px}
+  .quick-suggestions button{font-size:12px;padding:9px 10px;line-height:1.25}
+  .section{padding:22px 16px}
+  .answer{padding:20px 16px;border-radius:10px}
+  .answer h1{font-size:27px;line-height:1.2}
+  .answer h2{font-size:20px;line-height:1.25;margin-top:22px}
+  .answer p,.answer li{font-size:16px;line-height:1.65}
+  .answer .big-year{font-size:38px;padding:5px 15px}
+  .year-pill,.type-pill{font-size:13px;padding:6px 10px}
+  .fact,.cause,.detail-meta div,.site-note,.clean-footer{border-radius:10px}
+  .site-note,.clean-footer{padding:16px;margin-left:12px;margin-right:12px}
+  .breadcrumb{color:#64748b}
+}

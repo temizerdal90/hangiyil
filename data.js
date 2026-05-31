@@ -2650,7 +2650,7 @@ window.HY_DATA = [
     "type": "Olaylar",
     "category": "Dünya Kupası",
     "answer": "1950 Dünya Kupası'nı Uruguay kazandı.",
-    "detail": "Brezilya'da düzenlenen turnuvada Uruguay, Maracanã'daki final grubu maçında Brezilya'yı yenerek şampiyon oldu.",
+    "detail": "Brezilya'da düzenlenen turnuvada Uruguay, Maracana'daki final grubu maçında Brezilya'yı yenerek şampiyon oldu.",
     "slug": "1950-dunya-kupasi-ni-hangi-ulke-kazandi.html",
     "people": "Uruguay"
   },
