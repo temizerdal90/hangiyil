@@ -1,0 +1,8 @@
+Hangiyil.com yerel proje durumu
+
+Son işlem: 50 yeni icat/ilkler içeriği eklendi.
+Tarih: 2026-05-31
+Toplam HTML: 665
+Toplam arama kaydı: 640
+Korunanlar: Analytics G-F6V0L1T2ZT, AdSense ca-pub-9289852053561118, robots.txt, ads.txt.
+Not: Commit/push yapılmadı.

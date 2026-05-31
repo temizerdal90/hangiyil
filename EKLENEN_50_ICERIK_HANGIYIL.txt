@@ -1,0 +1,50 @@
+1. İlk telefon hangi yıl icat edildi? - ilk-telefon-hangi-yil-icat-edildi.html
+2. İnternet hangi yıl ortaya çıktı? - internet-hangi-yil-ortaya-cikti.html
+3. İlk uçak hangi yıl uçtu? - ilk-ucak-hangi-yil-uctu.html
+4. Bilgisayar hangi yıl icat edildi? - bilgisayar-hangi-yil-icat-edildi.html
+5. Televizyon hangi yıl icat edildi? - televizyon-hangi-yil-icat-edildi.html
+6. Radyo hangi yıl icat edildi? - radyo-hangi-yil-icat-edildi.html
+7. Otomobil hangi yıl icat edildi? - otomobil-hangi-yil-icat-edildi.html
+8. Fotoğraf makinesi hangi yıl icat edildi? - fotograf-makinesi-hangi-yil-icat-edildi.html
+9. Sinema hangi yıl ortaya çıktı? - sinema-hangi-yil-ortaya-cikti.html
+10. Buzdolabı hangi yıl icat edildi? - buzdolabi-hangi-yil-icat-edildi.html
+11. Çamaşır makinesi hangi yıl icat edildi? - camasir-makinesi-hangi-yil-icat-edildi.html
+12. Bulaşık makinesi hangi yıl icat edildi? - bulasik-makinesi-hangi-yil-icat-edildi.html
+13. Mikroskop hangi yıl icat edildi? - mikroskop-hangi-yil-icat-edildi.html
+14. Teleskop hangi yıl icat edildi? - teleskop-hangi-yil-icat-edildi.html
+15. Matbaa hangi yıl icat edildi? - matbaa-hangi-yil-icat-edildi.html
+16. Pusula hangi yıl icat edildi? - pusula-hangi-yil-icat-edildi.html
+17. Buhar makinesi hangi yıl icat edildi? - buhar-makinesi-hangi-yil-icat-edildi.html
+18. Pil hangi yıl icat edildi? - pil-hangi-yil-icat-edildi.html
+19. Asansör hangi yıl icat edildi? - asansor-hangi-yil-icat-edildi.html
+20. Tren hangi yıl icat edildi? - tren-hangi-yil-icat-edildi.html
+21. Bisiklet hangi yıl icat edildi? - bisiklet-hangi-yil-icat-edildi.html
+22. Dikiş makinesi hangi yıl icat edildi? - dikis-makinesi-hangi-yil-icat-edildi.html
+23. Klima hangi yıl icat edildi? - klima-hangi-yil-icat-edildi.html
+24. Akıllı telefon hangi yıl çıktı? - akilli-telefon-hangi-yil-cikti.html
+25. Tablet hangi yıl çıktı? - tablet-hangi-yil-cikti.html
+26. Robot süpürge hangi yıl çıktı? - robot-supurge-hangi-yil-cikti.html
+27. 3D yazıcı hangi yıl icat edildi? - 3d-yazici-hangi-yil-icat-edildi.html
+28. Telgraf hangi yıl icat edildi? - telgraf-hangi-yil-icat-edildi.html
+29. Daktilo hangi yıl icat edildi? - daktilo-hangi-yil-icat-edildi.html
+30. Fotokopi makinesi hangi yıl icat edildi? - fotokopi-makinesi-hangi-yil-icat-edildi.html
+31. Lazer hangi yıl icat edildi? - lazer-hangi-yil-icat-edildi.html
+32. Barkod hangi yıl icat edildi? - barkod-hangi-yil-icat-edildi.html
+33. ATM hangi yıl icat edildi? - atm-hangi-yil-icat-edildi.html
+34. Wi-Fi hangi yıl ortaya çıktı? - wi-fi-hangi-yil-ortaya-cikti.html
+35. GPS hangi yıl kullanılmaya başladı? - gps-hangi-yil-kullanilmaya-basladi.html
+36. Elektrikli süpürge hangi yıl icat edildi? - elektrikli-supurge-hangi-yil-icat-edildi.html
+37. Mikrodalga fırın hangi yıl icat edildi? - mikrodalga-firin-hangi-yil-icat-edildi.html
+38. Ütü hangi yıl icat edildi? - utu-hangi-yil-icat-edildi.html
+39. Tükenmez kalem hangi yıl icat edildi? - tukenmez-kalem-hangi-yil-icat-edildi.html
+40. Kağıt hangi yıl icat edildi? - kagit-hangi-yil-icat-edildi.html
+41. Gözlük hangi yıl icat edildi? - gozluk-hangi-yil-icat-edildi.html
+42. Röntgen hangi yıl keşfedildi? - rontgen-hangi-yil-kesfedildi.html
+43. Helikopter hangi yıl icat edildi? - helikopter-hangi-yil-icat-edildi.html
+44. Roket hangi yıl icat edildi? - roket-hangi-yil-icat-edildi.html
+45. Güneş paneli hangi yıl icat edildi? - gunes-paneli-hangi-yil-icat-edildi.html
+46. Elektrikli araba hangi yıl çıktı? - elektrikli-araba-hangi-yil-cikti.html
+47. Drone hangi yıl ortaya çıktı? - drone-hangi-yil-ortaya-cikti.html
+48. Klavye hangi yıl icat edildi? - klavye-hangi-yil-icat-edildi.html
+49. Mouse hangi yıl icat edildi? - mouse-hangi-yil-icat-edildi.html
+50. USB bellek hangi yıl çıktı? - usb-bellek-hangi-yil-cikti.html

@@ -218,6 +218,36 @@ function renderQuickSuggestions(){
   ).join("");
 }
 
+
+const homePlaceholders=[
+  "Örnek: Ampul hangi yıl icat edildi?",
+  "Örnek: İlk telefon hangi yıl çıktı?",
+  "Örnek: İstanbul hangi yıl fethedildi?",
+  "Örnek: Cumhuriyet hangi yıl ilan edildi?",
+  "Örnek: İnternet hangi yıl ortaya çıktı?",
+  "Örnek: İlk uçak hangi yıl uçtu?",
+  "Örnek: ChatGPT hangi yıl çıktı?",
+  "Örnek: 12 Eylül darbesi hangi yıl oldu?",
+  "Örnek: İlk iPhone hangi yıl çıktı?",
+  "Örnek: Google hangi yıl kuruldu?",
+  "Örnek: Televizyon hangi yıl icat edildi?",
+  "Örnek: Matbaa hangi yıl icat edildi?",
+  "Örnek: İlk otomobil hangi yıl üretildi?",
+  "Örnek: Ay’a ilk iniş hangi yıl oldu?",
+  "Örnek: Türkiye hangi yıl cumhuriyet oldu?"
+];
+function rotateHomePlaceholder(){
+  const inputs=[document.getElementById("bigSearchInput"), document.getElementById("sideSearchInput")].filter(Boolean);
+  if(!inputs.length) return;
+  let index=Math.floor(Math.random()*homePlaceholders.length);
+  const apply=()=>{
+    inputs.forEach(input=>{ input.placeholder=homePlaceholders[index % homePlaceholders.length]; });
+    index=(index+1)%homePlaceholders.length;
+  };
+  apply();
+  setInterval(apply,4000);
+}
+
 function fillYears(){
   const sel=document.getElementById("yearFilter"); if(!sel || !window.HY_DATA) return;
   const existing=[...sel.options].map(o=>o.value);
@@ -231,6 +261,7 @@ function fillYears(){
 document.addEventListener("DOMContentLoaded",()=>{
   fillYears();
   renderQuickSuggestions();
+  rotateHomePlaceholder();
   renderArchive();
   const big=document.getElementById("bigSearchInput");
   const side=document.getElementById("sideSearchInput");
