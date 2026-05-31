@@ -150,6 +150,58 @@ function goToFirstSearchResult(){
   if(first) location.href=first.getAttribute("href");
 }
 
+function renderQuickSuggestions(){
+  const box=document.querySelector(".quick-suggestions");
+  if(!box || !window.HY_DATA) return;
+
+  const wanted=[
+    "tarihte-bugun.html",
+    "cumhuriyet-hangi-yil-ilan-edildi.html",
+    "ilk-iphone-hangi-yil-cikti.html",
+    "google-hangi-yil-kuruldu.html",
+    "ataturk-hangi-yil-vefat-etti.html",
+    "chatgpt-hangi-yil-cikti.html",
+    "istanbul-un-fethi-hangi-yil-oldu.html"
+  ];
+
+  const bySlug=new Map((window.HY_DATA||[]).map(r=>[r.slug,r]));
+  const suggestions=[];
+  const seen=new Set();
+
+  const addSuggestion=(title, slug)=>{
+    if(!title || !slug || seen.has(slug)) return;
+    seen.add(slug);
+    suggestions.push({title, slug});
+  };
+
+  const today=(window.HY_TODAY||[]).find(x=>x.url==="tarihte-bugun.html");
+  addSuggestion("Tarihte bugün ne oldu?", today?.url || "tarihte-bugun.html");
+
+  wanted.forEach(slug=>{
+    const record=bySlug.get(slug);
+    if(record) addSuggestion(record.title, record.slug);
+  });
+
+  if(suggestions.length<7){
+    (window.HY_DATA||[]).forEach(record=>{
+      if(suggestions.length>=7) return;
+      const cat=normalizeTR(record.category||record.type||"");
+      const title=normalizeTR(record.title||"");
+      const diverse=
+        cat.includes("tarihi") ||
+        cat.includes("teknoloji") ||
+        title.includes("ilk") ||
+        cat.includes("vefat") ||
+        cat.includes("kisi");
+      if(diverse) addSuggestion(record.title, record.slug);
+    });
+  }
+
+  box.innerHTML=suggestions.slice(0,7).map(item=>
+    `<a class="quick-suggestion" href="${item.slug}">${item.title}</a>`
+  ).join("");
+}
+
 function fillYears(){
   const sel=document.getElementById("yearFilter"); if(!sel || !window.HY_DATA) return;
   const existing=[...sel.options].map(o=>o.value);
@@ -162,6 +214,7 @@ function fillYears(){
 
 document.addEventListener("DOMContentLoaded",()=>{
   fillYears();
+  renderQuickSuggestions();
   renderArchive();
   const big=document.getElementById("bigSearchInput");
   const side=document.getElementById("sideSearchInput");
