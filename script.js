@@ -91,9 +91,9 @@ function makeSmartAnswer(q, data){
     return `<div class="ai-answer-box"><p><b>${k.title}</b></p><p>${k.text}</p><div class="mini-results"><a href="${k.url}"><strong>Bu başlıkla ilgili sayfayı aç</strong><br><small>Detaylı yıl cevabını görüntüle</small></a></div></div>`;
   }
 
-  const fallback=(window.HY_DATA||[]).slice().sort((a,b)=>b.year-a.year).slice(0,3);
+  const fallback=(window.HY_DATA||[]).slice().sort((a,b)=>b.year-a.year).slice(0,4);
   const rows=fallback.map(r=>`<a href="${r.slug}"><strong>${r.title}</strong><br><small>${r.answer}</small></a>`).join("");
-  return `<div class="ai-answer-box"><p><b>${q}</b> hakkında kısa bilgi hazırlanıyor.</p><p>Aşağıdaki yakın/güncel kayıtları inceleyebilirsin:</p><div class="mini-results">${rows}</div></div>`;
+  return `<div class="ai-answer-box"><p><b>Sonuç bulunamadı.</b> "${q}" için birebir kayıt bulamadık.</p><p>Aşağıdaki güncel veya benzer kayıtları inceleyebilir, <a href="tum-kayitlar.html">Tüm Kayıtlar</a> sayfasından bütün başlıklara bakabilir ya da daha kısa bir ifadeyle yeniden arayabilirsin.</p><div class="mini-results">${rows}</div></div>`;
 }
 
 function renderArchive(){
@@ -135,6 +135,19 @@ function syncSearch(source){
   if(source==="side" && side && big) big.value=side.value;
   renderArchive();
   renderTodayBox();
+}
+
+function setQuickSearch(term){
+  const big=document.getElementById("bigSearchInput");
+  const side=document.getElementById("sideSearchInput");
+  if(big) big.value=term;
+  if(side) side.value=term;
+  renderArchive();
+}
+
+function goToFirstSearchResult(){
+  const first=document.querySelector("#bigSearchResults a[href$='.html'], #archiveList a");
+  if(first) location.href=first.getAttribute("href");
 }
 
 function fillYears(){
