@@ -1,4 +1,4 @@
-
+﻿
 function normalizeTR(s){
   return (s||"").toLowerCase()
     .replaceAll("ı","i").replaceAll("İ","i")
@@ -88,12 +88,12 @@ function makeSmartAnswer(q, data){
 
   const k=findKnowledge(q);
   if(k){
-    return `<div class="ai-answer-box"><p><b>${k.title}</b></p><p>${k.text}</p><div class="mini-results"><a href="${k.url}"><strong>Bu başlıkla ilgili sayfayı aç</strong><br><small>Detaylı yıl cevabını görüntüle</small></a></div></div>`;
+    return `<div class="ai-answer-box"><p><b>${k.title}</b></p><p>${k.text}</p><div class="mini-results"><a href="${k.url}"><strong>Bu ba?lıkla ilgili sayfayı aç</strong><br><small>Detaylı yıl cevabını görüntüle</small></a></div></div>`;
   }
 
   const fallback=(window.HY_DATA||[]).slice().sort((a,b)=>b.year-a.year).slice(0,4);
   const rows=fallback.map(r=>`<a href="${r.slug}"><strong>${r.title}</strong><br><small>${r.answer}</small></a>`).join("");
-  return `<div class="ai-answer-box"><p><b>Sonuç bulunamadı.</b> "${q}" için birebir kayıt bulamadık.</p><p>Aşağıdaki güncel veya benzer kayıtları inceleyebilir, <a href="tum-kayitlar.html">Tüm Kayıtlar</a> sayfasından bütün başlıklara bakabilir ya da daha kısa bir ifadeyle yeniden arayabilirsin.</p><div class="mini-results">${rows}</div></div>`;
+  return `<div class="ai-answer-box"><p><b>Sonuç bulunamadı.</b> "${q}" için birebir kayıt bulamadık.</p><p>A?a?ıdaki güncel veya benzer kayıtları inceleyebilir, <a href="tum-kayitlar.html">Tüm Kayıtlar</a> sayfasından bütün ba?lıklara bakabilir ya da daha kısa bir ifadeyle yeniden arayabilirsin.</p><div class="mini-results">${rows}</div></div>`;
 }
 
 function renderArchive(){
@@ -154,47 +154,63 @@ function renderQuickSuggestions(){
   const box=document.querySelector(".quick-suggestions");
   if(!box || !window.HY_DATA) return;
 
-  const wanted=[
-    "tarihte-bugun.html",
-    "cumhuriyet-hangi-yil-ilan-edildi.html",
-    "ilk-iphone-hangi-yil-cikti.html",
-    "google-hangi-yil-kuruldu.html",
-    "ataturk-hangi-yil-vefat-etti.html",
-    "chatgpt-hangi-yil-cikti.html",
-    "istanbul-un-fethi-hangi-yil-oldu.html"
-  ];
-
-  const bySlug=new Map((window.HY_DATA||[]).map(r=>[r.slug,r]));
+  const records=(window.HY_DATA||[]).filter(r=>r?.title && r?.slug);
   const suggestions=[];
   const seen=new Set();
+
+  const cleanText=(text)=>{
+    const value=String(text||"");
+    if(!/[\u00c3\u00c4\u00c5]/.test(value)) return value;
+    try{ return decodeURIComponent(escape(value)); }
+    catch(e){ return value; }
+  };
+
+  const textKey=(record)=>normalizeTR([
+    cleanText(record.title),
+    cleanText(record.category),
+    cleanText(record.type),
+    record.slug
+  ].join(" "));
 
   const addSuggestion=(title, slug)=>{
     if(!title || !slug || seen.has(slug)) return;
     seen.add(slug);
-    suggestions.push({title, slug});
+    suggestions.push({title:cleanText(title), slug});
   };
+
+  const randomIndex=(items)=>{
+    if(!items.length) return null;
+    return Math.floor(Math.random()*items.length);
+  };
+
+  const pickRandom=(items)=>{
+    const index=randomIndex(items);
+    return index===null ? null : items[index];
+  };
+
+  const groups=[
+    record=>!/vefat|dogum|hayatini-kaybetti/.test(textKey(record)) && /cumhuriyet|fethi|darbe|savas|antlasma|devrim|imparatorluk|kuruldu/.test(textKey(record)),
+    record=>/teknoloji|iphone|google|chatgpt|internet|youtube|facebook|bilgisayar/.test(textKey(record)),
+    record=>/ilk|ilkler/.test(textKey(record)),
+    record=>/vefat|kisi|ataturk|dogum|hayatini-kaybetti/.test(textKey(record)),
+    record=>/spor|dunya-kupasi|olimpiyat|futbol/.test(textKey(record)),
+    record=>/pandemi|covid|saglik|hastalik|asi/.test(textKey(record))
+  ];
 
   const today=(window.HY_TODAY||[]).find(x=>x.url==="tarihte-bugun.html");
   addSuggestion("Tarihte bugün ne oldu?", today?.url || "tarihte-bugun.html");
 
-  wanted.forEach(slug=>{
-    const record=bySlug.get(slug);
+  groups.forEach((match,index)=>{
+    const pool=records.filter(record=>match(record) && !seen.has(record.slug));
+    const record=pickRandom(pool);
     if(record) addSuggestion(record.title, record.slug);
   });
 
-  if(suggestions.length<7){
-    (window.HY_DATA||[]).forEach(record=>{
-      if(suggestions.length>=7) return;
-      const cat=normalizeTR(record.category||record.type||"");
-      const title=normalizeTR(record.title||"");
-      const diverse=
-        cat.includes("tarihi") ||
-        cat.includes("teknoloji") ||
-        title.includes("ilk") ||
-        cat.includes("vefat") ||
-        cat.includes("kisi");
-      if(diverse) addSuggestion(record.title, record.slug);
-    });
+  const remaining=records.filter(record=>!seen.has(record.slug)).sort(()=>Math.random()-0.5);
+  let fillOffset=0;
+  while(suggestions.length<7 && fillOffset<remaining.length){
+    const record=remaining[fillOffset++];
+    addSuggestion(record.title, record.slug);
   }
 
   box.innerHTML=suggestions.slice(0,7).map(item=>
@@ -269,7 +285,7 @@ function renderTodayBox(){
   if(items.length === 0){
     items = [{
       label: fallbackLabel,
-      title: "Bugünün arşivi hazırlanıyor",
+      title: "Bugünün ar?ivi hazırlanıyor",
       year: "",
       text: "Bu tarih için kayıt eklendikçe burada otomatik görünür."
     }];
@@ -285,3 +301,4 @@ function renderTodayBox(){
 }
 
 document.addEventListener("DOMContentLoaded", renderTodayBox);
+
