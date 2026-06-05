@@ -1,0 +1,22 @@
+{
+  "html_total": 776,
+  "adsense_pages": 776,
+  "analytics_pages": 776,
+  "duplicate_adsense_pages": [],
+  "duplicate_analytics_pages": [],
+  "missing": {
+    "title": [],
+    "description": [],
+    "canonical": [],
+    "identity": []
+  },
+  "missing_counts": {
+    "title": 0,
+    "description": 0,
+    "canonical": 0,
+    "identity": 0
+  },
+  "noindex": [],
+  "broken_count": 0,
+  "broken_links": []
+}

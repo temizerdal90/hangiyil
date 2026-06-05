@@ -333,3 +333,6 @@ function renderTodayBox(){
 
 document.addEventListener("DOMContentLoaded", renderTodayBox);
 
+
+// Hangiyil rotating placeholder
+(function(){const placeholders=["İstanbul’un fethi hangi yıl oldu?","Cumhuriyet hangi yılda ilan edildi?","İlk iPhone hangi yıl çıktı?","ChatGPT hangi yıl çıktı?","Ay’a ilk insan hangi yıl çıktı?","Google hangi yıl kuruldu?","İlk otomobil hangi yıl üretildi?","12 Eylül darbesi hangi yıl oldu?","Yapay zekâ hangi yıllarda gelişti?"];let index=0;function tick(){const input=document.getElementById("bigSearchInput");if(!input||input.value.trim())return;index=(index+1)%placeholders.length;input.setAttribute("placeholder",placeholders[index]);}document.addEventListener("DOMContentLoaded",function(){const input=document.getElementById("bigSearchInput");if(input&&!input.value.trim())input.setAttribute("placeholder",placeholders[0]);setInterval(tick,4000);});})();
