@@ -145,6 +145,171 @@ function setQuickSearch(term){
   renderArchive();
 }
 
+function getRecordText(record){
+  return [
+    record?.title,
+    record?.answer,
+    record?.detail,
+    record?.description,
+    record?.keywords,
+    record?.category,
+    record?.type,
+    record?.people,
+    record?.year,
+    record?.date
+  ].filter(Boolean).join(" ");
+}
+
+function getRecordYears(record){
+  if(record?.year && /^\d{3,4}$/.test(String(record.year))){
+    return [Number(record.year)];
+  }
+  const matches = getRecordText(record).match(/\b(1[0-9]{3}|20[0-9]{2})\b/g) || [];
+  return [...new Set(matches.map(Number))];
+}
+
+function scoreYearToolRecord(record, query, numericYear){
+  const text = normalizeTR(getRecordText(record));
+  const title = normalizeTR(record?.title || "");
+  const answer = normalizeTR(record?.answer || "");
+  const detail = normalizeTR(record?.detail || record?.description || "");
+  const yearText = String(record?.year || "");
+  let score = 0;
+
+  if(numericYear){
+    if(yearText === String(numericYear)) score += 900;
+    if(text.includes(String(numericYear))) score += 220;
+    return score;
+  }
+
+  if(!query) return 0;
+  if(title === query) score += 900;
+  if(title.includes(query)) score += 520;
+  if(answer.includes(query)) score += 160;
+  if(detail.includes(query)) score += 90;
+  if(yearText.includes(query)) score += 60;
+
+  query.split(/\s+/).filter(Boolean).forEach(word => {
+    if(title.includes(word)) score += 90;
+    if(answer.includes(word)) score += 34;
+    if(detail.includes(word)) score += 16;
+    if(text.includes(word)) score += 8;
+  });
+
+  return score;
+}
+
+function buildYearToolIntro(input, matches, numericYear){
+  const currentYear = new Date().getFullYear();
+  const best = matches[0];
+
+  if(numericYear){
+    const diff = Math.abs(currentYear - numericYear);
+    if(numericYear > currentYear){
+      return `Bu yıl gelecekte görünüyor. ${numericYear} yılına yaklaşık ${diff} yıl var.`;
+    }
+    return `${numericYear} yılından bugüne ${currentYear - numericYear} yıl geçti.`;
+  }
+
+  const years = best ? getRecordYears(best) : [];
+  if(years.length === 1){
+    const diff = Math.abs(currentYear - years[0]);
+    if(years[0] > currentYear){
+      return `Bu konu ${years[0]} yılıyla ilişkilidir. O yıla yaklaşık ${diff} yıl var.`;
+    }
+    return `Bu olay ${years[0]} yılıyla ilişkilidir. Bugüne kadar yaklaşık ${currentYear - years[0]} yıl geçti.`;
+  }
+  if(years.length > 1){
+    return `En ilgili kaydın içinde geçen yıllar: ${years.slice(0,4).join(", ")}. Birden fazla yıl olduğu için tek bir yılı kesin sonuç olarak göstermiyoruz.`;
+  }
+  return `"${input}" için site kayıtlarında benzer başlıklar arandı.`;
+}
+
+function renderYearTool(){
+  const input = document.getElementById("yearToolInput");
+  const result = document.getElementById("yearToolResult");
+  if(!input || !result) return;
+
+  const raw = input.value.trim();
+  if(!raw){
+    result.hidden = true;
+    result.innerHTML = "";
+    return;
+  }
+
+  if(!/[0-9A-Za-zÇĞİÖŞÜçğıöşü]/.test(raw)){
+    result.hidden = false;
+    result.innerHTML = `<p class="year-tool-message">Lütfen 1453, 1923 gibi bir yıl veya İstanbul’un fethi gibi bir konu yazın.</p>`;
+    return;
+  }
+
+  if(/^\d+$/.test(raw) && !/^\d{3,4}$/.test(raw)){
+    result.hidden = false;
+    result.innerHTML = `<p class="year-tool-message">Yıl aramak için 1453 veya 1923 gibi 3-4 haneli bir değer yazın.</p>`;
+    return;
+  }
+
+  const yearMatch = raw.match(/^\d{3,4}$/);
+  const numericYear = yearMatch ? Number(raw) : null;
+  if(numericYear && (numericYear < 1000 || numericYear > 2999)){
+    result.hidden = false;
+    result.innerHTML = `<p class="year-tool-message">Lütfen 1453, 1923 gibi bir yıl veya İstanbul’un fethi gibi bir konu yazın.</p>`;
+    return;
+  }
+
+  const query = normalizeTR(raw);
+  const matches = (window.HY_DATA || [])
+    .map(record => ({record, score: scoreYearToolRecord(record, query, numericYear)}))
+    .filter(item => item.score > 0 && item.record?.slug)
+    .sort((a,b) => b.score - a.score || Number(b.record.year || 0) - Number(a.record.year || 0))
+    .map(item => item.record);
+
+  const heading = numericYear ? `${numericYear} yılıyla ilgili kayıtlar` : "İlgili kayıtlar";
+  const intro = buildYearToolIntro(raw, matches, numericYear);
+  const count = matches.length;
+  const rows = matches.slice(0,6).map(record => {
+    const desc = record.answer || record.detail || record.description || "";
+    const shortDesc = desc.length > 150 ? desc.slice(0,147).trim() + "..." : desc;
+    return `<a href="${record.slug}"><strong>${record.title}</strong><small>${shortDesc}</small><span>Sayfayı aç</span></a>`;
+  }).join("");
+
+  result.hidden = false;
+  if(!count){
+    const emptyText = numericYear
+      ? `${numericYear} yılı için doğrudan kayıt bulunamadı. Benzer tarih ve olay kayıtlarına <a href="tum-kayitlar.html">Tüm Kayıtlar</a>’dan bakabilirsiniz.`
+      : `Bu konu için doğrudan kayıt bulunamadı. Benzer sonuçlar için <a href="tum-kayitlar.html">Tüm Kayıtlar</a> sayfasına bakabilirsiniz.`;
+    result.innerHTML = `
+      <p class="year-tool-message">${intro}</p>
+      <p class="year-tool-count">0 kayıt bulundu.</p>
+      <p>${emptyText}</p>
+    `;
+    return;
+  }
+
+  result.innerHTML = `
+    <p class="year-tool-message">${intro}</p>
+    <p class="year-tool-count">${count} kayıt bulundu.</p>
+    <h3>${heading}</h3>
+    <div class="year-tool-list">${rows}</div>
+    <a class="year-tool-all" href="tum-kayitlar.html">Tüm Kayıtlar’a bak</a>
+  `;
+}
+
+function initYearTool(){
+  const input = document.getElementById("yearToolInput");
+  const button = document.getElementById("yearToolButton");
+  if(!input || !button) return;
+
+  button.addEventListener("click", renderYearTool);
+  input.addEventListener("input", renderYearTool);
+  input.addEventListener("keydown", event => {
+    if(event.key === "Enter"){
+      event.preventDefault();
+      renderYearTool();
+    }
+  });
+}
+
 function goToFirstSearchResult(){
   const first=document.querySelector("#bigSearchResults a[href$='.html'], #archiveList a");
   if(first) location.href=first.getAttribute("href");
@@ -241,7 +406,7 @@ function rotateHomePlaceholder(){
   if(!inputs.length) return;
   let index=Math.floor(Math.random()*homePlaceholders.length);
   const apply=()=>{
-    inputs.forEach(input=>{ input.placeholder=homePlaceholders[index % homePlaceholders.length]; });
+    inputs.forEach(input=>{ if(!input.value.trim()) input.placeholder=homePlaceholders[index % homePlaceholders.length]; });
     index=(index+1)%homePlaceholders.length;
   };
   apply();
@@ -262,6 +427,7 @@ document.addEventListener("DOMContentLoaded",()=>{
   fillYears();
   renderQuickSuggestions();
   rotateHomePlaceholder();
+  initYearTool();
   renderArchive();
   const big=document.getElementById("bigSearchInput");
   const side=document.getElementById("sideSearchInput");
@@ -332,7 +498,3 @@ function renderTodayBox(){
 }
 
 document.addEventListener("DOMContentLoaded", renderTodayBox);
-
-
-// Hangiyil rotating placeholder
-(function(){const placeholders=["İstanbul’un fethi hangi yıl oldu?","Cumhuriyet hangi yılda ilan edildi?","İlk iPhone hangi yıl çıktı?","ChatGPT hangi yıl çıktı?","Ay’a ilk insan hangi yıl çıktı?","Google hangi yıl kuruldu?","İlk otomobil hangi yıl üretildi?","12 Eylül darbesi hangi yıl oldu?","Yapay zekâ hangi yıllarda gelişti?"];let index=0;function tick(){const input=document.getElementById("bigSearchInput");if(!input||input.value.trim())return;index=(index+1)%placeholders.length;input.setAttribute("placeholder",placeholders[index]);}document.addEventListener("DOMContentLoaded",function(){const input=document.getElementById("bigSearchInput");if(input&&!input.value.trim())input.setAttribute("placeholder",placeholders[0]);setInterval(tick,4000);});})();
