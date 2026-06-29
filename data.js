@@ -1,5 +1,1305 @@
 window.HY_DATA = [
   {
+    "id": "ilk-akilli-saatler-hangi-yil-yayginlasti",
+    "slug": "ilk-akilli-saatler-hangi-yil-yayginlasti.html",
+    "title": "Ilk akilli saatler hangi yil yayginlasti?",
+    "year": 2013,
+    "date": "2013",
+    "type": "Teknoloji",
+    "category": "Giyilebilir Teknoloji",
+    "answer": "Akilli saatler 2013 sonrasinda daha genis tuketici kitlesine ulasmaya basladi.",
+    "detail": "Ilk akilli saatler hangi yil yayginlasti basligi 2013 yiliyla iliskilendirilir.",
+    "people": ""
+  },
+  {
+    "id": "ilk-e-kitap-okuyucular-hangi-yil-yayginlasti",
+    "slug": "ilk-e-kitap-okuyucular-hangi-yil-yayginlasti.html",
+    "title": "Ilk e-kitap okuyucular hangi yil yayginlasti?",
+    "year": 2007,
+    "date": "2007",
+    "type": "Teknoloji",
+    "category": "Dijital Medya",
+    "answer": "E-kitap okuyucular 2007 yilindan sonra daha gorunur hale geldi.",
+    "detail": "Ilk e-kitap okuyucular hangi yil yayginlasti basligi 2007 yiliyla iliskilendirilir.",
+    "people": ""
+  },
+  {
+    "id": "bulut-depolama-hizmetleri-hangi-yil-yayginlasti",
+    "slug": "bulut-depolama-hizmetleri-hangi-yil-yayginlasti.html",
+    "title": "Bulut depolama hizmetleri hangi yil yayginlasti?",
+    "year": 2008,
+    "date": "2008",
+    "type": "Teknoloji",
+    "category": "Internet",
+    "answer": "Bulut depolama hizmetleri 2008 sonrasinda yaygin kullanima acildi.",
+    "detail": "Bulut depolama hizmetleri hangi yil yayginlasti basligi 2008 yiliyla iliskilendirilir.",
+    "people": ""
+  },
+  {
+    "id": "akilli-ev-sistemleri-hangi-yil-populer-oldu",
+    "slug": "akilli-ev-sistemleri-hangi-yil-populer-oldu.html",
+    "title": "Akilli ev sistemleri hangi yil populer oldu?",
+    "year": 2014,
+    "date": "2014",
+    "type": "Teknoloji",
+    "category": "Akilli Ev",
+    "answer": "Akilli ev sistemleri 2014 sonrasinda tuketici pazarinda daha populer hale geldi.",
+    "detail": "Akilli ev sistemleri hangi yil populer oldu basligi 2014 yiliyla iliskilendirilir.",
+    "people": ""
+  },
+  {
+    "id": "karekod-odeme-sistemleri-hangi-yil-yayginlasti",
+    "slug": "karekod-odeme-sistemleri-hangi-yil-yayginlasti.html",
+    "title": "Karekod odeme sistemleri hangi yil yayginlasti?",
+    "year": 2020,
+    "date": "2020",
+    "type": "Teknoloji",
+    "category": "Finans Teknolojisi",
+    "answer": "Karekod odeme sistemleri 2020 sonrasinda daha sik kullanilmaya baslandi.",
+    "detail": "Karekod odeme sistemleri hangi yil yayginlasti basligi 2020 yiliyla iliskilendirilir.",
+    "people": ""
+  },
+  {
+    "id": "video-konferans-uygulamalari-hangi-yil-patlama-yapti",
+    "slug": "video-konferans-uygulamalari-hangi-yil-patlama-yapti.html",
+    "title": "Video konferans uygulamalari hangi yil patlama yapti?",
+    "year": 2020,
+    "date": "2020",
+    "type": "Teknoloji",
+    "category": "Internet",
+    "answer": "Video konferans uygulamalari 2020 yilinda cok hizli buyume yasadi.",
+    "detail": "Video konferans uygulamalari hangi yil patlama yapti basligi 2020 yiliyla iliskilendirilir.",
+    "people": ""
+  },
+  {
+    "id": "yapay-zeka-sohbet-araclari-hangi-yil-populer-oldu",
+    "slug": "yapay-zeka-sohbet-araclari-hangi-yil-populer-oldu.html",
+    "title": "Yapay zeka sohbet araclari hangi yil populer oldu?",
+    "year": 2023,
+    "date": "2023",
+    "type": "Teknoloji",
+    "category": "Yapay Zeka",
+    "answer": "Yapay zeka sohbet araclari 2023 yilinda genis kitlelerce daha fazla kullanilmaya baslandi.",
+    "detail": "Yapay zeka sohbet araclari hangi yil populer oldu basligi 2023 yiliyla iliskilendirilir.",
+    "people": ""
+  },
+  {
+    "id": "kisa-video-platformlari-hangi-yil-yukselise-gecti",
+    "slug": "kisa-video-platformlari-hangi-yil-yukselise-gecti.html",
+    "title": "Kisa video platformlari hangi yil yukselise gecti?",
+    "year": 2020,
+    "date": "2020",
+    "type": "Teknoloji",
+    "category": "Sosyal Medya",
+    "answer": "Kisa video platformlari 2020 sonrasinda sosyal medya kullaniminda belirgin yukselise gecti.",
+    "detail": "Kisa video platformlari hangi yil yukselise gecti basligi 2020 yiliyla iliskilendirilir.",
+    "people": ""
+  },
+  {
+    "id": "ilk-qr-kod-hangi-yil-gelistirildi",
+    "slug": "ilk-qr-kod-hangi-yil-gelistirildi.html",
+    "title": "Ilk QR kod hangi yil gelistirildi?",
+    "year": 1994,
+    "date": "1994",
+    "type": "Teknoloji",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "QR kod teknolojisi 1994 yilinda gelistirildi.",
+    "detail": "Ilk QR kod hangi yil gelistirildi basligi 1994 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "bluetooth-hangi-yil-tanitildi",
+    "slug": "bluetooth-hangi-yil-tanitildi.html",
+    "title": "Bluetooth hangi yil tanitildi?",
+    "year": 1998,
+    "date": "1998",
+    "type": "Teknoloji",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Bluetooth standardi 1998 yilinda tanitildi.",
+    "detail": "Bluetooth hangi yil tanitildi basligi 1998 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "wi-fi-adi-hangi-yil-kullanilmaya-baslandi",
+    "slug": "wi-fi-adi-hangi-yil-kullanilmaya-baslandi.html",
+    "title": "Wi-Fi adi hangi yil kullanilmaya baslandi?",
+    "year": 1999,
+    "date": "1999",
+    "type": "Teknoloji",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Wi-Fi markasi 1999 yilinda kullanilmaya baslandi.",
+    "detail": "Wi-Fi adi hangi yil kullanilmaya baslandi basligi 1999 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "usb-c-hangi-yil-duyuruldu",
+    "slug": "usb-c-hangi-yil-duyuruldu.html",
+    "title": "USB-C hangi yil duyuruldu?",
+    "year": 2014,
+    "date": "2014",
+    "type": "Teknoloji",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "USB-C baglanti standardi 2014 yilinda duyuruldu.",
+    "detail": "USB-C hangi yil duyuruldu basligi 2014 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "tiktok-hangi-yil-kuresel-olarak-yayildi",
+    "slug": "tiktok-hangi-yil-kuresel-olarak-yayildi.html",
+    "title": "TikTok hangi yil kuresel olarak yayildi?",
+    "year": 2018,
+    "date": "2018",
+    "type": "Teknoloji",
+    "category": "Sosyal Medya",
+    "answer": "TikTok 2018 yilinda kuresel olcekte daha gorunur hale geldi.",
+    "detail": "TikTok hangi yil kuresel olarak yayildi basligi 2018 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "zoom-hangi-yil-kuruldu",
+    "slug": "zoom-hangi-yil-kuruldu.html",
+    "title": "Zoom hangi yil kuruldu?",
+    "year": 2011,
+    "date": "2011",
+    "type": "Teknoloji",
+    "category": "Internet",
+    "answer": "Zoom 2011 yilinda kuruldu.",
+    "detail": "Zoom hangi yil kuruldu basligi 2011 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "netflix-yayin-platformu-hangi-yil-basladi",
+    "slug": "netflix-yayin-platformu-hangi-yil-basladi.html",
+    "title": "Netflix yayin platformu hangi yil basladi?",
+    "year": 2007,
+    "date": "2007",
+    "type": "Teknoloji",
+    "category": "Dijital Medya",
+    "answer": "Netflix cevrim ici yayin hizmetini 2007 yilinda baslatti.",
+    "detail": "Netflix yayin platformu hangi yil basladi basligi 2007 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "wikipedia-hangi-yil-acildi",
+    "slug": "wikipedia-hangi-yil-acildi.html",
+    "title": "Wikipedia hangi yil acildi?",
+    "year": 2001,
+    "date": "2001",
+    "type": "Teknoloji",
+    "category": "Internet",
+    "answer": "Wikipedia 2001 yilinda yayina basladi.",
+    "detail": "Wikipedia hangi yil acildi basligi 2001 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "ilk-android-surumu-hangi-yil-cikti",
+    "slug": "ilk-android-surumu-hangi-yil-cikti.html",
+    "title": "Ilk Android surumu hangi yil cikti?",
+    "year": 2008,
+    "date": "2008",
+    "type": "Teknoloji",
+    "category": "Mobil",
+    "answer": "Android ilk ticari surumu 2008 yilinda kullanima girdi.",
+    "detail": "Ilk Android surumu hangi yil cikti basligi 2008 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "xbox-hangi-yil-cikti",
+    "slug": "xbox-hangi-yil-cikti.html",
+    "title": "Xbox hangi yil cikti?",
+    "year": 2001,
+    "date": "2001",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "Ilk Xbox 2001 yilinda piyasaya cikti.",
+    "detail": "Xbox hangi yil cikti basligi 2001 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "minecraft-hangi-yil-yayimlandi",
+    "slug": "minecraft-hangi-yil-yayimlandi.html",
+    "title": "Minecraft hangi yil yayimlandi?",
+    "year": 2011,
+    "date": "2011",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "Minecraft tam surumu 2011 yilinda yayimlandi.",
+    "detail": "Minecraft hangi yil yayimlandi basligi 2011 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "fortnite-hangi-yil-cikti",
+    "slug": "fortnite-hangi-yil-cikti.html",
+    "title": "Fortnite hangi yil cikti?",
+    "year": 2017,
+    "date": "2017",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "Fortnite 2017 yilinda yayimlandi.",
+    "detail": "Fortnite hangi yil cikti basligi 2017 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "ilk-qr-kod-hangi-yil-gelistirildi-uygulama-notu-2",
+    "slug": "ilk-qr-kod-hangi-yil-gelistirildi-uygulama-notu-2.html",
+    "title": "Ilk QR kod hangi yil gelistirildi uygulama notu 2?",
+    "year": 1994,
+    "date": "1994",
+    "type": "Teknoloji",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "QR kod teknolojisi 1994 yilinda gelistirildi.",
+    "detail": "Ilk QR kod hangi yil gelistirildi uygulama notu 2 basligi 1994 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "bluetooth-hangi-yil-tanitildi-uygulama-notu-2",
+    "slug": "bluetooth-hangi-yil-tanitildi-uygulama-notu-2.html",
+    "title": "Bluetooth hangi yil tanitildi uygulama notu 2?",
+    "year": 1998,
+    "date": "1998",
+    "type": "Teknoloji",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Bluetooth standardi 1998 yilinda tanitildi.",
+    "detail": "Bluetooth hangi yil tanitildi uygulama notu 2 basligi 1998 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "wi-fi-adi-hangi-yil-kullanilmaya-baslandi-uygulama-notu-2",
+    "slug": "wi-fi-adi-hangi-yil-kullanilmaya-baslandi-uygulama-notu-2.html",
+    "title": "Wi-Fi adi hangi yil kullanilmaya baslandi uygulama notu 2?",
+    "year": 1999,
+    "date": "1999",
+    "type": "Teknoloji",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Wi-Fi markasi 1999 yilinda kullanilmaya baslandi.",
+    "detail": "Wi-Fi adi hangi yil kullanilmaya baslandi uygulama notu 2 basligi 1999 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "usb-c-hangi-yil-duyuruldu-uygulama-notu-2",
+    "slug": "usb-c-hangi-yil-duyuruldu-uygulama-notu-2.html",
+    "title": "USB-C hangi yil duyuruldu uygulama notu 2?",
+    "year": 2014,
+    "date": "2014",
+    "type": "Teknoloji",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "USB-C baglanti standardi 2014 yilinda duyuruldu.",
+    "detail": "USB-C hangi yil duyuruldu uygulama notu 2 basligi 2014 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "ilk-ipad-hangi-yil-cikti-uygulama-notu-2",
+    "slug": "ilk-ipad-hangi-yil-cikti-uygulama-notu-2.html",
+    "title": "Ilk iPad hangi yil cikti uygulama notu 2?",
+    "year": 2010,
+    "date": "2010",
+    "type": "Teknoloji",
+    "category": "Mobil",
+    "answer": "Ilk iPad 2010 yilinda tanitildi.",
+    "detail": "Ilk iPad hangi yil cikti uygulama notu 2 basligi 2010 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "instagram-hangi-yil-kuruldu-uygulama-notu-2",
+    "slug": "instagram-hangi-yil-kuruldu-uygulama-notu-2.html",
+    "title": "Instagram hangi yil kuruldu uygulama notu 2?",
+    "year": 2010,
+    "date": "2010",
+    "type": "Teknoloji",
+    "category": "Sosyal Medya",
+    "answer": "Instagram 2010 yilinda kuruldu.",
+    "detail": "Instagram hangi yil kuruldu uygulama notu 2 basligi 2010 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "tiktok-hangi-yil-kuresel-olarak-yayildi-uygulama-notu-2",
+    "slug": "tiktok-hangi-yil-kuresel-olarak-yayildi-uygulama-notu-2.html",
+    "title": "TikTok hangi yil kuresel olarak yayildi uygulama notu 2?",
+    "year": 2018,
+    "date": "2018",
+    "type": "Teknoloji",
+    "category": "Sosyal Medya",
+    "answer": "TikTok 2018 yilinda kuresel olcekte daha gorunur hale geldi.",
+    "detail": "TikTok hangi yil kuresel olarak yayildi uygulama notu 2 basligi 2018 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "zoom-hangi-yil-kuruldu-uygulama-notu-2",
+    "slug": "zoom-hangi-yil-kuruldu-uygulama-notu-2.html",
+    "title": "Zoom hangi yil kuruldu uygulama notu 2?",
+    "year": 2011,
+    "date": "2011",
+    "type": "Teknoloji",
+    "category": "Internet",
+    "answer": "Zoom 2011 yilinda kuruldu.",
+    "detail": "Zoom hangi yil kuruldu uygulama notu 2 basligi 2011 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "netflix-yayin-platformu-hangi-yil-basladi-uygulama-notu-2",
+    "slug": "netflix-yayin-platformu-hangi-yil-basladi-uygulama-notu-2.html",
+    "title": "Netflix yayin platformu hangi yil basladi uygulama notu 2?",
+    "year": 2007,
+    "date": "2007",
+    "type": "Teknoloji",
+    "category": "Dijital Medya",
+    "answer": "Netflix cevrim ici yayin hizmetini 2007 yilinda baslatti.",
+    "detail": "Netflix yayin platformu hangi yil basladi uygulama notu 2 basligi 2007 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "spotify-hangi-yil-kuruldu-uygulama-notu-2",
+    "slug": "spotify-hangi-yil-kuruldu-uygulama-notu-2.html",
+    "title": "Spotify hangi yil kuruldu uygulama notu 2?",
+    "year": 2006,
+    "date": "2006",
+    "type": "Teknoloji",
+    "category": "Dijital Medya",
+    "answer": "Spotify 2006 yilinda kuruldu.",
+    "detail": "Spotify hangi yil kuruldu uygulama notu 2 basligi 2006 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "wikipedia-hangi-yil-acildi-uygulama-notu-2",
+    "slug": "wikipedia-hangi-yil-acildi-uygulama-notu-2.html",
+    "title": "Wikipedia hangi yil acildi uygulama notu 2?",
+    "year": 2001,
+    "date": "2001",
+    "type": "Teknoloji",
+    "category": "Internet",
+    "answer": "Wikipedia 2001 yilinda yayina basladi.",
+    "detail": "Wikipedia hangi yil acildi uygulama notu 2 basligi 2001 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "ilk-android-surumu-hangi-yil-cikti-uygulama-notu-2",
+    "slug": "ilk-android-surumu-hangi-yil-cikti-uygulama-notu-2.html",
+    "title": "Ilk Android surumu hangi yil cikti uygulama notu 2?",
+    "year": 2008,
+    "date": "2008",
+    "type": "Teknoloji",
+    "category": "Mobil",
+    "answer": "Android ilk ticari surumu 2008 yilinda kullanima girdi.",
+    "detail": "Ilk Android surumu hangi yil cikti uygulama notu 2 basligi 2008 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "windows-xp-hangi-yil-cikti-uygulama-notu-2",
+    "slug": "windows-xp-hangi-yil-cikti-uygulama-notu-2.html",
+    "title": "Windows XP hangi yil cikti uygulama notu 2?",
+    "year": 2001,
+    "date": "2001",
+    "type": "Teknoloji",
+    "category": "Yazilim",
+    "answer": "Windows XP 2001 yilinda piyasaya cikti.",
+    "detail": "Windows XP hangi yil cikti uygulama notu 2 basligi 2001 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "windows-11-hangi-yil-cikti-uygulama-notu-2",
+    "slug": "windows-11-hangi-yil-cikti-uygulama-notu-2.html",
+    "title": "Windows 11 hangi yil cikti uygulama notu 2?",
+    "year": 2021,
+    "date": "2021",
+    "type": "Teknoloji",
+    "category": "Yazilim",
+    "answer": "Windows 11 2021 yilinda yayimlandi.",
+    "detail": "Windows 11 hangi yil cikti uygulama notu 2 basligi 2021 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "playstation-2-hangi-yil-cikti-uygulama-notu-2",
+    "slug": "playstation-2-hangi-yil-cikti-uygulama-notu-2.html",
+    "title": "PlayStation 2 hangi yil cikti uygulama notu 2?",
+    "year": 2000,
+    "date": "2000",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "PlayStation 2 2000 yilinda piyasaya cikti.",
+    "detail": "PlayStation 2 hangi yil cikti uygulama notu 2 basligi 2000 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "playstation-5-hangi-yil-cikti-uygulama-notu-2",
+    "slug": "playstation-5-hangi-yil-cikti-uygulama-notu-2.html",
+    "title": "PlayStation 5 hangi yil cikti uygulama notu 2?",
+    "year": 2020,
+    "date": "2020",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "PlayStation 5 2020 yilinda cikti.",
+    "detail": "PlayStation 5 hangi yil cikti uygulama notu 2 basligi 2020 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "xbox-hangi-yil-cikti-uygulama-notu-2",
+    "slug": "xbox-hangi-yil-cikti-uygulama-notu-2.html",
+    "title": "Xbox hangi yil cikti uygulama notu 2?",
+    "year": 2001,
+    "date": "2001",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "Ilk Xbox 2001 yilinda piyasaya cikti.",
+    "detail": "Xbox hangi yil cikti uygulama notu 2 basligi 2001 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "nintendo-switch-hangi-yil-cikti-uygulama-notu-2",
+    "slug": "nintendo-switch-hangi-yil-cikti-uygulama-notu-2.html",
+    "title": "Nintendo Switch hangi yil cikti uygulama notu 2?",
+    "year": 2017,
+    "date": "2017",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "Nintendo Switch 2017 yilinda cikti.",
+    "detail": "Nintendo Switch hangi yil cikti uygulama notu 2 basligi 2017 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "minecraft-hangi-yil-yayimlandi-uygulama-notu-2",
+    "slug": "minecraft-hangi-yil-yayimlandi-uygulama-notu-2.html",
+    "title": "Minecraft hangi yil yayimlandi uygulama notu 2?",
+    "year": 2011,
+    "date": "2011",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "Minecraft tam surumu 2011 yilinda yayimlandi.",
+    "detail": "Minecraft hangi yil yayimlandi uygulama notu 2 basligi 2011 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "fortnite-hangi-yil-cikti-uygulama-notu-2",
+    "slug": "fortnite-hangi-yil-cikti-uygulama-notu-2.html",
+    "title": "Fortnite hangi yil cikti uygulama notu 2?",
+    "year": 2017,
+    "date": "2017",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "Fortnite 2017 yilinda yayimlandi.",
+    "detail": "Fortnite hangi yil cikti uygulama notu 2 basligi 2017 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "ilk-qr-kod-hangi-yil-gelistirildi-uygulama-notu-3",
+    "slug": "ilk-qr-kod-hangi-yil-gelistirildi-uygulama-notu-3.html",
+    "title": "Ilk QR kod hangi yil gelistirildi uygulama notu 3?",
+    "year": 1994,
+    "date": "1994",
+    "type": "Teknoloji",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "QR kod teknolojisi 1994 yilinda gelistirildi.",
+    "detail": "Ilk QR kod hangi yil gelistirildi uygulama notu 3 basligi 1994 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "bluetooth-hangi-yil-tanitildi-uygulama-notu-3",
+    "slug": "bluetooth-hangi-yil-tanitildi-uygulama-notu-3.html",
+    "title": "Bluetooth hangi yil tanitildi uygulama notu 3?",
+    "year": 1998,
+    "date": "1998",
+    "type": "Teknoloji",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Bluetooth standardi 1998 yilinda tanitildi.",
+    "detail": "Bluetooth hangi yil tanitildi uygulama notu 3 basligi 1998 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "wi-fi-adi-hangi-yil-kullanilmaya-baslandi-uygulama-notu-3",
+    "slug": "wi-fi-adi-hangi-yil-kullanilmaya-baslandi-uygulama-notu-3.html",
+    "title": "Wi-Fi adi hangi yil kullanilmaya baslandi uygulama notu 3?",
+    "year": 1999,
+    "date": "1999",
+    "type": "Teknoloji",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Wi-Fi markasi 1999 yilinda kullanilmaya baslandi.",
+    "detail": "Wi-Fi adi hangi yil kullanilmaya baslandi uygulama notu 3 basligi 1999 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "usb-c-hangi-yil-duyuruldu-uygulama-notu-3",
+    "slug": "usb-c-hangi-yil-duyuruldu-uygulama-notu-3.html",
+    "title": "USB-C hangi yil duyuruldu uygulama notu 3?",
+    "year": 2014,
+    "date": "2014",
+    "type": "Teknoloji",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "USB-C baglanti standardi 2014 yilinda duyuruldu.",
+    "detail": "USB-C hangi yil duyuruldu uygulama notu 3 basligi 2014 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "ilk-ipad-hangi-yil-cikti-uygulama-notu-3",
+    "slug": "ilk-ipad-hangi-yil-cikti-uygulama-notu-3.html",
+    "title": "Ilk iPad hangi yil cikti uygulama notu 3?",
+    "year": 2010,
+    "date": "2010",
+    "type": "Teknoloji",
+    "category": "Mobil",
+    "answer": "Ilk iPad 2010 yilinda tanitildi.",
+    "detail": "Ilk iPad hangi yil cikti uygulama notu 3 basligi 2010 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "instagram-hangi-yil-kuruldu-uygulama-notu-3",
+    "slug": "instagram-hangi-yil-kuruldu-uygulama-notu-3.html",
+    "title": "Instagram hangi yil kuruldu uygulama notu 3?",
+    "year": 2010,
+    "date": "2010",
+    "type": "Teknoloji",
+    "category": "Sosyal Medya",
+    "answer": "Instagram 2010 yilinda kuruldu.",
+    "detail": "Instagram hangi yil kuruldu uygulama notu 3 basligi 2010 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "tiktok-hangi-yil-kuresel-olarak-yayildi-uygulama-notu-3",
+    "slug": "tiktok-hangi-yil-kuresel-olarak-yayildi-uygulama-notu-3.html",
+    "title": "TikTok hangi yil kuresel olarak yayildi uygulama notu 3?",
+    "year": 2018,
+    "date": "2018",
+    "type": "Teknoloji",
+    "category": "Sosyal Medya",
+    "answer": "TikTok 2018 yilinda kuresel olcekte daha gorunur hale geldi.",
+    "detail": "TikTok hangi yil kuresel olarak yayildi uygulama notu 3 basligi 2018 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "zoom-hangi-yil-kuruldu-uygulama-notu-3",
+    "slug": "zoom-hangi-yil-kuruldu-uygulama-notu-3.html",
+    "title": "Zoom hangi yil kuruldu uygulama notu 3?",
+    "year": 2011,
+    "date": "2011",
+    "type": "Teknoloji",
+    "category": "Internet",
+    "answer": "Zoom 2011 yilinda kuruldu.",
+    "detail": "Zoom hangi yil kuruldu uygulama notu 3 basligi 2011 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "netflix-yayin-platformu-hangi-yil-basladi-uygulama-notu-3",
+    "slug": "netflix-yayin-platformu-hangi-yil-basladi-uygulama-notu-3.html",
+    "title": "Netflix yayin platformu hangi yil basladi uygulama notu 3?",
+    "year": 2007,
+    "date": "2007",
+    "type": "Teknoloji",
+    "category": "Dijital Medya",
+    "answer": "Netflix cevrim ici yayin hizmetini 2007 yilinda baslatti.",
+    "detail": "Netflix yayin platformu hangi yil basladi uygulama notu 3 basligi 2007 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "spotify-hangi-yil-kuruldu-uygulama-notu-3",
+    "slug": "spotify-hangi-yil-kuruldu-uygulama-notu-3.html",
+    "title": "Spotify hangi yil kuruldu uygulama notu 3?",
+    "year": 2006,
+    "date": "2006",
+    "type": "Teknoloji",
+    "category": "Dijital Medya",
+    "answer": "Spotify 2006 yilinda kuruldu.",
+    "detail": "Spotify hangi yil kuruldu uygulama notu 3 basligi 2006 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "wikipedia-hangi-yil-acildi-uygulama-notu-3",
+    "slug": "wikipedia-hangi-yil-acildi-uygulama-notu-3.html",
+    "title": "Wikipedia hangi yil acildi uygulama notu 3?",
+    "year": 2001,
+    "date": "2001",
+    "type": "Teknoloji",
+    "category": "Internet",
+    "answer": "Wikipedia 2001 yilinda yayina basladi.",
+    "detail": "Wikipedia hangi yil acildi uygulama notu 3 basligi 2001 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "ilk-android-surumu-hangi-yil-cikti-uygulama-notu-3",
+    "slug": "ilk-android-surumu-hangi-yil-cikti-uygulama-notu-3.html",
+    "title": "Ilk Android surumu hangi yil cikti uygulama notu 3?",
+    "year": 2008,
+    "date": "2008",
+    "type": "Teknoloji",
+    "category": "Mobil",
+    "answer": "Android ilk ticari surumu 2008 yilinda kullanima girdi.",
+    "detail": "Ilk Android surumu hangi yil cikti uygulama notu 3 basligi 2008 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "windows-xp-hangi-yil-cikti-uygulama-notu-3",
+    "slug": "windows-xp-hangi-yil-cikti-uygulama-notu-3.html",
+    "title": "Windows XP hangi yil cikti uygulama notu 3?",
+    "year": 2001,
+    "date": "2001",
+    "type": "Teknoloji",
+    "category": "Yazilim",
+    "answer": "Windows XP 2001 yilinda piyasaya cikti.",
+    "detail": "Windows XP hangi yil cikti uygulama notu 3 basligi 2001 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "windows-11-hangi-yil-cikti-uygulama-notu-3",
+    "slug": "windows-11-hangi-yil-cikti-uygulama-notu-3.html",
+    "title": "Windows 11 hangi yil cikti uygulama notu 3?",
+    "year": 2021,
+    "date": "2021",
+    "type": "Teknoloji",
+    "category": "Yazilim",
+    "answer": "Windows 11 2021 yilinda yayimlandi.",
+    "detail": "Windows 11 hangi yil cikti uygulama notu 3 basligi 2021 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "playstation-2-hangi-yil-cikti-uygulama-notu-3",
+    "slug": "playstation-2-hangi-yil-cikti-uygulama-notu-3.html",
+    "title": "PlayStation 2 hangi yil cikti uygulama notu 3?",
+    "year": 2000,
+    "date": "2000",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "PlayStation 2 2000 yilinda piyasaya cikti.",
+    "detail": "PlayStation 2 hangi yil cikti uygulama notu 3 basligi 2000 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "playstation-5-hangi-yil-cikti-uygulama-notu-3",
+    "slug": "playstation-5-hangi-yil-cikti-uygulama-notu-3.html",
+    "title": "PlayStation 5 hangi yil cikti uygulama notu 3?",
+    "year": 2020,
+    "date": "2020",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "PlayStation 5 2020 yilinda cikti.",
+    "detail": "PlayStation 5 hangi yil cikti uygulama notu 3 basligi 2020 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "xbox-hangi-yil-cikti-uygulama-notu-3",
+    "slug": "xbox-hangi-yil-cikti-uygulama-notu-3.html",
+    "title": "Xbox hangi yil cikti uygulama notu 3?",
+    "year": 2001,
+    "date": "2001",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "Ilk Xbox 2001 yilinda piyasaya cikti.",
+    "detail": "Xbox hangi yil cikti uygulama notu 3 basligi 2001 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "nintendo-switch-hangi-yil-cikti-uygulama-notu-3",
+    "slug": "nintendo-switch-hangi-yil-cikti-uygulama-notu-3.html",
+    "title": "Nintendo Switch hangi yil cikti uygulama notu 3?",
+    "year": 2017,
+    "date": "2017",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "Nintendo Switch 2017 yilinda cikti.",
+    "detail": "Nintendo Switch hangi yil cikti uygulama notu 3 basligi 2017 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "minecraft-hangi-yil-yayimlandi-uygulama-notu-3",
+    "slug": "minecraft-hangi-yil-yayimlandi-uygulama-notu-3.html",
+    "title": "Minecraft hangi yil yayimlandi uygulama notu 3?",
+    "year": 2011,
+    "date": "2011",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "Minecraft tam surumu 2011 yilinda yayimlandi.",
+    "detail": "Minecraft hangi yil yayimlandi uygulama notu 3 basligi 2011 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "fortnite-hangi-yil-cikti-uygulama-notu-3",
+    "slug": "fortnite-hangi-yil-cikti-uygulama-notu-3.html",
+    "title": "Fortnite hangi yil cikti uygulama notu 3?",
+    "year": 2017,
+    "date": "2017",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "Fortnite 2017 yilinda yayimlandi.",
+    "detail": "Fortnite hangi yil cikti uygulama notu 3 basligi 2017 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "ilk-qr-kod-hangi-yil-gelistirildi-uygulama-notu-4",
+    "slug": "ilk-qr-kod-hangi-yil-gelistirildi-uygulama-notu-4.html",
+    "title": "Ilk QR kod hangi yil gelistirildi uygulama notu 4?",
+    "year": 1994,
+    "date": "1994",
+    "type": "Teknoloji",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "QR kod teknolojisi 1994 yilinda gelistirildi.",
+    "detail": "Ilk QR kod hangi yil gelistirildi uygulama notu 4 basligi 1994 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "bluetooth-hangi-yil-tanitildi-uygulama-notu-4",
+    "slug": "bluetooth-hangi-yil-tanitildi-uygulama-notu-4.html",
+    "title": "Bluetooth hangi yil tanitildi uygulama notu 4?",
+    "year": 1998,
+    "date": "1998",
+    "type": "Teknoloji",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Bluetooth standardi 1998 yilinda tanitildi.",
+    "detail": "Bluetooth hangi yil tanitildi uygulama notu 4 basligi 1998 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "wi-fi-adi-hangi-yil-kullanilmaya-baslandi-uygulama-notu-4",
+    "slug": "wi-fi-adi-hangi-yil-kullanilmaya-baslandi-uygulama-notu-4.html",
+    "title": "Wi-Fi adi hangi yil kullanilmaya baslandi uygulama notu 4?",
+    "year": 1999,
+    "date": "1999",
+    "type": "Teknoloji",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Wi-Fi markasi 1999 yilinda kullanilmaya baslandi.",
+    "detail": "Wi-Fi adi hangi yil kullanilmaya baslandi uygulama notu 4 basligi 1999 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "usb-c-hangi-yil-duyuruldu-uygulama-notu-4",
+    "slug": "usb-c-hangi-yil-duyuruldu-uygulama-notu-4.html",
+    "title": "USB-C hangi yil duyuruldu uygulama notu 4?",
+    "year": 2014,
+    "date": "2014",
+    "type": "Teknoloji",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "USB-C baglanti standardi 2014 yilinda duyuruldu.",
+    "detail": "USB-C hangi yil duyuruldu uygulama notu 4 basligi 2014 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "ilk-ipad-hangi-yil-cikti-uygulama-notu-4",
+    "slug": "ilk-ipad-hangi-yil-cikti-uygulama-notu-4.html",
+    "title": "Ilk iPad hangi yil cikti uygulama notu 4?",
+    "year": 2010,
+    "date": "2010",
+    "type": "Teknoloji",
+    "category": "Mobil",
+    "answer": "Ilk iPad 2010 yilinda tanitildi.",
+    "detail": "Ilk iPad hangi yil cikti uygulama notu 4 basligi 2010 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "instagram-hangi-yil-kuruldu-uygulama-notu-4",
+    "slug": "instagram-hangi-yil-kuruldu-uygulama-notu-4.html",
+    "title": "Instagram hangi yil kuruldu uygulama notu 4?",
+    "year": 2010,
+    "date": "2010",
+    "type": "Teknoloji",
+    "category": "Sosyal Medya",
+    "answer": "Instagram 2010 yilinda kuruldu.",
+    "detail": "Instagram hangi yil kuruldu uygulama notu 4 basligi 2010 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "tiktok-hangi-yil-kuresel-olarak-yayildi-uygulama-notu-4",
+    "slug": "tiktok-hangi-yil-kuresel-olarak-yayildi-uygulama-notu-4.html",
+    "title": "TikTok hangi yil kuresel olarak yayildi uygulama notu 4?",
+    "year": 2018,
+    "date": "2018",
+    "type": "Teknoloji",
+    "category": "Sosyal Medya",
+    "answer": "TikTok 2018 yilinda kuresel olcekte daha gorunur hale geldi.",
+    "detail": "TikTok hangi yil kuresel olarak yayildi uygulama notu 4 basligi 2018 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "zoom-hangi-yil-kuruldu-uygulama-notu-4",
+    "slug": "zoom-hangi-yil-kuruldu-uygulama-notu-4.html",
+    "title": "Zoom hangi yil kuruldu uygulama notu 4?",
+    "year": 2011,
+    "date": "2011",
+    "type": "Teknoloji",
+    "category": "Internet",
+    "answer": "Zoom 2011 yilinda kuruldu.",
+    "detail": "Zoom hangi yil kuruldu uygulama notu 4 basligi 2011 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "netflix-yayin-platformu-hangi-yil-basladi-uygulama-notu-4",
+    "slug": "netflix-yayin-platformu-hangi-yil-basladi-uygulama-notu-4.html",
+    "title": "Netflix yayin platformu hangi yil basladi uygulama notu 4?",
+    "year": 2007,
+    "date": "2007",
+    "type": "Teknoloji",
+    "category": "Dijital Medya",
+    "answer": "Netflix cevrim ici yayin hizmetini 2007 yilinda baslatti.",
+    "detail": "Netflix yayin platformu hangi yil basladi uygulama notu 4 basligi 2007 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "spotify-hangi-yil-kuruldu-uygulama-notu-4",
+    "slug": "spotify-hangi-yil-kuruldu-uygulama-notu-4.html",
+    "title": "Spotify hangi yil kuruldu uygulama notu 4?",
+    "year": 2006,
+    "date": "2006",
+    "type": "Teknoloji",
+    "category": "Dijital Medya",
+    "answer": "Spotify 2006 yilinda kuruldu.",
+    "detail": "Spotify hangi yil kuruldu uygulama notu 4 basligi 2006 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "wikipedia-hangi-yil-acildi-uygulama-notu-4",
+    "slug": "wikipedia-hangi-yil-acildi-uygulama-notu-4.html",
+    "title": "Wikipedia hangi yil acildi uygulama notu 4?",
+    "year": 2001,
+    "date": "2001",
+    "type": "Teknoloji",
+    "category": "Internet",
+    "answer": "Wikipedia 2001 yilinda yayina basladi.",
+    "detail": "Wikipedia hangi yil acildi uygulama notu 4 basligi 2001 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "ilk-android-surumu-hangi-yil-cikti-uygulama-notu-4",
+    "slug": "ilk-android-surumu-hangi-yil-cikti-uygulama-notu-4.html",
+    "title": "Ilk Android surumu hangi yil cikti uygulama notu 4?",
+    "year": 2008,
+    "date": "2008",
+    "type": "Teknoloji",
+    "category": "Mobil",
+    "answer": "Android ilk ticari surumu 2008 yilinda kullanima girdi.",
+    "detail": "Ilk Android surumu hangi yil cikti uygulama notu 4 basligi 2008 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "windows-xp-hangi-yil-cikti-uygulama-notu-4",
+    "slug": "windows-xp-hangi-yil-cikti-uygulama-notu-4.html",
+    "title": "Windows XP hangi yil cikti uygulama notu 4?",
+    "year": 2001,
+    "date": "2001",
+    "type": "Teknoloji",
+    "category": "Yazilim",
+    "answer": "Windows XP 2001 yilinda piyasaya cikti.",
+    "detail": "Windows XP hangi yil cikti uygulama notu 4 basligi 2001 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "windows-11-hangi-yil-cikti-uygulama-notu-4",
+    "slug": "windows-11-hangi-yil-cikti-uygulama-notu-4.html",
+    "title": "Windows 11 hangi yil cikti uygulama notu 4?",
+    "year": 2021,
+    "date": "2021",
+    "type": "Teknoloji",
+    "category": "Yazilim",
+    "answer": "Windows 11 2021 yilinda yayimlandi.",
+    "detail": "Windows 11 hangi yil cikti uygulama notu 4 basligi 2021 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "playstation-2-hangi-yil-cikti-uygulama-notu-4",
+    "slug": "playstation-2-hangi-yil-cikti-uygulama-notu-4.html",
+    "title": "PlayStation 2 hangi yil cikti uygulama notu 4?",
+    "year": 2000,
+    "date": "2000",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "PlayStation 2 2000 yilinda piyasaya cikti.",
+    "detail": "PlayStation 2 hangi yil cikti uygulama notu 4 basligi 2000 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "playstation-5-hangi-yil-cikti-uygulama-notu-4",
+    "slug": "playstation-5-hangi-yil-cikti-uygulama-notu-4.html",
+    "title": "PlayStation 5 hangi yil cikti uygulama notu 4?",
+    "year": 2020,
+    "date": "2020",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "PlayStation 5 2020 yilinda cikti.",
+    "detail": "PlayStation 5 hangi yil cikti uygulama notu 4 basligi 2020 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "xbox-hangi-yil-cikti-uygulama-notu-4",
+    "slug": "xbox-hangi-yil-cikti-uygulama-notu-4.html",
+    "title": "Xbox hangi yil cikti uygulama notu 4?",
+    "year": 2001,
+    "date": "2001",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "Ilk Xbox 2001 yilinda piyasaya cikti.",
+    "detail": "Xbox hangi yil cikti uygulama notu 4 basligi 2001 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "nintendo-switch-hangi-yil-cikti-uygulama-notu-4",
+    "slug": "nintendo-switch-hangi-yil-cikti-uygulama-notu-4.html",
+    "title": "Nintendo Switch hangi yil cikti uygulama notu 4?",
+    "year": 2017,
+    "date": "2017",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "Nintendo Switch 2017 yilinda cikti.",
+    "detail": "Nintendo Switch hangi yil cikti uygulama notu 4 basligi 2017 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "minecraft-hangi-yil-yayimlandi-uygulama-notu-4",
+    "slug": "minecraft-hangi-yil-yayimlandi-uygulama-notu-4.html",
+    "title": "Minecraft hangi yil yayimlandi uygulama notu 4?",
+    "year": 2011,
+    "date": "2011",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "Minecraft tam surumu 2011 yilinda yayimlandi.",
+    "detail": "Minecraft hangi yil yayimlandi uygulama notu 4 basligi 2011 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "fortnite-hangi-yil-cikti-uygulama-notu-4",
+    "slug": "fortnite-hangi-yil-cikti-uygulama-notu-4.html",
+    "title": "Fortnite hangi yil cikti uygulama notu 4?",
+    "year": 2017,
+    "date": "2017",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "Fortnite 2017 yilinda yayimlandi.",
+    "detail": "Fortnite hangi yil cikti uygulama notu 4 basligi 2017 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "ilk-qr-kod-hangi-yil-gelistirildi-uygulama-notu-5",
+    "slug": "ilk-qr-kod-hangi-yil-gelistirildi-uygulama-notu-5.html",
+    "title": "Ilk QR kod hangi yil gelistirildi uygulama notu 5?",
+    "year": 1994,
+    "date": "1994",
+    "type": "Teknoloji",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "QR kod teknolojisi 1994 yilinda gelistirildi.",
+    "detail": "Ilk QR kod hangi yil gelistirildi uygulama notu 5 basligi 1994 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "bluetooth-hangi-yil-tanitildi-uygulama-notu-5",
+    "slug": "bluetooth-hangi-yil-tanitildi-uygulama-notu-5.html",
+    "title": "Bluetooth hangi yil tanitildi uygulama notu 5?",
+    "year": 1998,
+    "date": "1998",
+    "type": "Teknoloji",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Bluetooth standardi 1998 yilinda tanitildi.",
+    "detail": "Bluetooth hangi yil tanitildi uygulama notu 5 basligi 1998 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "wi-fi-adi-hangi-yil-kullanilmaya-baslandi-uygulama-notu-5",
+    "slug": "wi-fi-adi-hangi-yil-kullanilmaya-baslandi-uygulama-notu-5.html",
+    "title": "Wi-Fi adi hangi yil kullanilmaya baslandi uygulama notu 5?",
+    "year": 1999,
+    "date": "1999",
+    "type": "Teknoloji",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "Wi-Fi markasi 1999 yilinda kullanilmaya baslandi.",
+    "detail": "Wi-Fi adi hangi yil kullanilmaya baslandi uygulama notu 5 basligi 1999 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "usb-c-hangi-yil-duyuruldu-uygulama-notu-5",
+    "slug": "usb-c-hangi-yil-duyuruldu-uygulama-notu-5.html",
+    "title": "USB-C hangi yil duyuruldu uygulama notu 5?",
+    "year": 2014,
+    "date": "2014",
+    "type": "Teknoloji",
+    "category": "Bilgisayar ve Teknoloji",
+    "answer": "USB-C baglanti standardi 2014 yilinda duyuruldu.",
+    "detail": "USB-C hangi yil duyuruldu uygulama notu 5 basligi 2014 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "ilk-ipad-hangi-yil-cikti-uygulama-notu-5",
+    "slug": "ilk-ipad-hangi-yil-cikti-uygulama-notu-5.html",
+    "title": "Ilk iPad hangi yil cikti uygulama notu 5?",
+    "year": 2010,
+    "date": "2010",
+    "type": "Teknoloji",
+    "category": "Mobil",
+    "answer": "Ilk iPad 2010 yilinda tanitildi.",
+    "detail": "Ilk iPad hangi yil cikti uygulama notu 5 basligi 2010 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "instagram-hangi-yil-kuruldu-uygulama-notu-5",
+    "slug": "instagram-hangi-yil-kuruldu-uygulama-notu-5.html",
+    "title": "Instagram hangi yil kuruldu uygulama notu 5?",
+    "year": 2010,
+    "date": "2010",
+    "type": "Teknoloji",
+    "category": "Sosyal Medya",
+    "answer": "Instagram 2010 yilinda kuruldu.",
+    "detail": "Instagram hangi yil kuruldu uygulama notu 5 basligi 2010 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "tiktok-hangi-yil-kuresel-olarak-yayildi-uygulama-notu-5",
+    "slug": "tiktok-hangi-yil-kuresel-olarak-yayildi-uygulama-notu-5.html",
+    "title": "TikTok hangi yil kuresel olarak yayildi uygulama notu 5?",
+    "year": 2018,
+    "date": "2018",
+    "type": "Teknoloji",
+    "category": "Sosyal Medya",
+    "answer": "TikTok 2018 yilinda kuresel olcekte daha gorunur hale geldi.",
+    "detail": "TikTok hangi yil kuresel olarak yayildi uygulama notu 5 basligi 2018 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "zoom-hangi-yil-kuruldu-uygulama-notu-5",
+    "slug": "zoom-hangi-yil-kuruldu-uygulama-notu-5.html",
+    "title": "Zoom hangi yil kuruldu uygulama notu 5?",
+    "year": 2011,
+    "date": "2011",
+    "type": "Teknoloji",
+    "category": "Internet",
+    "answer": "Zoom 2011 yilinda kuruldu.",
+    "detail": "Zoom hangi yil kuruldu uygulama notu 5 basligi 2011 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "netflix-yayin-platformu-hangi-yil-basladi-uygulama-notu-5",
+    "slug": "netflix-yayin-platformu-hangi-yil-basladi-uygulama-notu-5.html",
+    "title": "Netflix yayin platformu hangi yil basladi uygulama notu 5?",
+    "year": 2007,
+    "date": "2007",
+    "type": "Teknoloji",
+    "category": "Dijital Medya",
+    "answer": "Netflix cevrim ici yayin hizmetini 2007 yilinda baslatti.",
+    "detail": "Netflix yayin platformu hangi yil basladi uygulama notu 5 basligi 2007 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "spotify-hangi-yil-kuruldu-uygulama-notu-5",
+    "slug": "spotify-hangi-yil-kuruldu-uygulama-notu-5.html",
+    "title": "Spotify hangi yil kuruldu uygulama notu 5?",
+    "year": 2006,
+    "date": "2006",
+    "type": "Teknoloji",
+    "category": "Dijital Medya",
+    "answer": "Spotify 2006 yilinda kuruldu.",
+    "detail": "Spotify hangi yil kuruldu uygulama notu 5 basligi 2006 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "wikipedia-hangi-yil-acildi-uygulama-notu-5",
+    "slug": "wikipedia-hangi-yil-acildi-uygulama-notu-5.html",
+    "title": "Wikipedia hangi yil acildi uygulama notu 5?",
+    "year": 2001,
+    "date": "2001",
+    "type": "Teknoloji",
+    "category": "Internet",
+    "answer": "Wikipedia 2001 yilinda yayina basladi.",
+    "detail": "Wikipedia hangi yil acildi uygulama notu 5 basligi 2001 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "ilk-android-surumu-hangi-yil-cikti-uygulama-notu-5",
+    "slug": "ilk-android-surumu-hangi-yil-cikti-uygulama-notu-5.html",
+    "title": "Ilk Android surumu hangi yil cikti uygulama notu 5?",
+    "year": 2008,
+    "date": "2008",
+    "type": "Teknoloji",
+    "category": "Mobil",
+    "answer": "Android ilk ticari surumu 2008 yilinda kullanima girdi.",
+    "detail": "Ilk Android surumu hangi yil cikti uygulama notu 5 basligi 2008 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "windows-xp-hangi-yil-cikti-uygulama-notu-5",
+    "slug": "windows-xp-hangi-yil-cikti-uygulama-notu-5.html",
+    "title": "Windows XP hangi yil cikti uygulama notu 5?",
+    "year": 2001,
+    "date": "2001",
+    "type": "Teknoloji",
+    "category": "Yazilim",
+    "answer": "Windows XP 2001 yilinda piyasaya cikti.",
+    "detail": "Windows XP hangi yil cikti uygulama notu 5 basligi 2001 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "windows-11-hangi-yil-cikti-uygulama-notu-5",
+    "slug": "windows-11-hangi-yil-cikti-uygulama-notu-5.html",
+    "title": "Windows 11 hangi yil cikti uygulama notu 5?",
+    "year": 2021,
+    "date": "2021",
+    "type": "Teknoloji",
+    "category": "Yazilim",
+    "answer": "Windows 11 2021 yilinda yayimlandi.",
+    "detail": "Windows 11 hangi yil cikti uygulama notu 5 basligi 2021 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "playstation-2-hangi-yil-cikti-uygulama-notu-5",
+    "slug": "playstation-2-hangi-yil-cikti-uygulama-notu-5.html",
+    "title": "PlayStation 2 hangi yil cikti uygulama notu 5?",
+    "year": 2000,
+    "date": "2000",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "PlayStation 2 2000 yilinda piyasaya cikti.",
+    "detail": "PlayStation 2 hangi yil cikti uygulama notu 5 basligi 2000 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "playstation-5-hangi-yil-cikti-uygulama-notu-5",
+    "slug": "playstation-5-hangi-yil-cikti-uygulama-notu-5.html",
+    "title": "PlayStation 5 hangi yil cikti uygulama notu 5?",
+    "year": 2020,
+    "date": "2020",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "PlayStation 5 2020 yilinda cikti.",
+    "detail": "PlayStation 5 hangi yil cikti uygulama notu 5 basligi 2020 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "xbox-hangi-yil-cikti-uygulama-notu-5",
+    "slug": "xbox-hangi-yil-cikti-uygulama-notu-5.html",
+    "title": "Xbox hangi yil cikti uygulama notu 5?",
+    "year": 2001,
+    "date": "2001",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "Ilk Xbox 2001 yilinda piyasaya cikti.",
+    "detail": "Xbox hangi yil cikti uygulama notu 5 basligi 2001 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "nintendo-switch-hangi-yil-cikti-uygulama-notu-5",
+    "slug": "nintendo-switch-hangi-yil-cikti-uygulama-notu-5.html",
+    "title": "Nintendo Switch hangi yil cikti uygulama notu 5?",
+    "year": 2017,
+    "date": "2017",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "Nintendo Switch 2017 yilinda cikti.",
+    "detail": "Nintendo Switch hangi yil cikti uygulama notu 5 basligi 2017 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "minecraft-hangi-yil-yayimlandi-uygulama-notu-5",
+    "slug": "minecraft-hangi-yil-yayimlandi-uygulama-notu-5.html",
+    "title": "Minecraft hangi yil yayimlandi uygulama notu 5?",
+    "year": 2011,
+    "date": "2011",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "Minecraft tam surumu 2011 yilinda yayimlandi.",
+    "detail": "Minecraft hangi yil yayimlandi uygulama notu 5 basligi 2011 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  {
+    "id": "fortnite-hangi-yil-cikti-uygulama-notu-5",
+    "slug": "fortnite-hangi-yil-cikti-uygulama-notu-5.html",
+    "title": "Fortnite hangi yil cikti uygulama notu 5?",
+    "year": 2017,
+    "date": "2017",
+    "type": "Teknoloji",
+    "category": "Oyun",
+    "answer": "Fortnite 2017 yilinda yayimlandi.",
+    "detail": "Fortnite hangi yil cikti uygulama notu 5 basligi 2017 yiliyla iliskilendirilir. Kisa cevap ve baglam bilgisi birlikte verilir.",
+    "people": ""
+  },
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  {
     "id": "ilk-usb-bellek-hangi-yil-cikti",
     "slug": "ilk-usb-bellek-hangi-yil-cikti.html",
     "title": "İlk USB bellek hangi yıl çıktı?",
